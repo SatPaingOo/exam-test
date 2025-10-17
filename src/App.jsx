@@ -10,7 +10,7 @@ function AppRoutes() {
 
 function App() {
   return (
-    <Router>
+    <Router basename="/exam-test">
       <Layout>
         <Suspense
           fallback={
