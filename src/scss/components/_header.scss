@@ -58,6 +58,15 @@
       transition: all $transition-fast;
       position: relative;
 
+      &.active {
+        color: $color-accent;
+        font-weight: $font-weight-bold;
+      }
+
+      &.active::after {
+        transform: scaleX(1);
+      }
+
       &::after {
         content: '';
         position: absolute;
@@ -185,6 +194,12 @@
     text-decoration: none;
     border-radius: $border-radius-sm;
     transition: background-color $transition-fast;
+
+    &.active {
+      background-color: rgba($color-accent, 0.15);
+      color: $color-accent;
+      font-weight: $font-weight-bold;
+    }
 
     &:hover {
       background-color: rgba($color-secondary, 0.1);

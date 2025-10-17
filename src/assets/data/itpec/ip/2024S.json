@@ -2,190 +2,190 @@
   {
     "id": 1,
     "question": {
-      "text": "What is the capital of Germany?",
-      "images": "",
-      "type": "",
-      "source": ""
+      "text": "Sound signals are digitized. Sampling is performed at Time 1 through Time 5 in the figure below, and four-level quantization is performed; in other words, the levels closest to the sampling point are selected. After that, two-bit encoding is performed. The result is “11 01 00 10 11”. When digitization is performed in the same way, which of the following figures represents the sound signal that results in “01 00 10 11 01”?",
+      "images": "Figure showing sampling levels and output referenced in source",
+      "type": "Data Representation/Encoding",
+      "source": "ITPEC IP Exam, April 2024"
     },
     "options": [
       {
         "id": "a",
-        "text": "Berlin",
+        "text": "a) Figure A (Implied image based on question context)",
         "images": ""
       },
       {
         "id": "b",
-        "text": "Madrid",
+        "text": "b) Figure B (Implied image based on question context)",
         "images": ""
       },
       {
         "id": "c",
-        "text": "Paris",
+        "text": "c) Figure C (Implied image based on question context)",
         "images": ""
       },
       {
         "id": "d",
-        "text": "Rome",
+        "text": "d) Figure D (Implied image based on question context)",
         "images": ""
       }
     ],
-    "answer": "a"
+    "answer": "b"
   },
   {
     "id": 2,
     "question": {
-      "text": "Which planet is known as the Red Planet?",
-      "images": "",
-      "type": "",
-      "source": ""
+      "text": "Which of the following is the logical operation that is equivalent to the truth table below? Input A (0, 0, 1, 1), Input B (0, 1, 0, 1), Output (0, 0, 0, 1)",
+      "images": "Truth table referenced in source",
+      "type": "Logic Gate/Boolean Algebra",
+      "source": "ITPEC IP Exam, April 2024"
     },
     "options": [
       {
         "id": "a",
-        "text": "Earth",
+        "text": "AND",
         "images": ""
       },
       {
         "id": "b",
-        "text": "Mars",
+        "text": "NOT",
         "images": ""
       },
       {
         "id": "c",
-        "text": "Jupiter",
+        "text": "OR",
         "images": ""
       },
       {
         "id": "d",
-        "text": "Venus",
-        "images": ""
-      }
-    ],
-    "answer": "b"
-  },
-  {
-    "id": 3,
-    "question": {
-      "text": "What is the largest ocean on Earth?",
-      "images": "",
-      "type": "",
-      "source": ""
-    },
-    "options": [
-      {
-        "id": "a",
-        "text": "Atlantic Ocean",
-        "images": ""
-      },
-      {
-        "id": "b",
-        "text": "Indian Ocean",
-        "images": ""
-      },
-      {
-        "id": "c",
-        "text": "Pacific Ocean",
-        "images": ""
-      },
-      {
-        "id": "d",
-        "text": "Arctic Ocean",
-        "images": ""
-      }
-    ],
-    "answer": "c"
-  },
-  {
-    "id": 4,
-    "question": {
-      "text": "Who wrote 'Romeo and Juliet'?",
-      "images": "",
-      "type": "",
-      "source": ""
-    },
-    "options": [
-      {
-        "id": "a",
-        "text": "William Shakespeare",
-        "images": ""
-      },
-      {
-        "id": "b",
-        "text": "Charles Dickens",
-        "images": ""
-      },
-      {
-        "id": "c",
-        "text": "Jane Austen",
-        "images": ""
-      },
-      {
-        "id": "d",
-        "text": "Mark Twain",
+        "text": "XOR",
         "images": ""
       }
     ],
     "answer": "a"
   },
   {
-    "id": 5,
+    "id": 3,
     "question": {
-      "text": "What is the chemical symbol for water?",
+      "text": "Which of the following is a standard encoding system that is widely used for handling multilingual text and symbols around the world as a single character set?",
       "images": "",
-      "type": "",
-      "source": ""
+      "type": "Data Encoding",
+      "source": "ITPEC IP Exam, April 2024"
     },
     "options": [
       {
         "id": "a",
-        "text": "O2",
+        "text": "ASCII",
         "images": ""
       },
       {
         "id": "b",
-        "text": "H2O",
+        "text": "EBCDIC",
         "images": ""
       },
       {
         "id": "c",
-        "text": "CO2",
+        "text": "EUC",
         "images": ""
       },
       {
         "id": "d",
-        "text": "NaCl",
+        "text": "Unicode",
         "images": ""
       }
     ],
-    "answer": "b"
+    "answer": "d"
+  },
+  {
+    "id": 4,
+    "question": {
+      "text": "When a chairperson and a secretary are selected from three (3) candidates with a method that allows dual roles, there are three (3) ways for the selection of a single chairperson and three (3) ways for the selection of a secretary, so in total, there are nine (9) combinations for the selection of a chairperson and a secretary. When a chairperson and a secretary are selected from five (5) candidates with a method that allows dual roles, how many combinations for the selection are there?",
+      "images": "",
+      "type": "Combinatorics/Permutation",
+      "source": "ITPEC IP Exam, April 2024"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "5",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "10",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "20",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "25",
+        "images": ""
+      }
+    ],
+    "answer": "d"
+  },
+  {
+    "id": 5,
+    "question": {
+      "text": "The function calGrade receives the student’s score and returns the grade. The score is an integer. If the score is greater than or equal to 80, the function calGrade returns “A”; if the score is between 65 and 79, it returns “B”; between 50 and 64, it returns “C”; and otherwise, it returns “Fail.” Which of the following is an appropriate piece of code to be inserted in _______ in the program?",
+      "images": "Pseudo-code structure referenced in source",
+      "type": "Algorithm/Pseudo-code (Conditional)",
+      "source": "ITPEC IP Exam, April 2024"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "score ≥ 65",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "score ≥ 65 or score ≤ 79",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "score ≤ 65 and score ≥ 79",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "score ≤ 79",
+        "images": ""
+      }
+    ],
+    "answer": "a"
   },
   {
     "id": 6,
     "question": {
-      "text": "Which country is famous for the Eiffel Tower?",
+      "text": "The procedure described below is sequentially performed for two (2) variables x and y, starting with step (1). When the procedure is completed, what is the resulting value of x? [Procedure] (1) Assign 2 to x and 3 to y. (2) Subtract 1 from the value of y, and assign the resulting value to y. (3) Add the values of x and y, and assign the resulting value to x. (4) If the value of y is 1, complete the procedure. Otherwise, return to step (2).",
       "images": "",
-      "type": "",
-      "source": ""
+      "type": "Algorithm/Procedural Logic",
+      "source": "ITPEC IP Exam, April 2024"
     },
     "options": [
       {
         "id": "a",
-        "text": "Italy",
+        "text": "4",
         "images": ""
       },
       {
         "id": "b",
-        "text": "France",
+        "text": "5",
         "images": ""
       },
       {
         "id": "c",
-        "text": "Spain",
+        "text": "7",
         "images": ""
       },
       {
         "id": "d",
-        "text": "Germany",
+        "text": "8",
         "images": ""
       }
     ],
@@ -194,74 +194,10 @@
   {
     "id": 7,
     "question": {
-      "text": "What is the process by which plants make their food?",
-      "images": "",
-      "type": "",
-      "source": ""
-    },
-    "options": [
-      {
-        "id": "a",
-        "text": "Respiration",
-        "images": ""
-      },
-      {
-        "id": "b",
-        "text": "Photosynthesis",
-        "images": ""
-      },
-      {
-        "id": "c",
-        "text": "Transpiration",
-        "images": ""
-      },
-      {
-        "id": "d",
-        "text": "Fermentation",
-        "images": ""
-      }
-    ],
-    "answer": "b"
-  },
-  {
-    "id": 8,
-    "question": {
-      "text": "Who painted the Mona Lisa?",
-      "images": "",
-      "type": "",
-      "source": ""
-    },
-    "options": [
-      {
-        "id": "a",
-        "text": "Vincent van Gogh",
-        "images": ""
-      },
-      {
-        "id": "b",
-        "text": "Pablo Picasso",
-        "images": ""
-      },
-      {
-        "id": "c",
-        "text": "Leonardo da Vinci",
-        "images": ""
-      },
-      {
-        "id": "d",
-        "text": "Claude Monet",
-        "images": ""
-      }
-    ],
-    "answer": "c"
-  },
-  {
-    "id": 9,
-    "question": {
-      "text": "What is the smallest prime number?",
-      "images": "",
-      "type": "",
-      "source": ""
+      "text": "There exist four (4) states numbered 1 through 4. The four (4) states are connected as shown in the figure below, and the state transition occurs in a clockwise or counter-clockwise direction. If the current state is 1, which of the following is the state that is reached after the procedure below is performed twice? [Procedure] The number of the current state is multiplied by 11, and the result is divided by 3. The process below is performed based on the remainder of the division. When the remainder is 0, a transition to the next state occurs in the clockwise direction. When the remainder is 1, a transition to the next state occurs in the counter-clockwise direction. When the remainder is 2, a transition to the second state occurs in the clockwise direction.",
+      "images": "Figure showing 4 states and connections referenced in source",
+      "type": "Algorithm/State Transition",
+      "source": "ITPEC IP Exam, April 2024"
     },
     "options": [
       {
@@ -281,295 +217,359 @@
       },
       {
         "id": "d",
-        "text": "5",
+        "text": "4",
         "images": ""
       }
     ],
-    "answer": "b"
+    "answer": "d"
   },
   {
-    "id": 10,
+    "id": 8,
     "question": {
-      "text": "Which language is primarily spoken in Brazil?",
-      "images": "",
-      "type": "",
-      "source": ""
+      "text": "There is a device that stacks products from the bottom to the top, and removes the products sequentially from the top. There are only two (2) operations for this device. PUSH x: Stacks one (1) product x. POP: Removes one (1) product from the top. Nothing is stacked at the start, and three (3) products arrive in the order A, B, then C. If only one (1) device is used, when the products are removed with POP operations, which of the following is an impossible order of removal?",
+      "images": "Figure representing a stack device referenced in source",
+      "type": "Data Structure/Stack (LIFO)",
+      "source": "ITPEC IP Exam, April 2024"
     },
     "options": [
       {
         "id": "a",
-        "text": "Spanish",
+        "text": "A, B, C",
         "images": ""
       },
       {
         "id": "b",
-        "text": "Portuguese",
+        "text": "B, A, C",
         "images": ""
       },
       {
         "id": "c",
-        "text": "French",
+        "text": "C, A, B",
         "images": ""
       },
       {
         "id": "d",
-        "text": "English",
-        "images": ""
-      }
-    ],
-    "answer": "b"
-  },
-  {
-    "id": 11,
-    "question": {
-      "text": "What is the boiling point of water at sea level in Celsius?",
-      "images": "",
-      "type": "",
-      "source": ""
-    },
-    "options": [
-      {
-        "id": "a",
-        "text": "90°C",
-        "images": ""
-      },
-      {
-        "id": "b",
-        "text": "100°C",
-        "images": ""
-      },
-      {
-        "id": "c",
-        "text": "110°C",
-        "images": ""
-      },
-      {
-        "id": "d",
-        "text": "120°C",
-        "images": ""
-      }
-    ],
-    "answer": "b"
-  },
-  {
-    "id": 12,
-    "question": {
-      "text": "Which animal is known as the King of the Jungle?",
-      "images": "",
-      "type": "",
-      "source": ""
-    },
-    "options": [
-      {
-        "id": "a",
-        "text": "Tiger",
-        "images": ""
-      },
-      {
-        "id": "b",
-        "text": "Lion",
-        "images": ""
-      },
-      {
-        "id": "c",
-        "text": "Elephant",
-        "images": ""
-      },
-      {
-        "id": "d",
-        "text": "Leopard",
-        "images": ""
-      }
-    ],
-    "answer": "b"
-  },
-  {
-    "id": 13,
-    "question": {
-      "text": "What is the main ingredient in sushi?",
-      "images": "",
-      "type": "",
-      "source": ""
-    },
-    "options": [
-      {
-        "id": "a",
-        "text": "Bread",
-        "images": ""
-      },
-      {
-        "id": "b",
-        "text": "Rice",
-        "images": ""
-      },
-      {
-        "id": "c",
-        "text": "Potato",
-        "images": ""
-      },
-      {
-        "id": "d",
-        "text": "Pasta",
-        "images": ""
-      }
-    ],
-    "answer": "b"
-  },
-  {
-    "id": 14,
-    "question": {
-      "text": "Which continent is the Sahara Desert located in?",
-      "images": "",
-      "type": "",
-      "source": ""
-    },
-    "options": [
-      {
-        "id": "a",
-        "text": "Asia",
-        "images": ""
-      },
-      {
-        "id": "b",
-        "text": "Africa",
-        "images": ""
-      },
-      {
-        "id": "c",
-        "text": "Australia",
-        "images": ""
-      },
-      {
-        "id": "d",
-        "text": "Europe",
-        "images": ""
-      }
-    ],
-    "answer": "b"
-  },
-  {
-    "id": 15,
-    "question": {
-      "text": "Who is known as the father of computers?",
-      "images": "",
-      "type": "",
-      "source": ""
-    },
-    "options": [
-      {
-        "id": "a",
-        "text": "Charles Babbage",
-        "images": ""
-      },
-      {
-        "id": "b",
-        "text": "Alan Turing",
-        "images": ""
-      },
-      {
-        "id": "c",
-        "text": "Bill Gates",
-        "images": ""
-      },
-      {
-        "id": "d",
-        "text": "Steve Jobs",
-        "images": ""
-      }
-    ],
-    "answer": "a"
-  },
-  {
-    "id": 16,
-    "question": {
-      "text": "What is the hardest natural substance on Earth?",
-      "images": "",
-      "type": "",
-      "source": ""
-    },
-    "options": [
-      {
-        "id": "a",
-        "text": "Gold",
-        "images": ""
-      },
-      {
-        "id": "b",
-        "text": "Iron",
-        "images": ""
-      },
-      {
-        "id": "c",
-        "text": "Diamond",
-        "images": ""
-      },
-      {
-        "id": "d",
-        "text": "Silver",
+        "text": "C, B, A",
         "images": ""
       }
     ],
     "answer": "c"
   },
   {
-    "id": 17,
+    "id": 9,
     "question": {
-      "text": "Which gas do plants absorb from the atmosphere?",
-      "images": "",
-      "type": "",
-      "source": ""
+      "text": "The program performs circular left shifting on the array elements. For example, after circular left shifting, the initial array {1, 2, 3, 4, 5} becomes {2, 3, 4, 5, 1}. Which of the following is an appropriate combination of pieces of code to be inserted in ___A___ and ___B___ in the program?",
+      "images": "Pseudo-code structure referenced in source",
+      "type": "Algorithm/Array Manipulation",
+      "source": "ITPEC IP Exam, April 2024"
     },
     "options": [
       {
         "id": "a",
-        "text": "Oxygen",
+        "text": "A) i + 1 B) array[the number of elements of array - 1]",
         "images": ""
       },
       {
         "id": "b",
-        "text": "Carbon Dioxide",
+        "text": "A) i + 1 B) array[the number of elements of array]",
         "images": ""
       },
       {
         "id": "c",
-        "text": "Nitrogen",
+        "text": "A) i - 1 B) array[the number of elements of array - 1]",
         "images": ""
       },
       {
         "id": "d",
-        "text": "Hydrogen",
+        "text": "A) i - 1 B) array[the number of elements of array]",
         "images": ""
       }
     ],
-    "answer": "b"
+    "answer": "d"
+  },
+  {
+    "id": 10,
+    "question": {
+      "text": "Which of the following is the unique value that is sequentially assigned to a memory location in order to identify the location of instructions or data stored in the main memory of a computer?",
+      "images": "",
+      "type": "Hardware/Memory",
+      "source": "ITPEC IP Exam, April 2024"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Address",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "Counter",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "Index",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "Pointer",
+        "images": ""
+      }
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 11,
+    "question": {
+      "text": "Which of the following is an appropriate explanation of HDMI?",
+      "images": "",
+      "type": "Hardware/Interface",
+      "source": "ITPEC IP Exam, April 2024"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "It is an interface for an AV device that handles the input and output of video, audio, and control signals through a single cable.",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "It is an interface that makes use of the infrared rays used in the exchange of information between cell phones.",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "It is a serial interface that connects an external hard disk or such other devices through a cable.",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "It is a wireless interface that makes use of radio waves and can perform communication even when there is a slight shielding.",
+        "images": ""
+      }
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 12,
+    "question": {
+      "text": "Which of the following is an appropriate explanation of GPU?",
+      "images": "",
+      "type": "Hardware/Components",
+      "source": "ITPEC IP Exam, April 2024"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "It is an index that shows the throughput of a CPU in terms of how many billions of instructions it can execute per second.",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "It is a frequency signal that synchronizes the arithmetic processing of CPUs.",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "It is a storage unit that is placed between a CPU and a main memory, and has a higher reading and writing speed than the main memory.",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "It is a processing unit that is used instead of a CPU to accelerate processing such as image processing for 3D graphics.",
+        "images": ""
+      }
+    ],
+    "answer": "d"
+  },
+  {
+    "id": 13,
+    "question": {
+      "text": "If a process from when a PC is powered on to when it becomes ready to use is divided into four (4) stages, which of the following is the stage that is performed first?",
+      "images": "",
+      "type": "Operating System/Boot Process",
+      "source": "ITPEC IP Exam, April 2024"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Loading a BIOS",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "Loading an OS",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "Loading resident application software such as antivirus software",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "Loading device drivers",
+        "images": ""
+      }
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 14,
+    "question": {
+      "text": "Which of the following is an appropriate description concerning the reliability of a system or a device?",
+      "images": "",
+      "type": "System Reliability/Design Principles",
+      "source": "ITPEC IP Exam, April 2024"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Controlling a system in a safe state in order to minimize damage when a fault occurs in a device is called foolproof.",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "Reducing the probability of occurrence of a fault in a device by using high-quality and high-reliability parts and elements is called fail-safe.",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "Enabling continuation of system processing when a fault occurs in a system due to an error is called fault tolerance.",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "Taking measures in the design stage so that humans do not make mistakes in system operation, or no faults or failures occur even if they make mistakes is called fail soft.",
+        "images": ""
+      }
+    ],
+    "answer": "c"
+  },
+  {
+    "id": 15,
+    "question": {
+      "text": "Among the costs below concerning a sales management system, which of the following is the list that contains all costs that are included in TCO? (i) The purchase cost for products handled by the sales management system (ii) The shipment cost for products handled by the sales management system (iii) The software maintenance cost for the sales management system (iv) The hardware maintenance cost for the sales management system",
+      "images": "",
+      "type": "Accounting/TCO",
+      "source": "ITPEC IP Exam, April 2024"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "(i), (ii)",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "(i), (iv)",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "(ii), (iii)",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "(iii), (iv)",
+        "images": ""
+      }
+    ],
+    "answer": "d"
+  },
+  {
+    "id": 16,
+    "question": {
+      "text": "In a web service and other services, in order to increase reliability and process a large volume of accesses from users, which of the following is a technique that links multiple computers and makes them work as if they were a single computer?",
+      "images": "",
+      "type": "Networking/System Architecture",
+      "source": "ITPEC IP Exam, April 2024"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Clustering",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "Spooling",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "Buffering",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "Mirroring",
+        "images": ""
+      }
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 17,
+    "question": {
+      "text": "In a file system with the hierarchy structure shown in the Figure, when “..\\..\\DIRB\\Fn.txt” is specified from the directory marked with an * (the current directory), which of the following is the file that is referenced? Here, in the Figure show the directory name, and the reference method for a file is as below. [Reference method] (1) A file is referenced as “directory name\\ ··· \\directory name\\file name”... (2) The current directory is represented by “.” (a period). (3) The directory one (1) level above is represented by “..” (two periods). (4) When a reference begins with a “\\”, it is assumed that the leftmost root directory has been omitted.",
+      "images": "Figure showing directory structure referenced in source",
+      "type": "File System/Relative Path",
+      "source": "ITPEC IP Exam, April 2024"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Fn.txt at (1)",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "Fn.txt at (2)",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "Fn.txt at (3)",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "Fn.txt at (4)",
+        "images": ""
+      }
+    ],
+    "answer": "d"
   },
   {
     "id": 18,
     "question": {
-      "text": "What is the largest mammal in the world?",
+      "text": "Which of the following is an appropriate description concerning OSS (Open Source Software)?",
       "images": "",
-      "type": "",
-      "source": ""
+      "type": "Software Licensing/OSS",
+      "source": "ITPEC IP Exam, April 2024"
     },
     "options": [
       {
         "id": "a",
-        "text": "Elephant",
+        "text": "Use in industries that require high quality, such as the medical industry, is prohibited.",
         "images": ""
       },
       {
         "id": "b",
-        "text": "Blue Whale",
+        "text": "Various types of license exist, and the terms of license must be observed when the software is used.",
         "images": ""
       },
       {
         "id": "c",
-        "text": "Giraffe",
+        "text": "If the source code is released on the Internet, the software can be called OSS even if redistribution is prohibited.",
         "images": ""
       },
       {
         "id": "d",
-        "text": "Hippopotamus",
+        "text": "The software must not be sold for a fee.",
         "images": ""
       }
     ],
@@ -578,94 +578,94 @@
   {
     "id": 19,
     "question": {
-      "text": "Which instrument measures atmospheric pressure?",
+      "text": "Which of the following is a term that means the validation of a software license by using the product ID and the user’s hardware information, in order to prevent unauthorized use of the software?",
       "images": "",
-      "type": "",
-      "source": ""
+      "type": "Software Management",
+      "source": "ITPEC IP Exam, April 2024"
     },
     "options": [
       {
         "id": "a",
-        "text": "Thermometer",
+        "text": "Activation",
         "images": ""
       },
       {
         "id": "b",
-        "text": "Barometer",
+        "text": "Cloud computing",
         "images": ""
       },
       {
         "id": "c",
-        "text": "Hygrometer",
+        "text": "Streaming",
         "images": ""
       },
       {
         "id": "d",
-        "text": "Anemometer",
+        "text": "Fragmentation",
         "images": ""
       }
     ],
-    "answer": "b"
+    "answer": "a"
   },
   {
     "id": 20,
     "question": {
-      "text": "What is the square root of 64?",
-      "images": "",
-      "type": "",
-      "source": ""
+      "text": "Sales data by month for each branch is evaluated. In the “Evaluation” field for each branch by month, if the amount of sales at the branch is below the average sales amount of branches A through C for the month, the symbol “X” is to be displayed, and if the amount is above or equal to the average, the symbol “O” is to be displayed. Which of the following is an appropriate expression to be entered in cell C3? Here, the expression that is entered in cell C3 is copied and used in cell D3, cell E3, cells C5 through E5, and cells C7 through E7.",
+      "images": "Spreadsheet table referenced in source",
+      "type": "Spreadsheet/Logical Formula",
+      "source": "ITPEC IP Exam, April 2024"
     },
     "options": [
       {
         "id": "a",
-        "text": "6",
+        "text": "IF($C2 < AVERAGE(C2 : E2) , 'O' , 'X')",
         "images": ""
       },
       {
         "id": "b",
-        "text": "7",
+        "text": "IF($C2 < AVERAGE(C2 : E2) , 'X' , 'O')",
         "images": ""
       },
       {
         "id": "c",
-        "text": "8",
+        "text": "IF(C2 < AVERAGE($C2 : $E2) , 'O' , 'X')",
         "images": ""
       },
       {
         "id": "d",
-        "text": "9",
+        "text": "IF(C2 < AVERAGE($C2 : $E2) , 'X' , 'O')",
         "images": ""
       }
     ],
-    "answer": "c"
+    "answer": "d"
   },
   {
     "id": 21,
     "question": {
-      "text": "Which country gifted the Statue of Liberty to the USA?",
+      "text": "Which of the following is an appropriate description about the function keys of a PC?",
       "images": "",
-      "type": "",
-      "source": ""
+      "type": "Hardware/User Interface",
+      "source": "ITPEC IP Exam, April 2024"
     },
     "options": [
       {
         "id": "a",
-        "text": "France",
+        "text": "They are the keys where specific functions are assigned for each application and OS.",
         "images": ""
       },
       {
         "id": "b",
-        "text": "England",
+        "text": "They display a keyboard shape on a screen and enable input processing with software.",
         "images": ""
       },
       {
         "id": "c",
-        "text": "Germany",
+        "text": "They have a security role and are keys for performing encryption and decryption.",
         "images": ""
       },
       {
         "id": "d",
-        "text": "Italy",
+        "text": "They are information to identify specific lines uniquely in a database.",
         "images": ""
       }
     ],
@@ -674,254 +674,254 @@
   {
     "id": 22,
     "question": {
-      "text": "What is the main language spoken in Canada?",
+      "text": "In document creation software, spreadsheet software, and other such software, which of the following is a function that predefines and executes a series of operation procedures?",
       "images": "",
-      "type": "",
-      "source": ""
+      "type": "Software Functions",
+      "source": "ITPEC IP Exam, April 2024"
     },
     "options": [
       {
         "id": "a",
-        "text": "English and French",
+        "text": "Autocomplete",
         "images": ""
       },
       {
         "id": "b",
-        "text": "Spanish",
+        "text": "Source code",
         "images": ""
       },
       {
         "id": "c",
-        "text": "German",
+        "text": "Plug and play",
         "images": ""
       },
       {
         "id": "d",
-        "text": "Italian",
+        "text": "Macro",
         "images": ""
       }
     ],
-    "answer": "a"
+    "answer": "d"
   },
   {
     "id": 23,
     "question": {
-      "text": "Which is the longest river in the world?",
+      "text": "Which of the following is a space-saving server where computer components including the CPU, main memory, and storage are installed on a single circuit board and multiple circuit boards are mounted in racks?",
       "images": "",
-      "type": "",
-      "source": ""
+      "type": "Hardware/Server Architecture",
+      "source": "ITPEC IP Exam, April 2024"
     },
     "options": [
       {
         "id": "a",
-        "text": "Amazon River",
+        "text": "DNS server",
         "images": ""
       },
       {
         "id": "b",
-        "text": "Nile River",
+        "text": "FTP server",
         "images": ""
       },
       {
         "id": "c",
-        "text": "Yangtze River",
+        "text": "Web server",
         "images": ""
       },
       {
         "id": "d",
-        "text": "Mississippi River",
+        "text": "Blade server",
         "images": ""
       }
     ],
-    "answer": "b"
+    "answer": "d"
   },
   {
     "id": 24,
     "question": {
-      "text": "Who invented the telephone?",
+      "text": "Which of the following is a technology that projects things such as video made with computer graphics on to buildings, objects, and other such three-dimensional things, and produces a variety of visual effects?",
       "images": "",
-      "type": "",
-      "source": ""
+      "type": "Multimedia/Graphics Technology",
+      "source": "ITPEC IP Exam, April 2024"
     },
     "options": [
       {
         "id": "a",
-        "text": "Alexander Graham Bell",
+        "text": "Digital signage",
         "images": ""
       },
       {
         "id": "b",
-        "text": "Thomas Edison",
+        "text": "Virtual reality",
         "images": ""
       },
       {
         "id": "c",
-        "text": "Nikola Tesla",
+        "text": "Projection mapping",
         "images": ""
       },
       {
         "id": "d",
-        "text": "Guglielmo Marconi",
+        "text": "Polygon",
         "images": ""
       }
     ],
-    "answer": "a"
+    "answer": "c"
   },
   {
     "id": 25,
     "question": {
-      "text": "What is the currency of Japan?",
+      "text": "Which of the following is a data format that can be used to compress both video and audio data?",
       "images": "",
-      "type": "",
-      "source": ""
+      "type": "Data Format/Compression",
+      "source": "ITPEC IP Exam, April 2024"
     },
     "options": [
       {
         "id": "a",
-        "text": "Yen",
+        "text": "BMP",
         "images": ""
       },
       {
         "id": "b",
-        "text": "Won",
+        "text": "GIF",
         "images": ""
       },
       {
         "id": "c",
-        "text": "Dollar",
+        "text": "JPEG",
         "images": ""
       },
       {
         "id": "d",
-        "text": "Euro",
+        "text": "MPEG",
         "images": ""
       }
     ],
-    "answer": "a"
+    "answer": "d"
   },
   {
     "id": 26,
     "question": {
-      "text": "Which is the largest continent?",
-      "images": "",
-      "type": "",
-      "source": ""
+      "text": "By joining tables “Employees in charge”, “Regions”, and “Customers” that are managed in a relational database, the table A that is shown below is obtained. Which of the following is the table “Customers” that is used for the joining? Here, a solid underline indicates a primary key and a dotted underline indicates a foreign key.",
+      "images": "Database tables and resultant joined table A referenced in source",
+      "type": "Database/Relational Model",
+      "source": "ITPEC IP Exam, April 2024"
     },
     "options": [
       {
         "id": "a",
-        "text": "Africa",
+        "text": "Customer code (PK) Customer name Representative name",
         "images": ""
       },
       {
         "id": "b",
-        "text": "Asia",
+        "text": "Customer code (PK) Customer name Representative name Employee code (FK)",
         "images": ""
       },
       {
         "id": "c",
-        "text": "Europe",
+        "text": "Customer code (PK) Customer name Representative name Region code (FK)",
         "images": ""
       },
       {
         "id": "d",
-        "text": "Australia",
+        "text": "Customer code (PK) Customer name Representative name Employee code (FK) Region code (FK)",
+        "images": ""
+      }
+    ],
+    "answer": "d"
+  },
+  {
+    "id": 27,
+    "question": {
+      "text": "Which of the following is an appropriate purpose of conducting data normalization when a relational database is constructed?",
+      "images": "",
+      "type": "Database/Normalization",
+      "source": "ITPEC IP Exam, April 2024"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Providing redundancy to data in order to detect data errors",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "Eliminating data inconsistencies and duplications in order to make it easy to maintain and manage the data",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "Unifying the character code of data in order to improve data reliability and storage efficiency",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "Losslessly compressing data in order to improve access efficiency",
         "images": ""
       }
     ],
     "answer": "b"
   },
   {
-    "id": 27,
+    "id": 28,
     "question": {
-      "text": "What is the freezing point of water in Celsius?",
-      "images": "",
-      "type": "",
-      "source": ""
+      "text": "An “Employee” table and a “Department” table that are to be managed with a relational database were created on the basis of the conditions (i) through (v). Which of the following is the most appropriate primary key for the “Employee” table?",
+      "images": "Database tables referenced in source",
+      "type": "Database/Primary Key",
+      "source": "ITPEC IP Exam, April 2024"
     },
     "options": [
       {
         "id": "a",
-        "text": "0°C",
+        "text": "“EmployeeNumber”",
         "images": ""
       },
       {
         "id": "b",
-        "text": "32°C",
+        "text": "“EmployeeNumber” and “DepartmentCode”",
         "images": ""
       },
       {
         "id": "c",
-        "text": "100°C",
+        "text": "“EmployeeName”",
         "images": ""
       },
       {
         "id": "d",
-        "text": "10°C",
+        "text": "“DepartmentCode”",
         "images": ""
       }
     ],
     "answer": "a"
   },
   {
-    "id": 28,
-    "question": {
-      "text": "Who discovered gravity?",
-      "images": "",
-      "type": "",
-      "source": ""
-    },
-    "options": [
-      {
-        "id": "a",
-        "text": "Albert Einstein",
-        "images": ""
-      },
-      {
-        "id": "b",
-        "text": "Isaac Newton",
-        "images": ""
-      },
-      {
-        "id": "c",
-        "text": "Galileo Galilei",
-        "images": ""
-      },
-      {
-        "id": "d",
-        "text": "Stephen Hawking",
-        "images": ""
-      }
-    ],
-    "answer": "b"
-  },
-  {
     "id": 29,
     "question": {
-      "text": "Which is the largest planet in our solar system?",
+      "text": "Which of the following is the appropriate explanation of commit in transaction processing?",
       "images": "",
-      "type": "",
-      "source": ""
+      "type": "Database/Transaction Processing",
+      "source": "ITPEC IP Exam, April 2024"
     },
     "options": [
       {
         "id": "a",
-        "text": "Earth",
+        "text": "When a transaction attempts to update shared data, other transactions are blocked from updating this data.",
         "images": ""
       },
       {
         "id": "b",
-        "text": "Jupiter",
+        "text": "The update is confirmed in the database. It is used when a transaction is processed normally.",
         "images": ""
       },
       {
         "id": "c",
-        "text": "Saturn",
+        "text": "The database is returned to the status prior to the start of a transaction. It is used when the transaction is not processed normally for some reason.",
         "images": ""
       },
       {
         "id": "d",
-        "text": "Mars",
+        "text": "Multiple tables are made into one (1) table by using the columns as keys that relate the tables to each other.",
         "images": ""
       }
     ],
@@ -930,286 +930,286 @@
   {
     "id": 30,
     "question": {
-      "text": "What is the main gas found in the air we breathe?",
+      "text": "When an e-mail is sent to multiple recipients, there are cases that no recipient of the e-mail should know the e-mail addresses of other recipients. In such cases, which of the following is an appropriate place where the e-mail addresses of the multiple recipients are entered?",
       "images": "",
-      "type": "",
-      "source": ""
+      "type": "Networking/Email Protocol",
+      "source": "ITPEC IP Exam, April 2024"
     },
     "options": [
       {
         "id": "a",
-        "text": "Oxygen",
+        "text": "Bcc",
         "images": ""
       },
       {
         "id": "b",
-        "text": "Nitrogen",
+        "text": "Cc",
         "images": ""
       },
       {
         "id": "c",
-        "text": "Carbon Dioxide",
+        "text": "To",
         "images": ""
       },
       {
         "id": "d",
-        "text": "Hydrogen",
+        "text": "Both To and Bcc",
         "images": ""
       }
     ],
-    "answer": "b"
+    "answer": "a"
   },
   {
     "id": 31,
     "question": {
-      "text": "Who is the author of 'Harry Potter' series?",
+      "text": "Which of the following is not an appropriate description of online storage?",
       "images": "",
-      "type": "",
-      "source": ""
+      "type": "Networking/Cloud Services",
+      "source": "ITPEC IP Exam, April 2024"
     },
     "options": [
       {
         "id": "a",
-        "text": "J.K. Rowling",
+        "text": "It can be used not only from a computer, but also from a smartphone or a tablet, if the device is connected to the Internet.",
         "images": ""
       },
       {
         "id": "b",
-        "text": "J.R.R. Tolkien",
+        "text": "There is a free service that can be used with limited capacity and functionalities.",
         "images": ""
       },
       {
         "id": "c",
-        "text": "George R.R. Martin",
+        "text": "There is a service that allows multiple registered users to share and edit the same file.",
         "images": ""
       },
       {
         "id": "d",
-        "text": "Suzanne Collins",
+        "text": "If the capacity of the auxiliary storage unit built into the user’s computer or tablet is increased, the capacity of online storage will also increase automatically.",
         "images": ""
       }
     ],
-    "answer": "a"
+    "answer": "d"
   },
   {
     "id": 32,
     "question": {
-      "text": "Which is the smallest continent by land area?",
+      "text": "Which of the following is an example of damage incurred by the theft of cookies by a cross-site scripting attack or other attack?",
       "images": "",
-      "type": "",
-      "source": ""
+      "type": "Security/Web Attacks",
+      "source": "ITPEC IP Exam, April 2024"
     },
     "options": [
       {
         "id": "a",
-        "text": "Europe",
+        "text": "The PC becomes infected by a virus.",
         "images": ""
       },
       {
         "id": "b",
-        "text": "Australia",
+        "text": "The files on the PC are sent to an outside destination.",
         "images": ""
       },
       {
         "id": "c",
-        "text": "Antarctica",
+        "text": "Web service accounts are hijacked.",
         "images": ""
       },
       {
         "id": "d",
-        "text": "South America",
+        "text": "Intrusion into the network takes place over the wireless LAN.",
         "images": ""
       }
     ],
-    "answer": "b"
+    "answer": "c"
   },
   {
     "id": 33,
     "question": {
-      "text": "What is the chemical symbol for gold?",
+      "text": "When a web page with URL “http://srv01.itpec.org/abc.html” is accessed on the Internet, what does “srv01” in the URL stand for?",
       "images": "",
-      "type": "",
-      "source": ""
+      "type": "Networking/URL Structure",
+      "source": "ITPEC IP Exam, April 2024"
     },
     "options": [
       {
         "id": "a",
-        "text": "Au",
+        "text": "The fact that “itpec.org” is a web service",
         "images": ""
       },
       {
         "id": "b",
-        "text": "Ag",
+        "text": "The file name of the web page where an access is requested",
         "images": ""
       },
       {
         "id": "c",
-        "text": "Gd",
+        "text": "The fact that HTTP or HTTPS can be specified as a communication protocol",
         "images": ""
       },
       {
         "id": "d",
-        "text": "Go",
+        "text": "The host name of a computer that belongs to the domain name “itpec.org”",
         "images": ""
       }
     ],
-    "answer": "a"
+    "answer": "d"
   },
   {
     "id": 34,
     "question": {
-      "text": "Which country is known as the Land of the Rising Sun?",
+      "text": "A large number of IP addresses are required in order to connect a massive number of IoT devices to the Internet, so the decision was made to use the Internet Protocol with IP addresses that have a length of 128 bits. Which of the following is this protocol?",
       "images": "",
-      "type": "",
-      "source": ""
+      "type": "Networking/Protocols",
+      "source": "ITPEC IP Exam, April 2024"
     },
     "options": [
       {
         "id": "a",
-        "text": "China",
+        "text": "IPv4",
         "images": ""
       },
       {
         "id": "b",
-        "text": "Japan",
+        "text": "IPv5",
         "images": ""
       },
       {
         "id": "c",
-        "text": "Thailand",
+        "text": "IPv6",
         "images": ""
       },
       {
         "id": "d",
-        "text": "South Korea",
+        "text": "IPv8",
         "images": ""
       }
     ],
-    "answer": "b"
+    "answer": "c"
   },
   {
     "id": 35,
     "question": {
-      "text": "What is the tallest mountain in the world?",
+      "text": "Which of the following is a definition of a zero-day attack that is a threat to information security?",
       "images": "",
-      "type": "",
-      "source": ""
+      "type": "Security/Threats",
+      "source": "ITPEC IP Exam, April 2024"
     },
     "options": [
       {
         "id": "a",
-        "text": "K2",
+        "text": "It stops the target system of the attack within 24 hours from the start of the attack.",
         "images": ""
       },
       {
         "id": "b",
-        "text": "Mount Everest",
+        "text": "It causes the onset immediately after the infection by using a virus without an incubation period.",
         "images": ""
       },
       {
         "id": "c",
-        "text": "Kangchenjunga",
+        "text": "It exploits vulnerability before any countermeasure against the software vulnerability is made public.",
         "images": ""
       },
       {
         "id": "d",
-        "text": "Lhotse",
+        "text": "It immediately obtains confidential information from a third party through social engineering or eavesdropping.",
         "images": ""
       }
     ],
-    "answer": "b"
+    "answer": "c"
   },
   {
     "id": 36,
     "question": {
-      "text": "Which is the largest internal organ in the human body?",
+      "text": "Which of the following is an appropriate action for the secure use of a smartphone?",
       "images": "",
-      "type": "",
-      "source": ""
+      "type": "Security/Device Management",
+      "source": "ITPEC IP Exam, April 2024"
     },
     "options": [
       {
         "id": "a",
-        "text": "Heart",
+        "text": "Using it without updating OS and using the same version of the OS as at the time of purchase",
         "images": ""
       },
       {
         "id": "b",
-        "text": "Liver",
+        "text": "Enhancing the functions by making alterations such as jailbreak",
         "images": ""
       },
       {
         "id": "c",
-        "text": "Lung",
+        "text": "Setting up a feature that locks the screen with a password",
         "images": ""
       },
       {
         "id": "d",
-        "text": "Kidney",
+        "text": "Downloading applications that are considered to be useful from any web site",
         "images": ""
       }
     ],
-    "answer": "b"
+    "answer": "c"
   },
   {
     "id": 37,
     "question": {
-      "text": "Who was the first person to walk on the moon?",
+      "text": "Security risk treatment in ISMS includes risk transfer, risk avoidance, risk acceptance, and risk reduction. Which of the following is an example of risk avoidance?",
       "images": "",
-      "type": "",
-      "source": ""
+      "type": "Security Management/Risk Treatment",
+      "source": "ITPEC IP Exam, April 2024"
     },
     "options": [
       {
         "id": "a",
-        "text": "Buzz Aldrin",
+        "text": "A security measure was taken, which lowered the possibility of problems arising.",
         "images": ""
       },
       {
         "id": "b",
-        "text": "Neil Armstrong",
+        "text": "The company took out insurance in case a problem arises and causes damage.",
         "images": ""
       },
       {
         "id": "c",
-        "text": "Yuri Gagarin",
+        "text": "The risk was confirmed to be small, and it was decided that damage would be borne by the company when a problem arises.",
         "images": ""
       },
       {
         "id": "d",
-        "text": "Michael Collins",
+        "text": "The company withdrew from the services that carried high risk.",
         "images": ""
       }
     ],
-    "answer": "b"
+    "answer": "d"
   },
   {
     "id": 38,
     "question": {
-      "text": "What is the main ingredient in guacamole?",
+      "text": "Which of the following is an appropriate description of the beginning of a URL indicating that TLS is used for communication between a web browser and a web server?",
       "images": "",
-      "type": "",
-      "source": ""
+      "type": "Networking/Security Protocol",
+      "source": "ITPEC IP Exam, April 2024"
     },
     "options": [
       {
         "id": "a",
-        "text": "Tomato",
+        "text": "http://",
         "images": ""
       },
       {
         "id": "b",
-        "text": "Avocado",
+        "text": "https://",
         "images": ""
       },
       {
         "id": "c",
-        "text": "Potato",
+        "text": "shttp://",
         "images": ""
       },
       {
         "id": "d",
-        "text": "Onion",
+        "text": "ssl://",
         "images": ""
       }
     ],
@@ -1218,30 +1218,30 @@
   {
     "id": 39,
     "question": {
-      "text": "Which is the smallest bone in the human body?",
+      "text": "Which of the following is a technique that is used to detect that the received data has been tampered with?",
       "images": "",
-      "type": "",
-      "source": ""
+      "type": "Security/Data Integrity",
+      "source": "ITPEC IP Exam, April 2024"
     },
     "options": [
       {
         "id": "a",
-        "text": "Femur",
+        "text": "Compression",
         "images": ""
       },
       {
         "id": "b",
-        "text": "Stapes",
+        "text": "Digital signature",
         "images": ""
       },
       {
         "id": "c",
-        "text": "Tibia",
+        "text": "Password authentication",
         "images": ""
       },
       {
         "id": "d",
-        "text": "Fibula",
+        "text": "Filtering",
         "images": ""
       }
     ],
@@ -1250,62 +1250,62 @@
   {
     "id": 40,
     "question": {
-      "text": "Which country is known for the kangaroo?",
+      "text": "Among I through III below, which of the following lists all and only the appropriate measures for preventing a PC from getting infected with viruses? I Applying a security patch to software II Striping across hard disks III Educating users about security",
       "images": "",
-      "type": "",
-      "source": ""
+      "type": "Security/Virus Protection",
+      "source": "ITPEC IP Exam, April 2024"
     },
     "options": [
       {
         "id": "a",
-        "text": "New Zealand",
+        "text": "I",
         "images": ""
       },
       {
         "id": "b",
-        "text": "Australia",
+        "text": "I, II",
         "images": ""
       },
       {
         "id": "c",
-        "text": "South Africa",
+        "text": "I, III",
         "images": ""
       },
       {
         "id": "d",
-        "text": "India",
+        "text": "II, III",
         "images": ""
       }
     ],
-    "answer": "b"
+    "answer": "c"
   },
   {
     "id": 41,
     "question": {
-      "text": "What is the capital city of Canada?",
+      "text": "Which of the following is an appropriate example of phishing?",
       "images": "",
-      "type": "",
-      "source": ""
+      "type": "Security/Attack Types",
+      "source": "ITPEC IP Exam, April 2024"
     },
     "options": [
       {
         "id": "a",
-        "text": "Toronto",
+        "text": "An attacker’s act of sending a command via network to a virus-infected PC and having it execute an illegal program",
         "images": ""
       },
       {
         "id": "b",
-        "text": "Ottawa",
+        "text": "Sending an e-mail that pretends to be from a financial institution, directing a user to a false web site, and acquiring a password",
         "images": ""
       },
       {
         "id": "c",
-        "text": "Vancouver",
+        "text": "Identifying a password by using a dictionary data that enumerates strings that are likely to be used as a password",
         "images": ""
       },
       {
         "id": "d",
-        "text": "Montreal",
+        "text": "Sending a large number of packets from multiple computers to a target server and disabling the function of the server",
         "images": ""
       }
     ],
@@ -1314,30 +1314,30 @@
   {
     "id": 42,
     "question": {
-      "text": "Which is the largest desert in the world?",
+      "text": "Which of the following is an appropriate description concerning behavioral detection technology for protecting systems from unknown threats such as zero-day attacks?",
       "images": "",
-      "type": "",
-      "source": ""
+      "type": "Security/Detection Technology",
+      "source": "ITPEC IP Exam, April 2024"
     },
     "options": [
       {
         "id": "a",
-        "text": "Gobi Desert",
+        "text": "It detects that a PC has not been used for a certain period of time, darkens the screen automatically, and displays a changing image.",
         "images": ""
       },
       {
         "id": "b",
-        "text": "Sahara Desert",
+        "text": "It suspends use of an account when it detects that an incorrect password is entered on a web site more than a set number of times.",
         "images": ""
       },
       {
         "id": "c",
-        "text": "Antarctic Desert",
+        "text": "It continually monitors the activity of programs and stops any program with any suspicious activity, such as unusual communication to an outside destination.",
         "images": ""
       },
       {
         "id": "d",
-        "text": "Arabian Desert",
+        "text": "It changes users’ input on a web site into safe character strings when it detects any harmful character string that could cause malfunction.",
         "images": ""
       }
     ],
@@ -1346,94 +1346,94 @@
   {
     "id": 43,
     "question": {
-      "text": "What is the main source of energy for the Earth?",
+      "text": "Which of the following is appropriate as the characteristic of single sign-on?",
       "images": "",
-      "type": "",
-      "source": ""
+      "type": "Security/Authentication",
+      "source": "ITPEC IP Exam, April 2024"
     },
     "options": [
       {
         "id": "a",
-        "text": "The Moon",
+        "text": "It is an effective countermeasure for information leakage because data is processed and stored on a server side, and data does not remain on devices.",
         "images": ""
       },
       {
         "id": "b",
-        "text": "The Sun",
+        "text": "It implements high availability because when the data is saved, it is automatically distributed and stored on multiple disks.",
         "images": ""
       },
       {
         "id": "c",
-        "text": "Wind",
+        "text": "It implements high confidentiality because it employs authentication that uses fingerprint and iris in addition to a password.",
         "images": ""
       },
       {
         "id": "d",
-        "text": "Water",
+        "text": "It implements high convenience because once a user is authenticated, he or she is allowed to use multiple services without any more authentication.",
         "images": ""
       }
     ],
-    "answer": "b"
+    "answer": "d"
   },
   {
     "id": 44,
     "question": {
-      "text": "Which is the largest land animal?",
+      "text": "Among the descriptions from A through C, which of the following is the list that contains all and only appropriate features of VPN? A Devices can communicate with each other by using a VPN wirelessly without passing through any access point. B A VPN uses a public network, etc., but it can be used like a private network of one’s own company. C The security status of computers can be checked by connecting them to a VPN.",
       "images": "",
-      "type": "",
-      "source": ""
+      "type": "Networking/VPN",
+      "source": "ITPEC IP Exam, April 2024"
     },
     "options": [
       {
         "id": "a",
-        "text": "Giraffe",
+        "text": "A",
         "images": ""
       },
       {
         "id": "b",
-        "text": "African Elephant",
+        "text": "A, C",
         "images": ""
       },
       {
         "id": "c",
-        "text": "Hippopotamus",
+        "text": "B",
         "images": ""
       },
       {
         "id": "d",
-        "text": "Rhinoceros",
+        "text": "C",
         "images": ""
       }
     ],
-    "answer": "b"
+    "answer": "c"
   },
   {
     "id": 45,
     "question": {
-      "text": "What is the capital of Italy?",
+      "text": "When an attacker makes an unauthorized intrusion into a computer, the attacker sometimes changes a program or settings in the computer in order to make further intrusions into the computer easier. Which of the following is the most appropriate term to express the method used by the attacker for further intrusions into the computer?",
       "images": "",
-      "type": "",
-      "source": ""
+      "type": "Security/Attack Method",
+      "source": "ITPEC IP Exam, April 2024"
     },
     "options": [
       {
         "id": "a",
-        "text": "Venice",
+        "text": "Tapping",
         "images": ""
       },
       {
         "id": "b",
-        "text": "Rome",
+        "text": "Backdoor",
         "images": ""
       },
       {
         "id": "c",
-        "text": "Milan",
+        "text": "Phishing",
         "images": ""
       },
       {
         "id": "d",
-        "text": "Florence",
+        "text": "Port scan",
         "images": ""
       }
     ],
@@ -1442,350 +1442,350 @@
   {
     "id": 46,
     "question": {
-      "text": "Which is the smallest country in the world?",
+      "text": "In order to achieve a non-stop system, which of the following is an appropriate item to be considered during the design of the system architecture?",
       "images": "",
-      "type": "",
-      "source": ""
+      "type": "System Reliability/Architecture",
+      "source": "ITPEC IP Exam, April 2024"
     },
     "options": [
       {
         "id": "a",
-        "text": "Monaco",
+        "text": "Partitioning of software into components",
         "images": ""
       },
       {
         "id": "b",
-        "text": "Vatican City",
+        "text": "Encryption of data",
         "images": ""
       },
       {
         "id": "c",
-        "text": "San Marino",
+        "text": "Reduction in power consumption of hardware",
         "images": ""
       },
       {
         "id": "d",
-        "text": "Liechtenstein",
+        "text": "Dual redundancy of hardware",
         "images": ""
       }
     ],
-    "answer": "b"
+    "answer": "d"
   },
   {
     "id": 47,
     "question": {
-      "text": "What is the chemical symbol for sodium?",
+      "text": "A detailed design document of software is created as an output of software detailed design. Which of the following is the person who takes charge of the next process of development upon receipt of this output?",
       "images": "",
-      "type": "",
-      "source": ""
+      "type": "Software Development Lifecycle",
+      "source": "ITPEC IP Exam, April 2024"
     },
     "options": [
       {
         "id": "a",
-        "text": "Na",
+        "text": "System auditor",
         "images": ""
       },
       {
         "id": "b",
-        "text": "So",
+        "text": "System operator in-charge",
         "images": ""
       },
       {
         "id": "c",
-        "text": "S",
+        "text": "System user",
         "images": ""
       },
       {
         "id": "d",
-        "text": "N",
+        "text": "Programmer",
         "images": ""
       }
     ],
-    "answer": "a"
+    "answer": "d"
   },
   {
     "id": 48,
     "question": {
-      "text": "Which is the largest island in the world?",
+      "text": "Mr. A, a developer, is analyzing and verifying the internal structure of a program in order to determine whether input data is processed as intended. Which of the following is the test that Mr. A is currently conducting?",
       "images": "",
-      "type": "",
-      "source": ""
+      "type": "Software Testing",
+      "source": "ITPEC IP Exam, April 2024"
     },
     "options": [
       {
         "id": "a",
-        "text": "Greenland",
+        "text": "System test",
         "images": ""
       },
       {
         "id": "b",
-        "text": "Australia",
+        "text": "Top-down test",
         "images": ""
       },
       {
         "id": "c",
-        "text": "New Guinea",
+        "text": "Black box test",
         "images": ""
       },
       {
         "id": "d",
-        "text": "Borneo",
+        "text": "White box test",
+        "images": ""
+      }
+    ],
+    "answer": "d"
+  },
+  {
+    "id": 49,
+    "question": {
+      "text": "Among the descriptions A through D concerning software installation, which of the following lists all and only the appropriate descriptions? A: In a new development, installation is performed without delay by the deadline without the creation of an implementation plan. B: After software installation is performed, an implementation plan and an implementation report must be created promptly and agreement obtained. C: When software is developed in-house by a company, the scope of impact is internal, so installation is performed after the creation of an implementation plan, and agreement on the implementation plan is obtained after implementation. D: When a function is to be added to software in production system, an implementation plan is created for the software with the added function, agreement is obtained, and software installation is performed.",
+      "images": "",
+      "type": "Software Implementation/Installation",
+      "source": "ITPEC IP Exam, April 2024"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "A, C",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "B, C, D",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "B, D",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "D",
+        "images": ""
+      }
+    ],
+    "answer": "d"
+  },
+  {
+    "id": 50,
+    "question": {
+      "text": "Which of the following is the most appropriate term expressing initiatives to improve the services where the development side and the operations side of the system cooperate to proactively automate operations of the system and transition to the new production system, and release new functions?",
+      "images": "",
+      "type": "Software Development Methodology",
+      "source": "ITPEC IP Exam, April 2024"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "DevOps",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "RAD",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "Object-oriented development",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "Test-driven development",
         "images": ""
       }
     ],
     "answer": "a"
   },
   {
-    "id": 49,
+    "id": 51,
     "question": {
-      "text": "Who is the founder of Microsoft?",
+      "text": "Which of the following is an appropriate description concerning project scope management?",
       "images": "",
-      "type": "",
-      "source": ""
+      "type": "Project Management/Scope",
+      "source": "ITPEC IP Exam, April 2024"
     },
     "options": [
       {
         "id": "a",
-        "text": "Steve Jobs",
+        "text": "It defines and manages deliverables such as the products and services to be created by a project, as well as the activities necessary for their completion.",
         "images": ""
       },
       {
         "id": "b",
-        "text": "Bill Gates",
+        "text": "It manages the activity path that requires the longest time through the entire project.",
         "images": ""
       },
       {
         "id": "c",
-        "text": "Mark Zuckerberg",
+        "text": "It manages the events that may be advantageous or disadvantageous for the results of the project.",
         "images": ""
       },
       {
         "id": "d",
-        "text": "Larry Page",
+        "text": "It coordinates the stakeholders of the implementation and results of the project.",
         "images": ""
       }
     ],
-    "answer": "b"
+    "answer": "a"
   },
   {
-    "id": 50,
+    "id": 52,
     "question": {
-      "text": "What is the capital of Australia?",
+      "text": "Which of the following is an appropriate description concerning the water fall model known as one of software development models?",
       "images": "",
-      "type": "",
-      "source": ""
+      "type": "Software Development Model",
+      "source": "ITPEC IP Exam, April 2024"
     },
     "options": [
       {
         "id": "a",
-        "text": "Sydney",
+        "text": "It is a technique in object-oriented development for making improvements through trial and error by repeatedly going back and forth between design and programming.",
         "images": ""
       },
       {
         "id": "b",
-        "text": "Melbourne",
+        "text": "It is a technique for making improvements by repeating the development process for each subsystem while responding to requests from users.",
         "images": ""
       },
       {
         "id": "c",
-        "text": "Canberra",
+        "text": "It is a technique that divides the processes of system development into stages, and based upon the output of previous processes, performs later processes in order.",
         "images": ""
       },
       {
         "id": "d",
-        "text": "Brisbane",
+        "text": "It is a technique that creates a prototype at an early stage of system development, and defines requirements and specifications with input from user comments.",
         "images": ""
       }
     ],
     "answer": "c"
   },
   {
-    "id": 51,
-    "question": {
-      "text": "Which is the largest lake in the world?",
-      "images": "",
-      "type": "",
-      "source": ""
-    },
-    "options": [
-      {
-        "id": "a",
-        "text": "Lake Superior",
-        "images": ""
-      },
-      {
-        "id": "b",
-        "text": "Caspian Sea",
-        "images": ""
-      },
-      {
-        "id": "c",
-        "text": "Lake Victoria",
-        "images": ""
-      },
-      {
-        "id": "d",
-        "text": "Lake Baikal",
-        "images": ""
-      }
-    ],
-    "answer": "b"
-  },
-  {
-    "id": 52,
-    "question": {
-      "text": "What is the capital of Russia?",
-      "images": "",
-      "type": "",
-      "source": ""
-    },
-    "options": [
-      {
-        "id": "a",
-        "text": "Saint Petersburg",
-        "images": ""
-      },
-      {
-        "id": "b",
-        "text": "Moscow",
-        "images": ""
-      },
-      {
-        "id": "c",
-        "text": "Kazan",
-        "images": ""
-      },
-      {
-        "id": "d",
-        "text": "Novosibirsk",
-        "images": ""
-      }
-    ],
-    "answer": "b"
-  },
-  {
     "id": 53,
     "question": {
-      "text": "Which is the largest volcano in the world?",
+      "text": "Which of the following is an appropriate metrics for program quality in a software development project?",
       "images": "",
-      "type": "",
-      "source": ""
+      "type": "Project Management/Quality Metrics",
+      "source": "ITPEC IP Exam, April 2024"
     },
     "options": [
       {
         "id": "a",
-        "text": "Mount Fuji",
+        "text": "Budget at planning",
         "images": ""
       },
       {
         "id": "b",
-        "text": "Mauna Loa",
+        "text": "Return on investment",
         "images": ""
       },
       {
         "id": "c",
-        "text": "Mount Etna",
+        "text": "Delivery date",
         "images": ""
       },
       {
         "id": "d",
-        "text": "Mount Vesuvius",
+        "text": "Number of identified bugs",
         "images": ""
       }
     ],
-    "answer": "b"
+    "answer": "d"
   },
   {
     "id": 54,
     "question": {
-      "text": "What is the capital of China?",
+      "text": "When the outsourced development project of a system has passed beyond its halfway mark, there is a request from the outsourcer for adding a function to the system. Which of the following is the most appropriate action of the project manager?",
       "images": "",
-      "type": "",
-      "source": ""
+      "type": "Project Management/Change Control",
+      "source": "ITPEC IP Exam, April 2024"
     },
     "options": [
       {
         "id": "a",
-        "text": "Shanghai",
+        "text": "Accepting the request and securing the budget and staff members",
         "images": ""
       },
       {
         "id": "b",
-        "text": "Beijing",
+        "text": "Declining the request by explaining that changes after halfway mark are generally not accepted",
         "images": ""
       },
       {
         "id": "c",
-        "text": "Guangzhou",
+        "text": "Taking into account the impact on the cost and schedule, and following the procedure of change management",
         "images": ""
       },
       {
         "id": "d",
-        "text": "Shenzhen",
+        "text": "Quickly updating the baseline of scope since only the project scope will be affected",
         "images": ""
       }
     ],
-    "answer": "b"
+    "answer": "c"
   },
   {
     "id": 55,
     "question": {
-      "text": "Which is the longest bone in the human body?",
+      "text": "Which of the following is the appropriate explanation of a master schedule in a system development project where processes from requirements definition to installation are performed?",
       "images": "",
-      "type": "",
-      "source": ""
+      "type": "Project Management/Scheduling",
+      "source": "ITPEC IP Exam, April 2024"
     },
     "options": [
       {
         "id": "a",
-        "text": "Femur",
+        "text": "A schedule that describes in detail the activities of one (1) week",
         "images": ""
       },
       {
         "id": "b",
-        "text": "Tibia",
+        "text": "A schedule that describes the activities of one (1) day, the start and end time of the activities, and the persons in charge",
         "images": ""
       },
       {
         "id": "c",
-        "text": "Fibula",
+        "text": "A schedule that describes in detail the activities of the main processes",
         "images": ""
       },
       {
         "id": "d",
-        "text": "Humerus",
+        "text": "A schedule that aggregates the main deliverables and activities of the entire project",
         "images": ""
       }
     ],
-    "answer": "a"
+    "answer": "d"
   },
   {
     "id": 56,
     "question": {
-      "text": "Who is the current President of the United States (2024)?",
+      "text": "Which of the following is the appropriate description concerning WBS created in a project?",
       "images": "",
-      "type": "",
-      "source": ""
+      "type": "Project Management/WBS",
+      "source": "ITPEC IP Exam, April 2024"
     },
     "options": [
       {
         "id": "a",
-        "text": "Joe Biden",
+        "text": "A WBS defines the details of activities to be implemented in a project and the deliverables, and can therefore be used as a basis for estimating the number of person-days.",
         "images": ""
       },
       {
         "id": "b",
-        "text": "Donald Trump",
+        "text": "Activities outside the scope of the project are also examined and included in the WBS.",
         "images": ""
       },
       {
         "id": "c",
-        "text": "Barack Obama",
+        "text": "The WBS breaks down the deliverables and the details of activities up to the same hierarchy in all projects.",
         "images": ""
       },
       {
         "id": "d",
-        "text": "George Bush",
+        "text": "When a project member performs similar activities within the scope, the activities need not be described in the WBS.",
         "images": ""
       }
     ],
@@ -1794,30 +1794,30 @@
   {
     "id": 57,
     "question": {
-      "text": "Which is the largest bird in the world?",
+      "text": "Company A orders the development of a system to Company B and starts a system development project. Among (i) through (iv) below who are concerned with the project, which of the following lists all and only the stakeholders of the project? (i) Company A’s management executives (ii) Company A’s user department (iii) Company B’s project manager (iv) Company B’s business partner that provides technical support",
       "images": "",
-      "type": "",
-      "source": ""
+      "type": "Project Management/Stakeholder",
+      "source": "ITPEC IP Exam, April 2024"
     },
     "options": [
       {
         "id": "a",
-        "text": "Eagle",
+        "text": "(i), (ii), (iv)",
         "images": ""
       },
       {
         "id": "b",
-        "text": "Ostrich",
+        "text": "(i), (ii), (iii), (iv)",
         "images": ""
       },
       {
         "id": "c",
-        "text": "Albatross",
+        "text": "(ii), (iii), (iv)",
         "images": ""
       },
       {
         "id": "d",
-        "text": "Penguin",
+        "text": "(ii), (iv)",
         "images": ""
       }
     ],
@@ -1826,286 +1826,286 @@
   {
     "id": 58,
     "question": {
-      "text": "What is the capital of Spain?",
+      "text": "Which of the following is an appropriate description concerning the IT service management activity?",
       "images": "",
-      "type": "",
-      "source": ""
+      "type": "IT Service Management (ITSM)",
+      "source": "ITPEC IP Exam, April 2024"
     },
     "options": [
       {
         "id": "a",
-        "text": "Barcelona",
+        "text": "It defines the maturity level of a process in a system development organization on a level of one (1) to five (5), and supports improvement.",
         "images": ""
       },
       {
         "id": "b",
-        "text": "Madrid",
+        "text": "It defines roles and responsibilities and creates a procurement plan for staff members in order to complete a system development project.",
         "images": ""
       },
       {
         "id": "c",
-        "text": "Valencia",
+        "text": "It defines an index concerning system availability, acquires the availability record, and performs planning, measurements, and improvement in order to achieve an objective.",
         "images": ""
       },
       {
         "id": "d",
-        "text": "Seville",
+        "text": "It clarifies the deliverables that are required for a new system to be developed and the activities that are required for the creation of the deliverables.",
         "images": ""
       }
     ],
-    "answer": "b"
+    "answer": "c"
   },
   {
     "id": 59,
     "question": {
-      "text": "Which is the largest country in the world by area?",
+      "text": "Which of the following activities aims at the maintenance and improvement of the service level through monitoring and reviewing the service status in order to implement the terms of agreement of an SLA?",
       "images": "",
-      "type": "",
-      "source": ""
+      "type": "IT Service Management/SLA",
+      "source": "ITPEC IP Exam, April 2024"
     },
     "options": [
       {
         "id": "a",
-        "text": "Canada",
+        "text": "CSR",
         "images": ""
       },
       {
         "id": "b",
-        "text": "Russia",
+        "text": "ERP",
         "images": ""
       },
       {
         "id": "c",
-        "text": "China",
+        "text": "SLM",
         "images": ""
       },
       {
         "id": "d",
-        "text": "USA",
+        "text": "SWOT",
         "images": ""
       }
     ],
-    "answer": "b"
+    "answer": "c"
   },
   {
     "id": 60,
     "question": {
-      "text": "What is the chemical symbol for iron?",
+      "text": "Which of the following is an appropriate measure of facility management that maintains and protects facilities and equipment of information systems?",
       "images": "",
-      "type": "",
-      "source": ""
+      "type": "IT Service Management/Facility",
+      "source": "ITPEC IP Exam, April 2024"
     },
     "options": [
       {
         "id": "a",
-        "text": "Ir",
+        "text": "Reviewing the fuel replenishment plan in order to maintain the appropriate duration that power can be generated with a private power generation system",
         "images": ""
       },
       {
         "id": "b",
-        "text": "Fe",
+        "text": "Introducing asset management software in order to manage all the company’s software centrally",
         "images": ""
       },
       {
         "id": "c",
-        "text": "In",
+        "text": "Standardizing how to set a screen saver in order to prevent unauthorized use of the PCs",
         "images": ""
       },
       {
         "id": "d",
-        "text": "I",
+        "text": "Reviewing the network firewall settings in order to enhance the prevention of unauthorized network access to the information systems",
         "images": ""
       }
     ],
-    "answer": "b"
+    "answer": "a"
   },
   {
     "id": 61,
     "question": {
-      "text": "Which is the largest flower in the world?",
+      "text": "Which of the following is the most appropriate example concerning a chatbot that uses AI?",
       "images": "",
-      "type": "",
-      "source": ""
+      "type": "AI Application/Chatbot",
+      "source": "ITPEC IP Exam, April 2024"
     },
     "options": [
       {
         "id": "a",
-        "text": "Rafflesia arnoldii",
+        "text": "By connecting everything over the Internet, the switch of the air conditioner in one’s house can be turned on by a smart device from the outside of the house.",
         "images": ""
       },
       {
         "id": "b",
-        "text": "Sunflower",
+        "text": "By recognizing and learning a large number of images of various animals, a computer can differentiate between the images of a dog and a cat.",
         "images": ""
       },
       {
         "id": "c",
-        "text": "Lotus",
+        "text": "If questions on how to use a product are entered, a person who has detailed knowledge submits a reply or advise.",
         "images": ""
       },
       {
         "id": "d",
-        "text": "Rose",
+        "text": "If a user enters the desired functions of a product on a sales site of products, the computer introduces recommended products in an interactive manner.",
         "images": ""
       }
     ],
-    "answer": "a"
+    "answer": "d"
   },
   {
     "id": 62,
     "question": {
-      "text": "What is the capital of South Korea?",
+      "text": "In order to improve the value of an IT service to be provided, it is necessary to consider the balance of three (3) items, namely the offer price of the service, the functions of the service, that is, what the service can offer, and a guarantee of the service with maintained availability. Which of the following is a description that corresponds to guarantee of the service of an instant messenger?",
       "images": "",
-      "type": "",
-      "source": ""
+      "type": "IT Service Management/Value and Guarantee",
+      "source": "ITPEC IP Exam, April 2024"
     },
     "options": [
       {
         "id": "a",
-        "text": "Busan",
+        "text": "The service is usable for 24 hours a day, 365 days a year.",
         "images": ""
       },
       {
         "id": "b",
-        "text": "Seoul",
+        "text": "The service is linkable with other software such as games.",
         "images": ""
       },
       {
         "id": "c",
-        "text": "Incheon",
+        "text": "The service is usable for free.",
         "images": ""
       },
       {
         "id": "d",
-        "text": "Daegu",
+        "text": "The service is usable with icons created by one’s own self rather than characters.",
         "images": ""
       }
     ],
-    "answer": "b"
+    "answer": "a"
   },
   {
     "id": 63,
     "question": {
-      "text": "Which is the largest waterfall in the world?",
+      "text": "Which of the following is an appropriate description of the targets of a system audit?",
       "images": "",
-      "type": "",
-      "source": ""
+      "type": "System Audit",
+      "source": "ITPEC IP Exam, April 2024"
     },
     "options": [
       {
         "id": "a",
-        "text": "Niagara Falls",
+        "text": "Information systems used in private companies are not targeted.",
         "images": ""
       },
       {
         "id": "b",
-        "text": "Angel Falls",
+        "text": "Information systems that do not make use of the Internet are not targeted.",
         "images": ""
       },
       {
         "id": "c",
-        "text": "Victoria Falls",
+        "text": "Activities other than accounting activities are not targeted.",
         "images": ""
       },
       {
         "id": "d",
-        "text": "Iguazu Falls",
+        "text": "Activities that do not make use of information systems are not targeted.",
+        "images": ""
+      }
+    ],
+    "answer": "d"
+  },
+  {
+    "id": 64,
+    "question": {
+      "text": "Which of the following is the term for the assignment of employees’ role that applies mutual checks among employees for the purpose of reducing the risk of misconduct or errors in work from the standpoint of internal control?",
+      "images": "",
+      "type": "Internal Control",
+      "source": "ITPEC IP Exam, April 2024"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Delegation of authority",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "Segregation of duties",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "Monitoring",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "Diversification of risk",
         "images": ""
       }
     ],
     "answer": "b"
   },
   {
-    "id": 64,
-    "question": {
-      "text": "What is the capital of Egypt?",
-      "images": "",
-      "type": "",
-      "source": ""
-    },
-    "options": [
-      {
-        "id": "a",
-        "text": "Cairo",
-        "images": ""
-      },
-      {
-        "id": "b",
-        "text": "Alexandria",
-        "images": ""
-      },
-      {
-        "id": "c",
-        "text": "Giza",
-        "images": ""
-      },
-      {
-        "id": "d",
-        "text": "Luxor",
-        "images": ""
-      }
-    ],
-    "answer": "a"
-  },
-  {
     "id": 65,
     "question": {
-      "text": "Which is the largest bay in the world?",
+      "text": "The information system department implements the development and operation of the order entry system and the accounting system. The user of the order entry system is the sales department and the user of the accounting system is the accounting department. Which of the following is the appropriate description concerning internal control of financial reports?",
       "images": "",
-      "type": "",
-      "source": ""
+      "type": "Internal Control/Financial Reporting",
+      "source": "ITPEC IP Exam, April 2024"
     },
     "options": [
       {
         "id": "a",
-        "text": "Bay of Bengal",
+        "text": "Internal control is a matter of the accounting system, and therefore, the sales department does not participate in internal control, but the accounting department and the information system department do.",
         "images": ""
       },
       {
         "id": "b",
-        "text": "Hudson Bay",
+        "text": "Internal control is a matter concerning accounting activities, and therefore, only the accounting department participates in internal control.",
         "images": ""
       },
       {
         "id": "c",
-        "text": "San Francisco Bay",
+        "text": "Internal control is a matter concerning activities that impact external reports such as financial statements, and therefore, the sales department, the accounting department and the information system department participate in internal control.",
         "images": ""
       },
       {
         "id": "d",
-        "text": "Bay of Biscay",
+        "text": "Internal control is a matter concerning activities that involve manual operation, and therefore, the information system department does not participate in internal control, but the sales department and the accounting department do.",
         "images": ""
       }
     ],
-    "answer": "a"
+    "answer": "c"
   },
   {
     "id": 66,
     "question": {
-      "text": "What is the capital of Thailand?",
+      "text": "Which of the following is the scope that the CFO, one of the positions involved in corporate management, bears responsibility for?",
       "images": "",
-      "type": "",
-      "source": ""
+      "type": "Business Management/CFO Role",
+      "source": "ITPEC IP Exam, April 2024"
     },
     "options": [
       {
         "id": "a",
-        "text": "Phuket",
+        "text": "Technology",
         "images": ""
       },
       {
         "id": "b",
-        "text": "Bangkok",
+        "text": "Finance",
         "images": ""
       },
       {
         "id": "c",
-        "text": "Chiang Mai",
+        "text": "Information",
         "images": ""
       },
       {
         "id": "d",
-        "text": "Pattaya",
+        "text": "Personnel",
         "images": ""
       }
     ],
@@ -2114,158 +2114,158 @@
   {
     "id": 67,
     "question": {
-      "text": "Which is the largest peninsula in the world?",
-      "images": "",
-      "type": "",
-      "source": ""
+      "text": "There are activities A, B, and C that use machines X and Y, and it is required in each activity that the machines are used in the sequence of machine X, machine Y. When the use times of machines X and Y in each activity are as shown in the table below, which of the following is the sequence of the activities where the total time required to complete the three (3) activities becomes minimum? Here, machines X and Y can be used in parallel as shown in the figure below, but two (2) or more tasks cannot be performed simultaneously with any machine and the sequence of activities must be the same for both machines.",
+      "images": "Table and figure showing activity times and machine scheduling referenced in source",
+      "type": "Operations Management/Scheduling",
+      "source": "ITPEC IP Exam, April 2024"
     },
     "options": [
       {
         "id": "a",
-        "text": "Arabian Peninsula",
+        "text": "A → B → C",
         "images": ""
       },
       {
         "id": "b",
-        "text": "Iberian Peninsula",
+        "text": "A → C → B",
         "images": ""
       },
       {
         "id": "c",
-        "text": "Indian Peninsula",
+        "text": "C → A → B",
         "images": ""
       },
       {
         "id": "d",
-        "text": "Malay Peninsula",
+        "text": "C → B → A",
         "images": ""
       }
     ],
-    "answer": "a"
+    "answer": "c"
   },
   {
     "id": 68,
     "question": {
-      "text": "What is the capital of Turkey?",
-      "images": "",
-      "type": "",
-      "source": ""
+      "text": "The table below is a part of the ingredients table of a steamed meat dumplings lunch box. How many grams of meat is necessary to prepare 100 steamed meat dumplings lunch boxes? Here, the steamed meat dumplings lunch boxes do not contain any dish that uses meat other than the steamed meat dumplings, and there is no loss of ingredients in the preparing process.",
+      "images": "Ingredients table referenced in source",
+      "type": "Operations Management/Calculation (MRP)",
+      "source": "ITPEC IP Exam, April 2024"
     },
     "options": [
       {
         "id": "a",
-        "text": "Istanbul",
+        "text": "1,200",
         "images": ""
       },
       {
         "id": "b",
-        "text": "Ankara",
+        "text": "3,000",
         "images": ""
       },
       {
         "id": "c",
-        "text": "Izmir",
+        "text": "6,000",
         "images": ""
       },
       {
         "id": "d",
-        "text": "Antalya",
+        "text": "30,000",
         "images": ""
       }
     ],
-    "answer": "b"
+    "answer": "c"
   },
   {
     "id": 69,
     "question": {
-      "text": "Which is the largest gulf in the world?",
+      "text": "Which of the following represents the “E” in ROE that is an index for the measurement of a company’s profitability?",
       "images": "",
-      "type": "",
-      "source": ""
+      "type": "Accounting/Finance",
+      "source": "ITPEC IP Exam, April 2024"
     },
     "options": [
       {
         "id": "a",
-        "text": "Gulf of Mexico",
+        "text": "Earnings",
         "images": ""
       },
       {
         "id": "b",
-        "text": "Persian Gulf",
+        "text": "Employee",
         "images": ""
       },
       {
         "id": "c",
-        "text": "Gulf of Alaska",
+        "text": "Enterprise",
         "images": ""
       },
       {
         "id": "d",
-        "text": "Gulf of Aden",
+        "text": "Equity",
         "images": ""
       }
     ],
-    "answer": "a"
+    "answer": "d"
   },
   {
     "id": 70,
     "question": {
-      "text": "What is the capital of Argentina?",
+      "text": "Which of the following is the most appropriate terminology for referring to a method that uses AI, IoT, and other such IT for personnel-related work such as personnel evaluations and recruitment with aims including the improvement of a company’s personnel functions and achieving reform in working styles?",
       "images": "",
-      "type": "",
-      "source": ""
+      "type": "Business Technology/HR",
+      "source": "ITPEC IP Exam, April 2024"
     },
     "options": [
       {
         "id": "a",
-        "text": "Buenos Aires",
+        "text": "e-Learning",
         "images": ""
       },
       {
         "id": "b",
-        "text": "Cordoba",
+        "text": "Fintech",
         "images": ""
       },
       {
         "id": "c",
-        "text": "Rosario",
+        "text": "HR Tech",
         "images": ""
       },
       {
         "id": "d",
-        "text": "Mendoza",
+        "text": "Competency",
         "images": ""
       }
     ],
-    "answer": "a"
+    "answer": "c"
   },
   {
     "id": 71,
     "question": {
-      "text": "Which is the largest coral reef in the world?",
+      "text": "Which of the following is most appropriate as the person with responsibility for an information systems strategy that is created on the basis of a business strategy?",
       "images": "",
-      "type": "",
-      "source": ""
+      "type": "Business Management/Role",
+      "source": "ITPEC IP Exam, April 2024"
     },
     "options": [
       {
         "id": "a",
-        "text": "Great Barrier Reef",
+        "text": "The CIO",
         "images": ""
       },
       {
         "id": "b",
-        "text": "Red Sea Coral Reef",
+        "text": "The head of the user department of mission-critical systems",
         "images": ""
       },
       {
         "id": "c",
-        "text": "New Caledonia Barrier Reef",
+        "text": "The project manager for system development",
         "images": ""
       },
       {
         "id": "d",
-        "text": "Mesoamerican Barrier Reef",
+        "text": "The head of system planning",
         "images": ""
       }
     ],
@@ -2274,318 +2274,318 @@
   {
     "id": 72,
     "question": {
-      "text": "What is the capital of Pakistan?",
+      "text": "Which of the following is an index that indicates the efficiency of capital utilization?",
       "images": "",
-      "type": "",
-      "source": ""
+      "type": "Accounting/Finance Metrics",
+      "source": "ITPEC IP Exam, April 2024"
     },
     "options": [
       {
         "id": "a",
-        "text": "Karachi",
+        "text": "Ratio of operating profit to net sales",
         "images": ""
       },
       {
         "id": "b",
-        "text": "Islamabad",
+        "text": "Equity to total assets",
         "images": ""
       },
       {
         "id": "c",
-        "text": "Lahore",
+        "text": "Total capital turnover",
         "images": ""
       },
       {
         "id": "d",
-        "text": "Peshawar",
+        "text": "Break-even point ratio",
         "images": ""
       }
     ],
-    "answer": "b"
+    "answer": "c"
   },
   {
     "id": 73,
     "question": {
-      "text": "Which is the largest canyon in the world?",
+      "text": "Which of the following is an example of a Non-Disclosure Agreement (NDA)?",
       "images": "",
-      "type": "",
-      "source": ""
+      "type": "Legal/Contract",
+      "source": "ITPEC IP Exam, April 2024"
     },
     "options": [
       {
         "id": "a",
-        "text": "Grand Canyon",
+        "text": "A contract specifying the service content to be provided, which is agreed between the service provider and the customer before the provision of the IT service",
         "images": ""
       },
       {
         "id": "b",
-        "text": "Yarlung Tsangpo Grand Canyon",
+        "text": "A contract specifying that the vendor of computer equipment bears the responsibility of transferring the property right, and that the buyer bears the responsibility of paying the charges",
         "images": ""
       },
       {
         "id": "c",
-        "text": "Copper Canyon",
+        "text": "A contract specifying the obligation of the outsourcer and outsourcee to maintain confidentiality of the secret information of a party that becomes known to the other party during system development",
         "images": ""
       },
       {
         "id": "d",
-        "text": "Fish River Canyon",
+        "text": "A contract specifying that an outsourcee to whom the installation of a general-purpose software package has been outsourced performs the task at the outsourcee’s own discretion and responsibility, and receives payment upon the completion of the task",
         "images": ""
       }
     ],
-    "answer": "b"
+    "answer": "c"
   },
   {
     "id": 74,
     "question": {
-      "text": "What is the capital of Indonesia?",
+      "text": "From the viewpoint of corporate governance, which of the following is the most appropriate method of strengthening the functions of monitoring and supervising the decision-making process of the management?",
       "images": "",
-      "type": "",
-      "source": ""
+      "type": "Corporate Governance",
+      "source": "ITPEC IP Exam, April 2024"
     },
     "options": [
       {
         "id": "a",
-        "text": "Jakarta",
+        "text": "Installing a camera for monitoring the entry and exit of the president’s office",
         "images": ""
       },
       {
         "id": "b",
-        "text": "Bali",
+        "text": "Periodically requesting a private detective to investigate the conduct of the management",
         "images": ""
       },
       {
         "id": "c",
-        "text": "Surabaya",
+        "text": "Appointing some outside directors",
         "images": ""
       },
       {
         "id": "d",
-        "text": "Bandung",
+        "text": "Employing law school graduates as members of the internal audit department",
         "images": ""
       }
     ],
-    "answer": "a"
+    "answer": "c"
   },
   {
     "id": 75,
     "question": {
-      "text": "Which is the largest sea in the world?",
+      "text": "Which of the following is an international standard for environmental management systems developed by ISO?",
       "images": "",
-      "type": "",
-      "source": ""
+      "type": "Standardization/ISO",
+      "source": "ITPEC IP Exam, April 2024"
     },
     "options": [
       {
         "id": "a",
-        "text": "South China Sea",
+        "text": "ISO 9000",
         "images": ""
       },
       {
         "id": "b",
-        "text": "Caribbean Sea",
+        "text": "ISO 14001",
         "images": ""
       },
       {
         "id": "c",
-        "text": "Mediterranean Sea",
+        "text": "ISO/IEC 20000",
         "images": ""
       },
       {
         "id": "d",
-        "text": "Bering Sea",
-        "images": ""
-      }
-    ],
-    "answer": "a"
-  },
-  {
-    "id": 76,
-    "question": {
-      "text": "What is the capital of Saudi Arabia?",
-      "images": "",
-      "type": "",
-      "source": ""
-    },
-    "options": [
-      {
-        "id": "a",
-        "text": "Jeddah",
-        "images": ""
-      },
-      {
-        "id": "b",
-        "text": "Riyadh",
-        "images": ""
-      },
-      {
-        "id": "c",
-        "text": "Mecca",
-        "images": ""
-      },
-      {
-        "id": "d",
-        "text": "Medina",
+        "text": "ISO/IEC 27000",
         "images": ""
       }
     ],
     "answer": "b"
   },
   {
-    "id": 77,
+    "id": 76,
     "question": {
-      "text": "Which is the largest archipelago in the world?",
+      "text": "Which of the following examples of the sending of e-mail is inappropriate from the standpoint of the protection of personal information?",
       "images": "",
-      "type": "",
-      "source": ""
+      "type": "Legal/Personal Information Protection",
+      "source": "ITPEC IP Exam, April 2024"
     },
     "options": [
       {
         "id": "a",
-        "text": "Malay Archipelago",
+        "text": "In responding to an e-mail asking questions about a product, you placed the e-mail addresses of multiple customers in the “CC” field as you want these customers to read the response.",
         "images": ""
       },
       {
         "id": "b",
-        "text": "Philippines",
+        "text": "You created one (1) e-mail message for each of your top 10 customers with the largest amount of mail-order purchases, in order to inform each customer of a corresponding prize.",
         "images": ""
       },
       {
         "id": "c",
-        "text": "Japan",
+        "text": "You sent an e-mail message with information on an alumni meeting, and addressed the message to the e-mail addresses of all members listed in the alumni association directory that is distributed to all members.",
         "images": ""
       },
       {
         "id": "d",
-        "text": "Hawaiian Islands",
+        "text": "When you were arranging a special spring exhibition, you placed the e-mail addresses of selected members in the “BCC” field of an e-mail message and sent the message soliciting exhibits.",
         "images": ""
       }
     ],
     "answer": "a"
+  },
+  {
+    "id": 77,
+    "question": {
+      "text": "Which of the following is the most appropriate as an example of an enhancement activity for compliance?",
+      "images": "",
+      "type": "Compliance",
+      "source": "ITPEC IP Exam, April 2024"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Expansion of a program to support the community service activities of employees",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "Education for employees concerning laws and rules that must be followed",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "Acquisition of another company’s business for swift business deployment",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "Withdrawal from businesses where it is difficult to make profit",
+        "images": ""
+      }
+    ],
+    "answer": "b"
   },
   {
     "id": 78,
     "question": {
-      "text": "What is the capital of Malaysia?",
+      "text": "Which of the following is the appropriate description concerning an international organization for standardization?",
       "images": "",
-      "type": "",
-      "source": ""
+      "type": "Standardization/Organization",
+      "source": "ITPEC IP Exam, April 2024"
     },
     "options": [
       {
         "id": "a",
-        "text": "Kuala Lumpur",
+        "text": "ICANN is an international organization for standardization in the fields of industry, science, and technology.",
         "images": ""
       },
       {
         "id": "b",
-        "text": "Penang",
+        "text": "IEC is an international organization for standardization in the field of e-commerce.",
         "images": ""
       },
       {
         "id": "c",
-        "text": "Johor Bahru",
+        "text": "IEEE is an international organization for standardization in the field of accounting.",
         "images": ""
       },
       {
         "id": "d",
-        "text": "Kota Kinabalu",
+        "text": "ITU is an international organization for standardization in the field of telecommunications.",
         "images": ""
       }
     ],
-    "answer": "a"
+    "answer": "d"
   },
   {
     "id": 79,
     "question": {
-      "text": "Which is the largest delta in the world?",
+      "text": "In product portfolio management, where products and business to be analyzed are classified into cash cows, stars, dogs, and question marks, which of the following is the appropriate combination of indexes used in the vertical axis and horizontal axis? A: Customer retention rate B: Market size C: Market growth rate D: Market share",
       "images": "",
-      "type": "",
-      "source": ""
+      "type": "Marketing/Portfolio Management",
+      "source": "ITPEC IP Exam, April 2024"
     },
     "options": [
       {
         "id": "a",
-        "text": "Ganges-Brahmaputra Delta",
+        "text": "A, B",
         "images": ""
       },
       {
         "id": "b",
-        "text": "Nile Delta",
+        "text": "A, C",
         "images": ""
       },
       {
         "id": "c",
-        "text": "Amazon Delta",
+        "text": "B, D",
         "images": ""
       },
       {
         "id": "d",
-        "text": "Mississippi Delta",
+        "text": "C, D",
         "images": ""
       }
     ],
-    "answer": "a"
+    "answer": "d"
   },
   {
     "id": 80,
     "question": {
-      "text": "What is the capital of Vietnam?",
+      "text": "In Company X, the experience and know-how of employees who have managed drainage treatment in the facility over a long period of time is documented and accumulated, and the accumulated experience and know-how is utilized on daily drainage treatment activities and design of new processing equipment. Which of the following is appropriate as a concept of this example?",
       "images": "",
-      "type": "",
-      "source": ""
+      "type": "Business Management/Knowledge",
+      "source": "ITPEC IP Exam, April 2024"
     },
     "options": [
       {
         "id": "a",
-        "text": "Hanoi",
+        "text": "ERP",
         "images": ""
       },
       {
         "id": "b",
-        "text": "Ho Chi Minh City",
+        "text": "SFA",
         "images": ""
       },
       {
         "id": "c",
-        "text": "Da Nang",
+        "text": "Supply chain management",
         "images": ""
       },
       {
         "id": "d",
-        "text": "Hue",
+        "text": "Knowledge management",
         "images": ""
       }
     ],
-    "answer": "a"
+    "answer": "d"
   },
   {
     "id": 81,
     "question": {
-      "text": "Which is the largest stadium in the world by capacity?",
+      "text": "Which of the following information is necessary for CRM?",
       "images": "",
-      "type": "",
-      "source": ""
+      "type": "Business Management/CRM",
+      "source": "ITPEC IP Exam, April 2024"
     },
     "options": [
       {
         "id": "a",
-        "text": "Rungrado 1st of May Stadium",
+        "text": "Customer data and customer purchasing history",
         "images": ""
       },
       {
         "id": "b",
-        "text": "Melbourne Cricket Ground",
+        "text": "Blueprint data",
         "images": ""
       },
       {
         "id": "c",
-        "text": "Camp Nou",
+        "text": "Data of experts' knowledge",
         "images": ""
       },
       {
         "id": "d",
-        "text": "Wembley Stadium",
+        "text": "Day and time of sales, shop, product sold, and quantity sold",
         "images": ""
       }
     ],
@@ -2594,126 +2594,126 @@
   {
     "id": 82,
     "question": {
-      "text": "What is the capital of the Philippines?",
+      "text": "Which of the following is a technique that analyzes the value of a product or service through the relationship between functionality and cost, and enhances that value through reduction in cost and increase in functionality and quality?",
       "images": "",
-      "type": "",
-      "source": ""
+      "type": "Business Analysis/Value",
+      "source": "ITPEC IP Exam, April 2024"
     },
     "options": [
       {
         "id": "a",
-        "text": "Manila",
+        "text": "Supply chain management",
         "images": ""
       },
       {
         "id": "b",
-        "text": "Cebu",
+        "text": "Knowledge management",
         "images": ""
       },
       {
         "id": "c",
-        "text": "Davao",
+        "text": "Value engineering",
         "images": ""
       },
       {
         "id": "d",
-        "text": "Quezon City",
+        "text": "Reverse engineering",
         "images": ""
       }
     ],
-    "answer": "a"
+    "answer": "c"
   },
   {
     "id": 83,
     "question": {
-      "text": "Which is the largest dam in the world?",
+      "text": "Which of the following is the appropriate explanation of benchmarking used for corporate management?",
       "images": "",
-      "type": "",
-      "source": ""
+      "type": "Business Management/Strategy",
+      "source": "ITPEC IP Exam, April 2024"
     },
     "options": [
       {
         "id": "a",
-        "text": "Three Gorges Dam",
+        "text": "It refers to the promotion of continual improvement of business processes by applying the PDCA cycle.",
         "images": ""
       },
       {
         "id": "b",
-        "text": "Hoover Dam",
+        "text": "It refers to the best case study for comparison and analysis when improvements are to be made.",
         "images": ""
       },
       {
         "id": "c",
-        "text": "Itaipu Dam",
+        "text": "It refers to the unique skills and technologies for securing superiority over competitors.",
         "images": ""
       },
       {
         "id": "d",
-        "text": "Grand Coulee Dam",
+        "text": "It refers to the measurement of the products and services of one’s company, and their comparison with other superior competitors.",
         "images": ""
       }
     ],
-    "answer": "a"
+    "answer": "d"
   },
   {
     "id": 84,
     "question": {
-      "text": "What is the capital of Bangladesh?",
-      "images": "",
-      "type": "",
-      "source": ""
+      "text": "With the purpose of increasing the number of contracts concluded, salespersons in Company A’s sales department began an activity to make proposals for plans to customers. A key goal indicator (KGI) and key performance indicator (KPI) are to be set as indexes for achievement of sales activities. Which of the following is the most appropriate combination of KGI and KPI in this activity?",
+      "images": "KGI/KPI table referenced in source",
+      "type": "Business Management/KPI/KGI",
+      "source": "ITPEC IP Exam, April 2024"
     },
     "options": [
       {
         "id": "a",
-        "text": "Dhaka",
+        "text": "KGI: No. of contracts concluded KPI: Sales amount",
         "images": ""
       },
       {
         "id": "b",
-        "text": "Chittagong",
+        "text": "KGI: No. of contracts concluded KPI: No. of proposals",
         "images": ""
       },
       {
         "id": "c",
-        "text": "Khulna",
+        "text": "KGI: No. of proposals KPI: Sales amount",
         "images": ""
       },
       {
         "id": "d",
-        "text": "Rajshahi",
+        "text": "KGI: No. of proposals KPI: No. of contracts concluded",
         "images": ""
       }
     ],
-    "answer": "a"
+    "answer": "b"
   },
   {
     "id": 85,
     "question": {
-      "text": "Which is the largest airport in the world by area?",
+      "text": "Which of the following is an appropriate description of a “patent portfolio” that is important for establishing the patent strategy?",
       "images": "",
-      "type": "",
-      "source": ""
+      "type": "Business Strategy/Intellectual Property",
+      "source": "ITPEC IP Exam, April 2024"
     },
     "options": [
       {
         "id": "a",
-        "text": "King Fahd International Airport",
+        "text": "It is a compilation of patents owned and filed by a company to analyze their contribution to business, the synergy among them, and the expected fields of their applications.",
         "images": ""
       },
       {
         "id": "b",
-        "text": "Denver International Airport",
+        "text": "At the beginning of a technological innovation, patent applications tend to increase, but because of the emergence of dominant products in the market, there is a shift to process innovation, and patent applications decrease.",
         "images": ""
       },
       {
         "id": "c",
-        "text": "Dallas/Fort Worth International Airport",
+        "text": "It is a matrix with the share of the products of one’s company and the growth rate of the market as the axes, showing the positioning of the company and its competitors in the market.",
         "images": ""
       },
       {
         "id": "d",
-        "text": "Beijing Daxing International Airport",
+        "text": "Multiple patent holders mutually grant their patent licenses.",
         "images": ""
       }
     ],
@@ -2722,126 +2722,126 @@
   {
     "id": 86,
     "question": {
-      "text": "What is the capital of Nepal?",
+      "text": "Which of the following is the situation where an improvement can be expected by installing an MRP (Material Requirements Planning) system?",
       "images": "",
-      "type": "",
-      "source": ""
+      "type": "Business System/MRP",
+      "source": "ITPEC IP Exam, April 2024"
     },
     "options": [
       {
         "id": "a",
-        "text": "Kathmandu",
+        "text": "Drawing information is managed using electronic files and hard copies, so the design change history cannot be accurately known.",
         "images": ""
       },
       {
         "id": "b",
-        "text": "Pokhara",
+        "text": "Information concerning materials necessary for manufacturing and their required quantities is insufficient or incorrect, so production is adversely affected.",
         "images": ""
       },
       {
         "id": "c",
-        "text": "Lalitpur",
+        "text": "There are too many design change requests, so production efficiency does not increase.",
         "images": ""
       },
       {
         "id": "d",
-        "text": "Biratnagar",
-        "images": ""
-      }
-    ],
-    "answer": "a"
-  },
-  {
-    "id": 87,
-    "question": {
-      "text": "Which is the largest animal ever to have lived on Earth?",
-      "images": "",
-      "type": "",
-      "source": ""
-    },
-    "options": [
-      {
-        "id": "a",
-        "text": "African Elephant",
-        "images": ""
-      },
-      {
-        "id": "b",
-        "text": "Blue Whale",
-        "images": ""
-      },
-      {
-        "id": "c",
-        "text": "Giraffe",
-        "images": ""
-      },
-      {
-        "id": "d",
-        "text": "Tyrannosaurus Rex",
+        "text": "High-mix, low-volume production is adopted, so the cost of installing production equipment is increasing.",
         "images": ""
       }
     ],
     "answer": "b"
   },
   {
-    "id": 88,
+    "id": 87,
     "question": {
-      "text": "What is the capital of Iran?",
+      "text": "Which of the following is an appropriate explanation of a banner advertisement that is a form of Internet advertisement?",
       "images": "",
-      "type": "",
-      "source": ""
+      "type": "E-commerce/Marketing",
+      "source": "ITPEC IP Exam, April 2024"
     },
     "options": [
       {
         "id": "a",
-        "text": "Tehran",
+        "text": "When a website is being browsed, an advertisement from an advertiser is displayed in another new window.",
         "images": ""
       },
       {
         "id": "b",
-        "text": "Mashhad",
+        "text": "When a web page is accessed from another page, a page with an advertisement is briefly shown before the accessed page is displayed.",
         "images": ""
       },
       {
         "id": "c",
-        "text": "Isfahan",
+        "text": "When an advertisement image that is placed on part of a web page is clicked, an advertiser page is displayed.",
         "images": ""
       },
       {
         "id": "d",
-        "text": "Tabriz",
+        "text": "When keywords are entered into a search site, an advertisement related to the keywords is displayed on the page showing the search results.",
         "images": ""
       }
     ],
-    "answer": "a"
+    "answer": "c"
+  },
+  {
+    "id": 88,
+    "question": {
+      "text": "A company wishes to create digital files from paper documents and paper blueprints, and make these available company-wide. Which of the following is appropriate equipment to be used?",
+      "images": "",
+      "type": "Hardware/Peripherals",
+      "source": "ITPEC IP Exam, April 2024"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "GPS receiver",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "Scanner",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "Digitizer",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "Plotter",
+        "images": ""
+      }
+    ],
+    "answer": "b"
   },
   {
     "id": 89,
     "question": {
-      "text": "Which is the largest fish in the world?",
+      "text": "Which of the following is an appropriate explanation of CAD?",
       "images": "",
-      "type": "",
-      "source": ""
+      "type": "Manufacturing System/CAD",
+      "source": "ITPEC IP Exam, April 2024"
     },
     "options": [
       {
         "id": "a",
-        "text": "Great White Shark",
+        "text": "It is a circuit that converts an analog signal into a digital signal.",
         "images": ""
       },
       {
         "id": "b",
-        "text": "Whale Shark",
+        "text": "It refers to the use of computers in the design of buildings and industrial products.",
         "images": ""
       },
       {
         "id": "c",
-        "text": "Bluefin Tuna",
+        "text": "It is an imaging element that converts light to an electrical signal.",
         "images": ""
       },
       {
         "id": "d",
-        "text": "Manta Ray",
+        "text": "It refers to the creation of a single piece of content by combining characters, images, audio, and other data.",
         "images": ""
       }
     ],
@@ -2850,94 +2850,94 @@
   {
     "id": 90,
     "question": {
-      "text": "What is the capital of Iraq?",
+      "text": "Which of the following is the most appropriate example of a use of a wearable device?",
       "images": "",
-      "type": "",
-      "source": ""
+      "type": "Technology Trends/Wearable Devices",
+      "source": "ITPEC IP Exam, April 2024"
     },
     "options": [
       {
         "id": "a",
-        "text": "Baghdad",
+        "text": "Using a PC or tablet computer, and receiving diagnosis from a doctor over a network",
         "images": ""
       },
       {
         "id": "b",
-        "text": "Basra",
+        "text": "Acquiring blood pressure, body temperature, and other such measurement data with a smartwatch, and detecting abnormalities at an early stage",
         "images": ""
       },
       {
         "id": "c",
-        "text": "Mosul",
+        "text": "Managing and sharing the computerized data of patient records from multiple hospitals in a cloud service",
         "images": ""
       },
       {
         "id": "d",
-        "text": "Erbil",
-        "images": ""
-      }
-    ],
-    "answer": "a"
-  },
-  {
-    "id": 91,
-    "question": {
-      "text": "Which is the largest living reptile?",
-      "images": "",
-      "type": "",
-      "source": ""
-    },
-    "options": [
-      {
-        "id": "a",
-        "text": "Komodo Dragon",
-        "images": ""
-      },
-      {
-        "id": "b",
-        "text": "Saltwater Crocodile",
-        "images": ""
-      },
-      {
-        "id": "c",
-        "text": "Green Anaconda",
-        "images": ""
-      },
-      {
-        "id": "d",
-        "text": "Leatherback Turtle",
+        "text": "Installing a human presence sensor in a bed, and sending a notification if the sensor does not respond for a certain length of time",
         "images": ""
       }
     ],
     "answer": "b"
   },
   {
-    "id": 92,
+    "id": 91,
     "question": {
-      "text": "What is the capital of Afghanistan?",
+      "text": "An EC site handles a wide range of user inquiries via chat with a mechanism where operators provide a response. It decides to use a new mechanism where software learns from the content of users’ past chats, infers an appropriate response from the flow of the conversation and provides an automatic response. Which of the following is the most appropriate technology that is used in the new mechanism?",
       "images": "",
-      "type": "",
-      "source": ""
+      "type": "Technology Trends/AI Application",
+      "source": "ITPEC IP Exam, April 2024"
     },
     "options": [
       {
         "id": "a",
-        "text": "Kabul",
+        "text": "AI",
         "images": ""
       },
       {
         "id": "b",
-        "text": "Kandahar",
+        "text": "AR",
         "images": ""
       },
       {
         "id": "c",
-        "text": "Herat",
+        "text": "CRM",
         "images": ""
       },
       {
         "id": "d",
-        "text": "Mazar-i-Sharif",
+        "text": "ERP",
+        "images": ""
+      }
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 92,
+    "question": {
+      "text": "Which of the following is the most appropriate term to express the initiatives that are implemented by a financial institution or other such institution in order to prevent acts where funds obtained illegally are disguised as being obtained by legitimate means?",
+      "images": "",
+      "type": "Finance/Security",
+      "source": "ITPEC IP Exam, April 2024"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Anti-money laundering (AML)",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "Insider trading regulations",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "Skimming",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "Phishing",
         "images": ""
       }
     ],
@@ -2946,94 +2946,94 @@
   {
     "id": 93,
     "question": {
-      "text": "Which is the largest rodent in the world?",
+      "text": "Which of the following is an appropriate description concerning groupware?",
       "images": "",
-      "type": "",
-      "source": ""
+      "type": "Software/Groupware",
+      "source": "ITPEC IP Exam, April 2024"
     },
     "options": [
       {
         "id": "a",
-        "text": "Beaver",
+        "text": "It is software that has an animation or audio function and is useful when making presentations effective by incorporating the output of spreadsheet software or database software.",
         "images": ""
       },
       {
         "id": "b",
-        "text": "Capybara",
+        "text": "It is software that has functions, such as setting print layout or changing and editing texts, and is used for creating documents.",
         "images": ""
       },
       {
         "id": "c",
-        "text": "Porcupine",
+        "text": "It is software that has functions, such as communication via e-mail and electronic bulletin boards, data sharing, and schedule management, and supports collaborative work.",
         "images": ""
       },
       {
         "id": "d",
-        "text": "Guinea Pig",
+        "text": "It is software that is used to enter data into cells of a worksheet, create tables, and tabulate data.",
+        "images": ""
+      }
+    ],
+    "answer": "c"
+  },
+  {
+    "id": 94,
+    "question": {
+      "text": "Which of the following is a modeling technique that is used for analyzing business operations and system from the viewpoint of the flow of data which is exchanged between processes?",
+      "images": "",
+      "type": "System Analysis/Modeling",
+      "source": "ITPEC IP Exam, April 2024"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "BPR",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "DFD",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "MRP",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "WBS",
         "images": ""
       }
     ],
     "answer": "b"
   },
   {
-    "id": 94,
-    "question": {
-      "text": "What is the capital of Sri Lanka?",
-      "images": "",
-      "type": "",
-      "source": ""
-    },
-    "options": [
-      {
-        "id": "a",
-        "text": "Colombo",
-        "images": ""
-      },
-      {
-        "id": "b",
-        "text": "Kandy",
-        "images": ""
-      },
-      {
-        "id": "c",
-        "text": "Galle",
-        "images": ""
-      },
-      {
-        "id": "d",
-        "text": "Jaffna",
-        "images": ""
-      }
-    ],
-    "answer": "a"
-  },
-  {
     "id": 95,
     "question": {
-      "text": "Which is the largest marsupial in the world?",
+      "text": "Training on how to use a sales forecast system is planned for the persons in charge of business across the country. Which of the following is a merit that is obtained by using e-learning in training?",
       "images": "",
-      "type": "",
-      "source": ""
+      "type": "Technology Application/E-learning",
+      "source": "ITPEC IP Exam, April 2024"
     },
     "options": [
       {
         "id": "a",
-        "text": "Koala",
+        "text": "The person in charge of business can be directly lectured about the system from the person in charge of design, and raise questions then and there.",
         "images": ""
       },
       {
         "id": "b",
-        "text": "Red Kangaroo",
+        "text": "The person in charge of business can use his/her own free time and undergo training at any suitable time.",
         "images": ""
       },
       {
         "id": "c",
-        "text": "Wombat",
+        "text": "Several persons in charge of business can participate together and exchange their opinions on how to use the system.",
         "images": ""
       },
       {
         "id": "d",
-        "text": "Tasmanian Devil",
+        "text": "The persons in charge of business can be asked to assemble together in a room and training can be given simultaneously.",
         "images": ""
       }
     ],
@@ -3042,30 +3042,30 @@
   {
     "id": 96,
     "question": {
-      "text": "What is the capital of Myanmar?",
+      "text": "Attempts are being made to streamline the functions and services of cities and regions and make them more advanced with the use of ICT in order to solve regional problems, and vitalize regions. Which of the following is the most appropriate term to describe such a solution for community development?",
       "images": "",
-      "type": "",
-      "source": ""
+      "type": "Technology Trends/Urban Planning",
+      "source": "ITPEC IP Exam, April 2024"
     },
     "options": [
       {
         "id": "a",
-        "text": "Yangon",
+        "text": "Capacity",
         "images": ""
       },
       {
         "id": "b",
-        "text": "Naypyidaw",
+        "text": "Smart city",
         "images": ""
       },
       {
         "id": "c",
-        "text": "Mandalay",
+        "text": "Diversity",
         "images": ""
       },
       {
         "id": "d",
-        "text": "Bago",
+        "text": "University",
         "images": ""
       }
     ],
@@ -3074,129 +3074,129 @@
   {
     "id": 97,
     "question": {
-      "text": "Which is the largest lizard in the world?",
+      "text": "In system development, which of the following is a process that clarifies the business functions to be newly constructed or reconstructed, and on the basis of the business functions, specifies the scope of computerization and the functions?",
       "images": "",
-      "type": "",
-      "source": ""
+      "type": "Software Development Lifecycle",
+      "source": "ITPEC IP Exam, April 2024"
     },
     "options": [
       {
         "id": "a",
-        "text": "Komodo Dragon",
+        "text": "External design",
         "images": ""
       },
       {
         "id": "b",
-        "text": "Monitor Lizard",
+        "text": "Internal design",
         "images": ""
       },
       {
         "id": "c",
-        "text": "Iguana",
+        "text": "Programming",
         "images": ""
       },
       {
         "id": "d",
-        "text": "Gecko",
+        "text": "Requirements definition",
         "images": ""
       }
     ],
-    "answer": "a"
+    "answer": "d"
   },
   {
     "id": 98,
     "question": {
-      "text": "What is the capital of Mongolia?",
+      "text": "Which of the following is the most appropriate description of IoT?",
       "images": "",
-      "type": "",
-      "source": ""
+      "type": "Technology Trends/IoT",
+      "source": "ITPEC IP Exam, April 2024"
     },
     "options": [
       {
         "id": "a",
-        "text": "Ulaanbaatar",
+        "text": "It is a learning mechanism in artificial intelligence.",
         "images": ""
       },
       {
         "id": "b",
-        "text": "Erdenet",
+        "text": "It is a mechanism where devices or control units equipped with a sensor connect to the Internet and exchange a variety of information via the Internet.",
         "images": ""
       },
       {
         "id": "c",
-        "text": "Darkhan",
+        "text": "It is a group of functions and procedures that are made public in order to enable some of the features of a piece of software to be used by other programs.",
         "images": ""
       },
       {
         "id": "d",
-        "text": "Choibalsan",
+        "text": "It is a tool that uses a software robot to streamline routine work.",
         "images": ""
       }
     ],
-    "answer": "a"
+    "answer": "b"
   },
   {
     "id": 99,
     "question": {
-      "text": "Which is the largest snake in the world?",
+      "text": "Which of the following is the most appropriate word to indicate the use of IoT, AI, and other IT in order to strategically overhaul a business model and produce new added value?",
       "images": "",
-      "type": "",
-      "source": ""
+      "type": "Technology Trends/Strategy",
+      "source": "ITPEC IP Exam, April 2024"
     },
     "options": [
       {
         "id": "a",
-        "text": "Reticulated Python",
+        "text": "Digital signage",
         "images": ""
       },
       {
         "id": "b",
-        "text": "Green Anaconda",
+        "text": "Digital divide",
         "images": ""
       },
       {
         "id": "c",
-        "text": "King Cobra",
+        "text": "Digital transformation",
         "images": ""
       },
       {
         "id": "d",
-        "text": "Burmese Python",
+        "text": "Digital native",
         "images": ""
       }
     ],
-    "answer": "b"
+    "answer": "c"
   },
   {
     "id": 100,
     "question": {
-      "text": "What is the capital of New Zealand?",
+      "text": "Which of the following is the most appropriate explanation of an RFP that is created by a company, government organization, or other such organization that is planning the introduction of a new system?",
       "images": "",
-      "type": "",
-      "source": ""
+      "type": "System Procurement/RFP",
+      "source": "ITPEC IP Exam, April 2024"
     },
     "options": [
       {
         "id": "a",
-        "text": "Auckland",
+        "text": "It is a document created for collecting information from vendors and determining a system’s technical issues and feasibility.",
         "images": ""
       },
       {
         "id": "b",
-        "text": "Wellington",
+        "text": "It is a definition of matters such as the performance requirements for a new system by the vendor and the ordering party.",
         "images": ""
       },
       {
         "id": "c",
-        "text": "Christchurch",
+        "text": "It sets out the agreed matters concerning the level of service quality between the vendor and the ordering party.",
         "images": ""
       },
       {
         "id": "d",
-        "text": "Hamilton",
+        "text": "It provides vendors with the objective of introduction and a functional overview of the system, and solicit a bid.",
         "images": ""
       }
     ],
-    "answer": "b"
+    "answer": "d"
   }
 ]

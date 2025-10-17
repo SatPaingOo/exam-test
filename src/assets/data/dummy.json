@@ -57,12 +57,40 @@
           "summary": "Perfect starting point covering the core fundamentals of information technology.",
           "years": [
             {
+              "id": "2020S",
+              "name": "2020 Spring"
+            },
+            {
+              "id": "2020A",
+              "name": "2020 Autumn"
+            },
+            {
+              "id": "2021S",
+              "name": "2021 Spring"
+            },
+            {
+              "id": "2021A",
+              "name": "2021 Autumn"
+            },
+            {
+              "id": "2022S",
+              "name": "2022 Spring"
+            },
+            {
+              "id": "2022A",
+              "name": "2022 Autumn"
+            },
+            {
               "id": "2024S",
               "name": "2024 Spring"
             },
             {
               "id": "2024A",
               "name": "2024 Autumn"
+            },
+            {
+              "id": "2025S",
+              "name": "2025 Spring"
             }
           ]
         },

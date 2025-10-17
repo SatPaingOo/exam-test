@@ -1,0 +1,3202 @@
+[
+  {
+    "id": 1,
+    "question": {
+      "text": "When the reward for an improvement proposal concerning business operations is determined based on the decision table below, how much is the reward for an improvement proposal for an improvement of $20,000 and a turnaround time reduction of three days? [Decision Table: Condition 1: Improvement of less than $10,000 (Y/N); Condition 2: Turnaround time reduction of less than one (1) week (Y/N). Rewards: $50 (Y, Y), $100 (Y, N), $150 (N, Y), $300 (N, N)]",
+      "images": "Implied Decision Table",
+      "type": "Management/Decision Table",
+      "source": "ITPEC IP Exam, October 2020"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$50",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "$100",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "$150",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "$300",
+        "images": ""
+      }
+    ],
+    "answer": "c"
+  },
+  {
+    "id": 2,
+    "question": {
+      "text": "Decimal numbers are represented using five (5) squares that are black (1) or white (0). Given the weights (16, 8, 4, 2, 1) corresponding to the five squares, which of the following decimal numbers is represented by ■■□□□ (11000)?",
+      "images": "Implied numerical system",
+      "type": "Data Representation/Number System",
+      "source": "ITPEC IP Exam, October 2020"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "12",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "20",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "24",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "30",
+        "images": ""
+      }
+    ],
+    "answer": "c"
+  },
+  {
+    "id": 3,
+    "question": {
+      "text": "When a chairperson and a secretary are selected from five (5) candidates with a method that allows dual roles, how many combinations for the selection are there?",
+      "images": "",
+      "type": "Probability/Combinatorics",
+      "source": "ITPEC IP Exam, October 2020"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "5",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "10",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "20",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "25",
+        "images": ""
+      }
+    ],
+    "answer": "d"
+  },
+  {
+    "id": 4,
+    "question": {
+      "text": "Which of the following is always true for two (2) sets A and B? Here, (X ∩ Y) represents the intersection set, and (X ∪ Y) represents the union set.",
+      "images": "",
+      "type": "Data Representation/Set Theory",
+      "source": "ITPEC IP Exam, October 2020"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "(A ∪ B) is a subset of the complement of (A ∩ B).",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "(A ∪ B) is a subset of A.",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "(A ∩ B) is a subset of (A ∪ B).",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "(A ∩ B) is a subset of the complement of A.",
+        "images": ""
+      }
+    ],
+    "answer": "c"
+  },
+  {
+    "id": 5,
+    "question": {
+      "text": "In a queue, three elements 33, 27, and 12 are enqueued in this order. After the element 45 is enqueued to this queue, two (2) elements are retrieved (or dequeued). Which of the following is the second element to be retrieved?",
+      "images": "",
+      "type": "Data Structure/Queue (FIFO)",
+      "source": "ITPEC IP Exam, October 2020"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "12",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "27",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "33",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "45",
+        "images": ""
+      }
+    ],
+    "answer": "b"
+  },
+  {
+    "id": 6,
+    "question": {
+      "text": "There exist four (4) states numbered 1 through 4 connected in a circle. Starting at state 1, the transition is based on the remainder of (Current State number * 11) / 3. If the remainder is 0, transition is next state clockwise; 1 is next state counter-clockwise; 2 is state after next clockwise. Which state is reached after the procedure is performed twice?",
+      "images": "Figure showing states 1, 2, 3, 4 connected in a circle",
+      "type": "Programming/State Transition",
+      "source": "ITPEC IP Exam, October 2020"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "1",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "2",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "3",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "4",
+        "images": ""
+      }
+    ],
+    "answer": "d"
+  },
+  {
+    "id": 7,
+    "question": {
+      "text": "(Question text for Q7 missing in sources)",
+      "images": "",
+      "type": "Technology/Data Management",
+      "source": "ITPEC IP Exam, October 2020"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "(Missing option A)",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "(Missing option B)",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "(Missing option C)",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "(Missing option D)",
+        "images": ""
+      }
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 8,
+    "question": {
+      "text": "Which of the following is an appropriate description concerning the Java language?",
+      "images": "",
+      "type": "Programming/Java",
+      "source": "ITPEC IP Exam, October 2020"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "It is a markup language used for describing Web pages.",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "It is a language developed for scientific and engineering calculations.",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "It is an object-oriented language that provides platform-independent portability.",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "It is a language developed for business-oriented calculations.",
+        "images": ""
+      }
+    ],
+    "answer": "c"
+  },
+  {
+    "id": 9,
+    "question": {
+      "text": "Which of the following is an appropriate way for extracting data from a stack that stores multiple data?",
+      "images": "",
+      "type": "Data Structure/Stack (LIFO)",
+      "source": "ITPEC IP Exam, October 2020"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Data is extracted from an arbitrary location that is specified, regardless of the sequence (incomplete option)",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "(Implied: Data is extracted only from the top/last element added)",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "(Missing option C)",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "(Missing option D)",
+        "images": ""
+      }
+    ],
+    "answer": "b"
+  },
+  {
+    "id": 10,
+    "question": {
+      "text": "(Question text for Q10 missing in sources)",
+      "images": "",
+      "type": "Hardware/Peripheral",
+      "source": "ITPEC IP Exam, October 2020"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "(Missing option A)",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "(Missing option B)",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "(Missing option C)",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "(Missing option D)",
+        "images": ""
+      }
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 11,
+    "question": {
+      "text": "Which of the following is an appropriate description of the cache memory of a CPU?",
+      "images": "",
+      "type": "Hardware/Cache Memory",
+      "source": "ITPEC IP Exam, October 2020"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "The size of cache memory is greater than or equal to the size of main memory.",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "(Implied: Cache memory is high-speed storage inside/close to the CPU, faster but smaller than main memory)",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "(Missing option C)",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "Cache memory is a storage unit that is placed inside the CPU and can be written to and read from at high speed, and secondary cache is closer to the CPU core than primary cache is.",
+        "images": ""
+      }
+    ],
+    "answer": "b"
+  },
+  {
+    "id": 12,
+    "question": {
+      "text": "(Question text for Q12 missing in sources, likely about Device Drivers)",
+      "images": "",
+      "type": "Operating System/Device Driver",
+      "source": "ITPEC IP Exam, October 2020"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "(Missing option A)",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "(Implied correct option regarding device control software)",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "Even if a device driver is no longer required, a user cannot delete the device driver once it is installed.",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "If only one (1) device driver for a printer is installed, all printers can be used regardless of manufacturer or model.",
+        "images": ""
+      }
+    ],
+    "answer": "b"
+  },
+  {
+    "id": 13,
+    "question": {
+      "text": "Which of the following is appropriate as a description concerning Plug and Play?",
+      "images": "",
+      "type": "Hardware/Plug and Play",
+      "source": "ITPEC IP Exam, October 2020"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "When a peripheral device is connected to a PC, installation and settings of the device driver are performed automatically.",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "Software for enhancing the functions of application software is installed separately.",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "Power is supplied from a PC to a peripheral device via a cable connected to the peripheral device.",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "A specific program is executed, and the system performance is evaluated on the basis of the time taken for the processing.",
+        "images": ""
+      }
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 14,
+    "question": {
+      "text": "Which of the following is an explanation of the reliability index that is calculated by the expression below? MTBF / (MTBF + MTTR)",
+      "images": "",
+      "type": "System Architecture/Availability",
+      "source": "ITPEC IP Exam, October 2020"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Average time until a system failure occurs",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "Average time taken to recover a system after a failure",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "Proportion of the operation time of a system to the total time",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "Proportion of the downtime of a system to the total time",
+        "images": ""
+      }
+    ],
+    "answer": "c"
+  },
+  {
+    "id": 15,
+    "question": {
+      "text": "When a computer system operates for 1,200 hours, the status of the normal operation time and the repair time is shown in the table below. What is the value of MTTR of the system?",
+      "images": "Table of operation/repair times",
+      "type": "System Architecture/MTTR Calculation",
+      "source": "ITPEC IP Exam, October 2020"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "10",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "15",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "20",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "45",
+        "images": ""
+      }
+    ],
+    "answer": "b"
+  },
+  {
+    "id": 16,
+    "question": {
+      "text": "The system configurations A through C are made up by connecting multiple identical devices. Which of the following is a list where A through C are sorted in descending order of availability? (A: Series, B: Dual/Redundant, C: Parallel)",
+      "images": "Figure showing A (Series), B, C (Parallel) configurations",
+      "type": "System Architecture/Reliability Ranking",
+      "source": "ITPEC IP Exam, October 2020"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "A, B, C",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "B, A, C",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "C, A, B",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "C, B, A",
+        "images": ""
+      }
+    ],
+    "answer": "d"
+  },
+  {
+    "id": 17,
+    "question": {
+      "text": "When the types of programs that are executed when a PC is started are broadly classified into three categories, namely BIOS, OS, and resident application program, which of the following is the order of execution of the programs?",
+      "images": "",
+      "type": "Operating System/Boot Process",
+      "source": "ITPEC IP Exam, October 2020"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "BIOS, OS, resident application program",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "OS, BIOS, resident application program",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "OS, resident application program, BIOS",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "Resident application program, BIOS, OS",
+        "images": ""
+      }
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 18,
+    "question": {
+      "text": "Spreadsheet software is used to predict sales according to the weather. An expression is entered in cell E4 to calculate the predicted sales amount for Product A, and this is copied to cells E5 through E6. Which of the following is an appropriate expression to be entered in cell E4? (Calculation: Sum of (Probability * Sales Amount) for each weather type)",
+      "images": "Worksheet showing sales data and probabilities",
+      "type": "Spreadsheet/Relative Reference",
+      "source": "ITPEC IP Exam, October 2020"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "B2*B4+C2*C4+D2*D4",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "B$2*B4+C$2*C4+D$2*D4",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "$B2*B$4+$C2*C$4+$D2*D$4",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "$B$2*$B$4+$C$2*$C$4+$D$2*$D$4",
+        "images": ""
+      }
+    ],
+    "answer": "b"
+  },
+  {
+    "id": 19,
+    "question": {
+      "text": "Which of the following is an advantage of using OSS (Open Source Software)?",
+      "images": "",
+      "type": "Software/OSS",
+      "source": "ITPEC IP Exam, October 2020"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Technical support is provided free of charge from the developer at the time of installation.",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "The software is not prone to infection of viruses, as the source code is not released.",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "Compensation can be received for damages caused by defects in the software.",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "The source code can be modified to fit the environment of the user in accordance with the license conditions.",
+        "images": ""
+      }
+    ],
+    "answer": "d"
+  },
+  {
+    "id": 20,
+    "question": {
+      "text": "Multiple files stored on a hard disk are used in work, from Monday to Friday. When only files modified that day are backed up (incremental) Monday through Thursday, and all files are backed up (full) on Friday, what is the total time required (in minutes) to perform backups if there are 6,000 files (3 Mbytes each), 1,000 files are modified daily, and the copy speed is 10 Mbytes/second?",
+      "images": "Implied backup conditions",
+      "type": "Data Management/Backup Calculation",
+      "source": "ITPEC IP Exam, October 2020"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "25",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "35",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "50",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "150",
+        "images": ""
+      }
+    ],
+    "answer": "c"
+  },
+  {
+    "id": 21,
+    "question": {
+      "text": "Which of the following is an appropriate combination of software that includes only OSS (Open Source Software)?",
+      "images": "",
+      "type": "Software/OSS Identification",
+      "source": "ITPEC IP Exam, October 2020"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Internet Explorer, Linux, PostgreSQL",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "Internet Explorer, PostgreSQL, Windows",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "Firefox, Linux, Thunderbird",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "Firefox, Thunderbird, Windows",
+        "images": ""
+      }
+    ],
+    "answer": "c"
+  },
+  {
+    "id": 22,
+    "question": {
+      "text": "Which of the following is an appropriate description concerning the OS for PCs?",
+      "images": "",
+      "type": "Operating System/Functionality",
+      "source": "ITPEC IP Exam, October 2020"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Each PC allows only one (1) type of OS to be installed and run on it.",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "There is no OS for PCs equipped with a 64-bit CPU.",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "When an OS is upgraded to a new version, all of the software operating with the old version of the OS cannot be used any more.",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "There exist some OSs for PCs that can be started up by using an external storage device, such as a CD-ROM and USB memory, other than the hard disk.",
+        "images": ""
+      }
+    ],
+    "answer": "d"
+  },
+  {
+    "id": 23,
+    "question": {
+      "text": "In a relational database, how are records in multiple tables associated?",
+      "images": "",
+      "type": "Database/RDBMS Structure",
+      "source": "ITPEC IP Exam, October 2020"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "(Implied: Through the values of corresponding fields/keys)",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "Records in multiple tables are associated through the values of corresponding fields.",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "Records are associated with one another by a pointer that represents the parentage.",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "Records are associated with one another by a hash function.",
+        "images": ""
+      }
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 24,
+    "question": {
+      "text": "(Question text for Q24 missing in sources)",
+      "images": "",
+      "type": "Multimedia/Color",
+      "source": "ITPEC IP Exam, October 2020"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "(Missing option A)",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "(Missing option B)",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "(Missing option C)",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "(Missing option D)",
+        "images": ""
+      }
+    ],
+    "answer": "d"
+  },
+  {
+    "id": 25,
+    "question": {
+      "text": "(Question text for Q25 missing in sources)",
+      "images": "",
+      "type": "Multimedia/Data Format",
+      "source": "ITPEC IP Exam, October 2020"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "(Missing option A)",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "(Missing option B)",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "(Missing option C)",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "(Missing option D)",
+        "images": ""
+      }
+    ],
+    "answer": "c"
+  },
+  {
+    "id": 26,
+    "question": {
+      "text": "(Question text for Q26 missing in sources)",
+      "images": "",
+      "type": "Networking/Online Storage",
+      "source": "ITPEC IP Exam, October 2020"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "(Missing option A)",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "(Missing option B)",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "(Missing option C)",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "(Missing option D)",
+        "images": ""
+      }
+    ],
+    "answer": "d"
+  },
+  {
+    "id": 27,
+    "question": {
+      "text": "(Question text for Q27 missing in sources)",
+      "images": "",
+      "type": "Networking/Mobile",
+      "source": "ITPEC IP Exam, October 2020"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "(Missing option A)",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "(Missing option B)",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "(Missing option C)",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "(Missing option D)",
+        "images": ""
+      }
+    ],
+    "answer": "c"
+  },
+  {
+    "id": 28,
+    "question": {
+      "text": "(Question text for Q28 missing in sources)",
+      "images": "",
+      "type": "Networking/Wireless LAN",
+      "source": "ITPEC IP Exam, October 2020"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Countermeasures against unauthorized use of an access point are required.",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "(Implied correct option regarding encryption standard restriction)",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "Communication between a terminal and an access point is possible over any distance.",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "There are multiple standards for wireless LANs, and communication is possible among them all.",
+        "images": ""
+      }
+    ],
+    "answer": "b"
+  },
+  {
+    "id": 29,
+    "question": {
+      "text": "A 'Sales Details' table and a 'Products' table are managed in a relational database. What is the total number of notebooks sold? (Notebook = S003)",
+      "images": "Table data provided",
+      "type": "Database/SQL Query (Calculation)",
+      "source": "ITPEC IP Exam, October 2020"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "40",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "80",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "120",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "200",
+        "images": ""
+      }
+    ],
+    "answer": "c"
+  },
+  {
+    "id": 30,
+    "question": {
+      "text": "NAT is often used in order to connect an office or a household LAN to the Internet, and it converts between A and B. Which of the following is the appropriate combination of terms or phrases to be inserted into blanks A and B?",
+      "images": "",
+      "type": "Networking/NAT",
+      "source": "ITPEC IP Exam, October 2020"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "A) private IP addresses, B) a MAC address",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "A) private IP addresses, B) a global IP address",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "A) host names, B) a MAC address",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "(Missing option D)",
+        "images": ""
+      }
+    ],
+    "answer": "b"
+  },
+  {
+    "id": 31,
+    "question": {
+      "text": "(Question text for Q31 missing in sources)",
+      "images": "",
+      "type": "Networking/Data Transfer",
+      "source": "ITPEC IP Exam, October 2020"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "(Missing option A)",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "(Missing option B)",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "(Missing option C)",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "(Missing option D)",
+        "images": ""
+      }
+    ],
+    "answer": "d"
+  },
+  {
+    "id": 32,
+    "question": {
+      "text": "In phone numbers that have a certain format, eight billion numbers are to be created. What is the minimum number of digits required for the phone numbers? (Includes complex restrictions on digit values, e.g., '020' included and specific ranges like 1-3 or 5-9)",
+      "images": "",
+      "type": "Technology/Data Calculation",
+      "source": "ITPEC IP Exam, October 2020"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "11",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "12",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "13",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "14",
+        "images": ""
+      }
+    ],
+    "answer": "c"
+  },
+  {
+    "id": 33,
+    "question": {
+      "text": "Which of the following is not an appropriate description of online storage?",
+      "images": "",
+      "type": "Networking/Online Storage",
+      "source": "ITPEC IP Exam, October 2020"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "It can be used not only from a computer, but also from a smartphone or a tablet, if the device is connected to the Internet.",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "There is a free service that can be used with limited capacity and functionalities.",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "There is a service that allows multiple registered users to share and edit the same file.",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "If the capacity of the auxiliary storage unit built into the user’s computer or tablet is increased, the capacity of online storage will also increase automatically.",
+        "images": ""
+      }
+    ],
+    "answer": "d"
+  },
+  {
+    "id": 34,
+    "question": {
+      "text": "Which of the following is an appropriate explanation of tethering?",
+      "images": "",
+      "type": "Networking/Tethering",
+      "source": "ITPEC IP Exam, October 2020"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "A type of virus that replicates itself and spreads infection throughout a network",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "A function of connecting a PC to the Internet by using a communication terminal such as a smartphone like a mobile router",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "A method of detecting a tamper by using a hash function and public key cryptography for electronic data",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "An attack that attempts to illegally manipulate the information in a database by deliberately entering an SQL command in an input field on a web page",
+        "images": ""
+      }
+    ],
+    "answer": "b"
+  },
+  {
+    "id": 35,
+    "question": {
+      "text": "Which of the following lists contains all appropriate descriptions concerning an e-mail sent as a chain letter? (Options A-C missing)",
+      "images": "",
+      "type": "Security/Chain Mail",
+      "source": "ITPEC IP Exam, October 2020"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "(Missing option A)",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "(Missing option B)",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "(Missing option C)",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "(Implied correct option)",
+        "images": ""
+      }
+    ],
+    "answer": "d"
+  },
+  {
+    "id": 36,
+    "question": {
+      "text": "(Question text for Q36 missing in sources)",
+      "images": "",
+      "type": "Security/Wireless LAN",
+      "source": "ITPEC IP Exam, October 2020"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "(Missing option A)",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "(Missing option B)",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "(Missing option C)",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "(Missing option D)",
+        "images": ""
+      }
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 37,
+    "question": {
+      "text": "Which of the following is an appropriate description concerning a wireless LAN?",
+      "images": "",
+      "type": "Networking/Wireless LAN",
+      "source": "ITPEC IP Exam, October 2020"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Countermeasures against unauthorized use of an access point are required.",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "The standard for encryption is limited to WPA2.",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "Communication between a terminal and an access point is possible over any distance.",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "There are multiple standards for wireless LANs, and communication is possible among them all.",
+        "images": ""
+      }
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 38,
+    "question": {
+      "text": "There is an electronic file that needs to be made confidential. Which of the following is the appropriate security technology to use in order to ensure the confidentiality of this file?",
+      "images": "",
+      "type": "Security/Confidentiality",
+      "source": "ITPEC IP Exam, October 2020"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Access control",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "Timestamp",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "Digital signature",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "Hot standby",
+        "images": ""
+      }
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 39,
+    "question": {
+      "text": "One of the methods of cracking a password is a brute force attack. When the number of characters of a password that is composed of 26 letters from A through Z is increased from four (4) to six (6) characters, by what factor is the maximum number of attempts to successfully crack the password with the brute force attack increased?",
+      "images": "",
+      "type": "Security/Brute Force Calculation",
+      "source": "ITPEC IP Exam, October 2020"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "2",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "24",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "52",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "676",
+        "images": ""
+      }
+    ],
+    "answer": "d"
+  },
+  {
+    "id": 40,
+    "question": {
+      "text": "Which of the following is used to confirm that there is no falsification of the content of an e-mail?",
+      "images": "",
+      "type": "Security/Integrity",
+      "source": "ITPEC IP Exam, October 2020"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "IMAP",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "SMTP",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "Information security policy",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "Digital signature",
+        "images": ""
+      }
+    ],
+    "answer": "d"
+  },
+  {
+    "id": 41,
+    "question": {
+      "text": "When risk treatment in risk management for information security is divided into the four (4) categories of risk transfer, avoidance, acceptance, and mitigation, which of the following is an appropriate example of risk mitigation?",
+      "images": "Implied mitigation measure (Option D)",
+      "type": "Security/Risk Mitigation",
+      "source": "ITPEC IP Exam, October 2020"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "A company runs a service on the Internet to provide confidential information to specific users, but in consideration of the risk of information leakage, the company withdraws from the service.",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "(Missing option B)",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "(Missing option C)",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "(Implied mitigation example)",
+        "images": ""
+      }
+    ],
+    "answer": "d"
+  },
+  {
+    "id": 42,
+    "question": {
+      "text": "Which of the following is an authentication method where authentication by testing whether a distorted text in an image can be read correctly or not is used?",
+      "images": "Implied CAPTCHA description",
+      "type": "Security/Authentication",
+      "source": "ITPEC IP Exam, October 2020"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "(Implied: Authentication by distorted image reading/CAPTCHA or Biometric)",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "Authentication of an individual with a digital certificate",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "Authentication by testing whether a distorted text in an image can be read correctly or not",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "Authentication by using a one-time password",
+        "images": ""
+      }
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 43,
+    "question": {
+      "text": "Which of the following is the aim of an attacker who infects someone else’s PC with ransomware?",
+      "images": "",
+      "type": "Security/Ransomware",
+      "source": "ITPEC IP Exam, October 2020"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "To obtain personal information on the PC via a network",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "To make files on the PC unusable, and to obtain money in exchange from unlocking",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "(Missing option C)",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "(Missing option D)",
+        "images": ""
+      }
+    ],
+    "answer": "b"
+  },
+  {
+    "id": 44,
+    "question": {
+      "text": "(Question text for Q44 missing in sources)",
+      "images": "",
+      "type": "Security/Password Management",
+      "source": "ITPEC IP Exam, October 2020"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "(Missing option A)",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "(Missing option B)",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "(Missing option C)",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "(Missing option D)",
+        "images": ""
+      }
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 45,
+    "question": {
+      "text": "(Question text for Q45 missing in sources)",
+      "images": "",
+      "type": "Security/CIA Triad",
+      "source": "ITPEC IP Exam, October 2020"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "(Missing option A)",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "(Missing option B)",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "(Missing option C)",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "(Missing option D)",
+        "images": ""
+      }
+    ],
+    "answer": "b"
+  },
+  {
+    "id": 46,
+    "question": {
+      "text": "(Question text for Q46 missing in sources)",
+      "images": "",
+      "type": "Software Lifecycle/Testing",
+      "source": "ITPEC IP Exam, October 2020"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "(Missing option A)",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "(Missing option B)",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "(Missing option C)",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "(Missing option D)",
+        "images": ""
+      }
+    ],
+    "answer": "b"
+  },
+  {
+    "id": 47,
+    "question": {
+      "text": "(Question text for Q47 missing in sources)",
+      "images": "",
+      "type": "Project Management/Estimation",
+      "source": "ITPEC IP Exam, October 2020"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "(Missing option A)",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "(Missing option B)",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "(Missing option C)",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "(Missing option D)",
+        "images": ""
+      }
+    ],
+    "answer": "c"
+  },
+  {
+    "id": 48,
+    "question": {
+      "text": "(Question text for Q48 missing in sources)",
+      "images": "",
+      "type": "Software Development/Maintenance",
+      "source": "ITPEC IP Exam, October 2020"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "(Missing option A)",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "(Missing option B)",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "(Missing option C)",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "(Missing option D)",
+        "images": ""
+      }
+    ],
+    "answer": "c"
+  },
+  {
+    "id": 49,
+    "question": {
+      "text": "(Question text for Q49 missing in sources)",
+      "images": "",
+      "type": "Software Testing/Acceptance",
+      "source": "ITPEC IP Exam, October 2020"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "(Missing option A)",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "(Missing option B)",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "(Missing option C)",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "(Missing option D)",
+        "images": ""
+      }
+    ],
+    "answer": "b"
+  },
+  {
+    "id": 50,
+    "question": {
+      "text": "(Question text for Q50 missing in sources)",
+      "images": "",
+      "type": "Software Development Model",
+      "source": "ITPEC IP Exam, October 2020"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "(Missing option A)",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "(Missing option B)",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "(Missing option C)",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "(Missing option D)",
+        "images": ""
+      }
+    ],
+    "answer": "c"
+  },
+  {
+    "id": 51,
+    "question": {
+      "text": "(Question text for Q51 missing in sources)",
+      "images": "",
+      "type": "Project Management/HR Management",
+      "source": "ITPEC IP Exam, October 2020"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "(Missing option A)",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "(Missing option B)",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "(Missing option C)",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "(Missing option D)",
+        "images": ""
+      }
+    ],
+    "answer": "d"
+  },
+  {
+    "id": 52,
+    "question": {
+      "text": "(Question text for Q52 missing in sources)",
+      "images": "",
+      "type": "Project Management/WBS",
+      "source": "ITPEC IP Exam, October 2020"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "(Missing option A)",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "(Missing option B)",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "(Missing option C)",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "(Missing option D)",
+        "images": ""
+      }
+    ],
+    "answer": "c"
+  },
+  {
+    "id": 53,
+    "question": {
+      "text": "(Question text for Q53 missing in sources)",
+      "images": "",
+      "type": "Project Management/Quality Metrics",
+      "source": "ITPEC IP Exam, October 2020"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "(Missing option A)",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "(Missing option B)",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "(Missing option C)",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "(Missing option D)",
+        "images": ""
+      }
+    ],
+    "answer": "c"
+  },
+  {
+    "id": 54,
+    "question": {
+      "text": "(Question text for Q54 missing in sources)",
+      "images": "",
+      "type": "Project Management/Integration",
+      "source": "ITPEC IP Exam, October 2020"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "(Missing option A)",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "(Missing option B)",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "(Missing option C)",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "(Missing option D)",
+        "images": ""
+      }
+    ],
+    "answer": "c"
+  },
+  {
+    "id": 55,
+    "question": {
+      "text": "The development of 50 programs is outsourced either to Company A or Company B. [Company A: 1 program/2 days, 40,000 yen/day. Company B: 1 program/3 days, 30,000 yen/day]. Which is the combination of a company with a short development period and a company with a low development cost?",
+      "images": "Table of Company A and B metrics",
+      "type": "Project Management/Cost and Time Calculation",
+      "source": "ITPEC IP Exam, October 2020"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Short development period: Company A, Low development cost: Company A",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "Short development period: Company A, Low development cost: Company B",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "Short development period: Company B, Low development cost: Company A",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "Short development period: Company B, Low development cost: Company B",
+        "images": ""
+      }
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 56,
+    "question": {
+      "text": "(Question text for Q56 missing in sources)",
+      "images": "",
+      "type": "Project Management/Documentation",
+      "source": "ITPEC IP Exam, October 2020"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "(Missing option A)",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "(Missing option B)",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "(Missing option C)",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "(Missing option D)",
+        "images": ""
+      }
+    ],
+    "answer": "d"
+  },
+  {
+    "id": 57,
+    "question": {
+      "text": "Which of the following items must be clarified in order to determine the appropriate assignment of the project members?",
+      "images": "",
+      "type": "Project Management/HR Assignment",
+      "source": "ITPEC IP Exam, October 2020"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Cost estimation method",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "Reporting method of activity progress",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "Acceptance standards of deliverables",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "Roles and responsibilities to be allocated",
+        "images": ""
+      }
+    ],
+    "answer": "d"
+  },
+  {
+    "id": 58,
+    "question": {
+      "text": "Which of the following is the most appropriate example concerning a chatbot that uses AI?",
+      "images": "",
+      "type": "Technology Trends/AI Chatbot",
+      "source": "ITPEC IP Exam, October 2020"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "By connecting everything over the Internet, the switch of the air conditioner in one’s house can be turned on by a smart device from the outside of the house.",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "By recognizing and learning a large number of images of various animals, a computer can differentiate between the images of a dog and a cat.",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "If questions on how to use a product are entered, a person who has detailed knowledge submits a reply or advise.",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "If a user enters the desired functions of a product on a sales site of products, the computer introduces recommended products in an interactive manner.",
+        "images": ""
+      }
+    ],
+    "answer": "d"
+  },
+  {
+    "id": 59,
+    "question": {
+      "text": "In the PDCA cycle of service level management, which of the following is implemented as C (Check)?",
+      "images": "",
+      "type": "IT Service Management/PDCA (Check)",
+      "source": "ITPEC IP Exam, October 2020"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Providing services that are based on the SLA",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "Preparing an improvement plan for services on the basis of the report and review of service provision results",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "Agreeing upon the desired service quality on the basis of the service requirements and the service improvement plan, and preparing an SLA",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "Monitoring and measuring the provided services, and preparing a service report",
+        "images": ""
+      }
+    ],
+    "answer": "d"
+  },
+  {
+    "id": 60,
+    "question": {
+      "text": "Which of the following is the appropriate characteristic of agile development?",
+      "images": "",
+      "type": "Software Development Model/Agile",
+      "source": "ITPEC IP Exam, October 2020"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Information is passed between processes through documents, making it easy to understand the progress of overall development.",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "Prototyping is implemented in each process, making it possible to locate potential problems and requests.",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "Development is taken forward in a stepwise manner, resulting in retrospective corrections when a problem occurs in the last process, thus increasing rework.",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "Priority is given to preparation of software over preparation of documents, making it possible to quickly incorporate the changing demands of customers.",
+        "images": ""
+      }
+    ],
+    "answer": "d"
+  },
+  {
+    "id": 61,
+    "question": {
+      "text": "(Question text for Q61 missing in sources)",
+      "images": "",
+      "type": "IT Service Management/Planning",
+      "source": "ITPEC IP Exam, October 2020"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "(Missing option A)",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "(Missing option B)",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "(Missing option C)",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "(Missing option D)",
+        "images": ""
+      }
+    ],
+    "answer": "d"
+  },
+  {
+    "id": 62,
+    "question": {
+      "text": "(Question text for Q62 missing in sources)",
+      "images": "",
+      "type": "IT Service Management/Reliability",
+      "source": "ITPEC IP Exam, October 2020"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "(Missing option A)",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "(Missing option B)",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "(Missing option C)",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "(Missing option D)",
+        "images": ""
+      }
+    ],
+    "answer": "c"
+  },
+  {
+    "id": 63,
+    "question": {
+      "text": "(Question text for Q63 missing in sources)",
+      "images": "",
+      "type": "IT Governance/Systems Audit",
+      "source": "ITPEC IP Exam, October 2020"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "(Missing option A)",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "(Missing option B)",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "(Missing option C)",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "(Missing option D)",
+        "images": ""
+      }
+    ],
+    "answer": "d"
+  },
+  {
+    "id": 64,
+    "question": {
+      "text": "(Question text for Q64 missing in sources)",
+      "images": "",
+      "type": "IT Governance/Internal Control",
+      "source": "ITPEC IP Exam, October 2020"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "(Missing option A)",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "(Missing option B)",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "(Missing option C)",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "(Missing option D)",
+        "images": ""
+      }
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 65,
+    "question": {
+      "text": "(Question text for Q65 missing in sources)",
+      "images": "",
+      "type": "IT Governance/Systems Audit",
+      "source": "ITPEC IP Exam, October 2020"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "(Missing option A)",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "(Missing option B)",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "(Missing option C)",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "(Missing option D)",
+        "images": ""
+      }
+    ],
+    "answer": "b"
+  },
+  {
+    "id": 66,
+    "question": {
+      "text": "When the purchase and sales of a product in April are as in the table below, what is the inventory value in yen for the product at the end of April according to the moving average method?",
+      "images": "Inventory Table (Moving Average Calculation)",
+      "type": "Accounting/Inventory Valuation (Moving Average)",
+      "source": "ITPEC IP Exam, October 2020"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "1,280",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "1,300",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "1,400",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "1,500",
+        "images": ""
+      }
+    ],
+    "answer": "c"
+  },
+  {
+    "id": 67,
+    "question": {
+      "text": "When the planned production quantity of Product A and the total required quantity and the inventory quantity of Component B are as shown in the table below, what is the minimum order placement quantity I of Component B required in Week 2?",
+      "images": "Implied MRP table",
+      "type": "Operations Management/MRP Calculation",
+      "source": "ITPEC IP Exam, October 2020"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "(Missing option A)",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "(Missing option B)",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "(Missing option C)",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "(Missing option D)",
+        "images": ""
+      }
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 68,
+    "question": {
+      "text": "Retail company A is teaching the general distribution process for food products in an easily understandable manner at elementary schools near the company’s distribution center. Which of the following is an idea behind these activities by company A?",
+      "images": "",
+      "type": "Corporate Strategy/CSR",
+      "source": "ITPEC IP Exam, October 2020"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "CSR",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "Alliance",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "Core competence",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "Corporate governance",
+        "images": ""
+      }
+    ],
+    "answer": "d"
+  },
+  {
+    "id": 69,
+    "question": {
+      "text": "(Question text for Q69 missing in sources)",
+      "images": "",
+      "type": "HR Management/Training",
+      "source": "ITPEC IP Exam, October 2020"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "(Missing option A)",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "(Missing option B)",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "(Missing option C)",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "(Missing option D)",
+        "images": ""
+      }
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 70,
+    "question": {
+      "text": "One (1) piece of Product P consists of two (2) pieces of Part Q, and Part Q consists of four (4) pieces of Part R. When there is one (1) piece of Part Q and three (3) pieces of Part R in the inventory, how many more pieces of Part R are needed to produce six (6) pieces of Product P?",
+      "images": "",
+      "type": "Operations Management/BOM Calculation",
+      "source": "ITPEC IP Exam, October 2020"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "41",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "44",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "45",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "48",
+        "images": ""
+      }
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 71,
+    "question": {
+      "text": "(Question text for Q71 missing in sources)",
+      "images": "",
+      "type": "Accounting/Financial Statement",
+      "source": "ITPEC IP Exam, October 2020"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "(Missing option A)",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "(Missing option B)",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "(Missing option C)",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "(Missing option D)",
+        "images": ""
+      }
+    ],
+    "answer": "c"
+  },
+  {
+    "id": 72,
+    "question": {
+      "text": "(Question text for Q72 missing in sources)",
+      "images": "",
+      "type": "Accounting/Financial Ratios",
+      "source": "ITPEC IP Exam, October 2020"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "(Missing option A)",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "(Missing option B)",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "(Missing option C)",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "(Missing option D)",
+        "images": ""
+      }
+    ],
+    "answer": "d"
+  },
+  {
+    "id": 73,
+    "question": {
+      "text": "Which of the following codes stores information in a vertical and horizontal two-dimensional pattern?",
+      "images": "",
+      "type": "Data Coding/2D Code",
+      "source": "ITPEC IP Exam, October 2020"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "ASCII code",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "G-code",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "EAN code",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "QR code",
+        "images": ""
+      }
+    ],
+    "answer": "c"
+  },
+  {
+    "id": 74,
+    "question": {
+      "text": "(Question text for Q74 missing in sources)",
+      "images": "",
+      "type": "Legal/Personal Information",
+      "source": "ITPEC IP Exam, October 2020"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "(Missing option A)",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "(Missing option B)",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "(Missing option C)",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "(Missing option D)",
+        "images": ""
+      }
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 75,
+    "question": {
+      "text": "Which of the following codes stores information in a vertical and horizontal two-dimensional pattern?",
+      "images": "",
+      "type": "Data Coding/QR Code",
+      "source": "ITPEC IP Exam, October 2020"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "ASCII code",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "G-code",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "EAN code",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "QR code",
+        "images": ""
+      }
+    ],
+    "answer": "d"
+  },
+  {
+    "id": 76,
+    "question": {
+      "text": "Which of the following is the purpose of strengthening compliance in corporate management?",
+      "images": "",
+      "type": "Corporate Governance/Compliance",
+      "source": "ITPEC IP Exam, October 2020"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "To prevent corporate management and employees from being involved in misconduct or scandals that may threaten the continued existence of the company",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "To retain management resources for differentiation from competitors and thereby gain a competitive edge",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "(Missing option C)",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "(Missing option D)",
+        "images": ""
+      }
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 77,
+    "question": {
+      "text": "(Question text for Q77 missing in sources)",
+      "images": "",
+      "type": "Legal/E-mail Privacy",
+      "source": "ITPEC IP Exam, October 2020"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "(Missing option A)",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "(Missing option B)",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "(Missing option C)",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "(Missing option D)",
+        "images": ""
+      }
+    ],
+    "answer": "b"
+  },
+  {
+    "id": 78,
+    "question": {
+      "text": "Which of the following corporate activities is related to compliance promotion?",
+      "images": "Implied compliance actions list (Options A-C missing)",
+      "type": "Corporate Governance/Compliance",
+      "source": "ITPEC IP Exam, October 2020"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "(Implied correct option regarding compliance activities)",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "(Missing option B)",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "(Missing option C)",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "When you were arranging a special spring exhibition, you placed the e-mail addresses of selected members in the “BCC” field of an e-mail message and sent the message in order to solicit exhibits.",
+        "images": ""
+      }
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 79,
+    "question": {
+      "text": "Which of the following is an appropriate explanation of SWOT analysis?",
+      "images": "",
+      "type": "Business Strategy/SWOT",
+      "source": "ITPEC IP Exam, October 2020"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "It is a technique for deriving the future direction of corporate activities by analyzing (Implied: strengths, weaknesses, opportunities, threats)",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "(Missing option B)",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "(Missing option C)",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "(Missing option D)",
+        "images": ""
+      }
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 80,
+    "question": {
+      "text": "In the Ansoff matrix (formed by existing/new markets and existing/new products), in which cell is the market penetration strategy positioned?",
+      "images": "Ansoff Matrix figure",
+      "type": "Business Strategy/Ansoff Matrix",
+      "source": "ITPEC IP Exam, October 2020"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "A (Existing products, Existing markets)",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "B (New products, Existing markets)",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "C (Existing products, New markets)",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "D (New products, New markets)",
+        "images": ""
+      }
+    ],
+    "answer": "d"
+  },
+  {
+    "id": 81,
+    "question": {
+      "text": "(Question text for Q81 missing in sources)",
+      "images": "",
+      "type": "Operations Management/JIT",
+      "source": "ITPEC IP Exam, October 2020"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "(Missing option A)",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "(Missing option B)",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "(Missing option C)",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "(Missing option D)",
+        "images": ""
+      }
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 82,
+    "question": {
+      "text": "(Question text for Q82 missing in sources)",
+      "images": "",
+      "type": "Business System/CRM",
+      "source": "ITPEC IP Exam, October 2020"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "(Missing option A)",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "(Missing option B)",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "(Missing option C)",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "(Missing option D)",
+        "images": ""
+      }
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 83,
+    "question": {
+      "text": "Which of the following techniques is used to set specific targets and evaluate the result from the four (4) viewpoints of 'finance,' 'customer,' 'internal business processes,' and 'learning and growth' in order to implement the vision and strategy of the company?",
+      "images": "",
+      "type": "Business Strategy/Balanced Scorecard",
+      "source": "ITPEC IP Exam, October 2020"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "PPM",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "SWOT analysis",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "Balanced scorecard",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "Marketing mix",
+        "images": ""
+      }
+    ],
+    "answer": "c"
+  },
+  {
+    "id": 84,
+    "question": {
+      "text": "Which of the following is an appropriate explanation of blue ocean strategy?",
+      "images": "",
+      "type": "Business Strategy/Blue Ocean",
+      "source": "ITPEC IP Exam, October 2020"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Generating a new market that has no competition by providing new value",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "Trying to increase sales opportunities by handling a wide range of products other than best-selling products",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "Thoroughly proceeding with differentiation from products provided by the top (Incomplete option)",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "(Missing option D)",
+        "images": ""
+      }
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 85,
+    "question": {
+      "text": "Which of the following terminologies refers to an initiative to develop unprecedented and innovative services by utilizing IT in the field of finance, such as a service provided by a bank where AI manages depositors’ assets automatically?",
+      "images": "",
+      "type": "Technology Trends/Fintech",
+      "source": "ITPEC IP Exam, October 2020"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "FA",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "Fintech",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "OA",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "Sharing economy",
+        "images": ""
+      }
+    ],
+    "answer": "b"
+  },
+  {
+    "id": 86,
+    "question": {
+      "text": "Which of the following is the most appropriate example concerning a chatbot that uses AI?",
+      "images": "",
+      "type": "Technology Trends/AI Chatbot",
+      "source": "ITPEC IP Exam, October 2020"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "(Missing option A)",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "By recognizing and learning a large number of images of various animals, a computer can differentiate between the images of a dog and a cat.",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "If questions on how to use a product are entered, a person who has detailed knowledge submits a reply or advise.",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "If a user enters the desired functions of a product on a sales site of products, the computer introduces recommended products in an interactive manner.",
+        "images": ""
+      }
+    ],
+    "answer": "b"
+  },
+  {
+    "id": 87,
+    "question": {
+      "text": "Which of the following is the most appropriate description concerning deep learning?",
+      "images": "",
+      "type": "Technology Trends/Deep Learning",
+      "source": "ITPEC IP Exam, October 2020"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "It is a mechanism that integrates information and the workflow between departments that are involved with customers, such as sales, marketing, and after-sales service.",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "It is a form of education, learning, and training that is implemented by using digital devices such as computers, and communication networks.",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "(Missing option C)",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "(Implied correct option)",
+        "images": ""
+      }
+    ],
+    "answer": "d"
+  },
+  {
+    "id": 88,
+    "question": {
+      "text": "Which of the following is the most appropriate description concerning distributed consensus building technology?",
+      "images": "Implied description of distributed consensus/blockchain",
+      "type": "Technology Trends/Blockchain",
+      "source": "ITPEC IP Exam, October 2020"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "An automobile is equipped with a camera or sensor, and controls the acceleration, steering, and braking of an automobile without intervention by the driver.",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "A person can check occupancy for a conference room or toilet in real time from his or her desk in an office.",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "Approval for a transaction is granted through distributed consensus building technology without the need for a central administrator, such as a bank.",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "A person enters information in advance from a PC at his or her house in order to perform a money transfer automatically without going to the bank.",
+        "images": ""
+      }
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 89,
+    "question": {
+      "text": "Which of the following is the most appropriate description concerning SEO?",
+      "images": "",
+      "type": "Marketing/SEO",
+      "source": "ITPEC IP Exam, October 2020"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Displaying search results that match the objectives of a community on social media to participants in the community",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "Using a search engine by a company to analyze the access log of the company’s website, and checking for unauthorized access",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "Devising ways to display a certain website at the top of the search results when a user uses a search engine to search for a keyword",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "Investigating what kind of search engine users want, and developing a search engine that fits their needs",
+        "images": ""
+      }
+    ],
+    "answer": "c"
+  },
+  {
+    "id": 90,
+    "question": {
+      "text": "Which of the following examples of e-business sales methods is based on the concept of the long tail effect?",
+      "images": "",
+      "type": "Marketing/Long Tail",
+      "source": "ITPEC IP Exam, October 2020"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "(Missing option A)",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "(Missing option B)",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "(Missing option C)",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "Handling and engaging in online sales of a wide range of products for which the prospect for number of sales is considerably low",
+        "images": ""
+      }
+    ],
+    "answer": "d"
+  },
+  {
+    "id": 91,
+    "question": {
+      "text": "Which of the following is an appropriate explanation of CAD?",
+      "images": "",
+      "type": "Manufacturing System/CAD",
+      "source": "ITPEC IP Exam, October 2020"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Education with the use of computers",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "Manufacturing with the use of computers",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "Design and drafting with the use of computers",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "Software design, development, and maintenance with the use of computers",
+        "images": ""
+      }
+    ],
+    "answer": "c"
+  },
+  {
+    "id": 92,
+    "question": {
+      "text": "Which of the following is an appropriate example of a function that uses an IC tag?",
+      "images": "Implied IC Tag (RFID) example",
+      "type": "Technology Trends/RFID",
+      "source": "ITPEC IP Exam, October 2020"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "(Missing option A)",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "(Missing option B)",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "(Missing option C)",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "(Implied correct option)",
+        "images": ""
+      }
+    ],
+    "answer": "d"
+  },
+  {
+    "id": 93,
+    "question": {
+      "text": "The task of using statistics, machine learning, and other such methods to analyze large volumes of data and gain hints and ideas for the creation of new services and value is now very important. Which of the following is the most appropriate human resource to perform this task?",
+      "images": "",
+      "type": "HR Management/Data Scientist",
+      "source": "ITPEC IP Exam, October 2020"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "IT strategist",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "System architect",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "System analyst",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "Data scientist",
+        "images": ""
+      }
+    ],
+    "answer": "c"
+  },
+  {
+    "id": 94,
+    "question": {
+      "text": "Against a background of issues such as population decline and aging, attempts are being made to use ICT in order to streamline the functions and services of cities and regions and make them more advanced in order to solve regional problems, and rejuvenate regions. Which of the following is the most appropriate term or phrase to describe such a solution for community development?",
+      "images": "",
+      "type": "Technology Trends/Smart City",
+      "source": "ITPEC IP Exam, October 2020"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Capacity",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "Smart city",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "Diversity",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "University",
+        "images": ""
+      }
+    ],
+    "answer": "b"
+  },
+  {
+    "id": 95,
+    "question": {
+      "text": "The task of using statistics, machine learning, and other such methods to analyze large volumes of data and gain hints and ideas for the creation of new services and value is now very important. Which of the following is the most appropriate human resource to perform this task?",
+      "images": "",
+      "type": "HR Management/Data Scientist",
+      "source": "ITPEC IP Exam, October 2020"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "IT strategist",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "System architect",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "System analyst",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "Data scientist",
+        "images": ""
+      }
+    ],
+    "answer": "d"
+  },
+  {
+    "id": 96,
+    "question": {
+      "text": "Which of the following corresponds to information literacy?",
+      "images": "",
+      "type": "Business Management/Information Literacy",
+      "source": "ITPEC IP Exam, October 2020"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Knowledge of new PC products and the performance of each model",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "The ability to perceive the impacts of technological innovations on society",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "The ability to search for data necessary and use it in accordance with goals",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "The ability to use high-level programming languages and develop software",
+        "images": ""
+      }
+    ],
+    "answer": "c"
+  },
+  {
+    "id": 97,
+    "question": {
+      "text": "Which of the following is the most appropriate description of IoT?",
+      "images": "(Question text incomplete)",
+      "type": "Technology Trends/IoT",
+      "source": "ITPEC IP Exam, October 2020"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "(Missing option A)",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "(Missing option B)",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "(Missing option C)",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "(Missing option D)",
+        "images": ""
+      }
+    ],
+    "answer": "b"
+  },
+  {
+    "id": 98,
+    "question": {
+      "text": "(Question text for Q98 missing in sources)",
+      "images": "",
+      "type": "Technology/Terminology",
+      "source": "ITPEC IP Exam, October 2020"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "(Missing option A)",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "(Missing option B)",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "(Missing option C)",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "(Missing option D)",
+        "images": ""
+      }
+    ],
+    "answer": "b"
+  },
+  {
+    "id": 99,
+    "question": {
+      "text": "Which of the following is a document that is presented by a user to vendors upon procurement of an information system for requesting their proposals and that describes the overview and procurement conditions for the information system?",
+      "images": "",
+      "type": "System Procurement/RFP",
+      "source": "ITPEC IP Exam, October 2020"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "RFC",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "RFI",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "RFID",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "RFP",
+        "images": ""
+      }
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 100,
+    "question": {
+      "text": "(Question text for Q100 missing in sources)",
+      "images": "",
+      "type": "Technology/Use Case",
+      "source": "ITPEC IP Exam, October 2020"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "(Missing option A)",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "(Missing option B)",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "(Missing option C)",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "(Missing option D)",
+        "images": ""
+      }
+    ],
+    "answer": "a"
+  }
+]

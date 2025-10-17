@@ -1,0 +1,3202 @@
+[
+  {
+    "id": 1,
+    "question": {
+      "text": "Which of the following histograms has the largest variance? Here, the scale of the vertical axis is the same on each histogram and the scale of the horizontal axis is the same on each histogram.",
+      "images": "Implied figure showing four histograms",
+      "type": "Statistics/Data",
+      "source": "ITPEC IP Exam, April 2023"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Histogram A (Implied narrow distribution)",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "Histogram B (Implied narrow distribution)",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "Histogram C (Implied narrow distribution)",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "Histogram D (Implied widest distribution)",
+        "images": ""
+      }
+    ],
+    "answer": "d"
+  },
+  {
+    "id": 2,
+    "question": {
+      "text": "Which of the following is the appropriate meaning of the units that are shown in the specifications given in brochures or catalogs?",
+      "images": "",
+      "type": "Hardware/Units",
+      "source": "ITPEC IP Exam, April 2023"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "“2-Tbyte hard disk” refers to a capacity of 2 × 10^12 bytes.",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "“9600-dpi printer” refers to a printing precision of 9600 dots/cm^2.",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "“CPU operates at a base clock of 3.3 GHz” refers to operation at a frequency of 3.3 × 2^20 Hz.",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "“Modem with a transmission speed of 56 kbps” refers to a minimum transmission speed of 5.6 × 2^10 bits/second.",
+        "images": ""
+      }
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 3,
+    "question": {
+      "text": "When the reward for an improvement proposal concerning business operations is determined based on the decision table below, how much is the reward for an improvement proposal for an improvement of $20,000 and a turnaround time reduction of three days? Here, “Y” in the table means that the condition holds, and “N” means that the condition does not hold. In addition, “√” indicates the reward that applies to a specific combination of these conditions.",
+      "images": "Decision table referenced in source",
+      "type": "Management/Decision Table",
+      "source": "ITPEC IP Exam, April 2023"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$50",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "$100",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "$150",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "$300",
+        "images": ""
+      }
+    ],
+    "answer": "b"
+  },
+  {
+    "id": 4,
+    "question": {
+      "text": "Which of the following is the combination of the mean and median of the data? [Data] 10, 20, 20, 20, 40, 50, 100, 440, 2000",
+      "images": "",
+      "type": "Statistics/Data",
+      "source": "ITPEC IP Exam, April 2023"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Mean 20 Median 40",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "Mean 40 Median 20",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "Mean 300 Median 20",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "Mean 300 Median 40",
+        "images": ""
+      }
+    ],
+    "answer": "d"
+  },
+  {
+    "id": 5,
+    "question": {
+      "text": "There is a program that displays text in accordance with the specifications below. When the original text described below is displayed, in what point size does the program display the underlined character string? Here, the first character of the original text is displayed in 10 points. [Specifications] The characters between <B> and </B> are displayed one point larger than the preceding character. The characters between <S> and </S> are displayed one point smaller than the preceding character. Each of <B> </B> and <S> </S> must be used as a pair, and both of them can be nested with each other. [Original text] The system administrator promotes and implements <B>department-level<B> or <S>group-level</S> computerization</B> from a user’s <S>standpoint</S>.</B>",
+      "images": "",
+      "type": "Algorithm/Parsing",
+      "source": "ITPEC IP Exam, April 2023"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "10",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "11",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "12",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "13",
+        "images": ""
+      }
+    ],
+    "answer": "b"
+  },
+  {
+    "id": 6,
+    "question": {
+      "text": "There is a series of numbered boxes stacked as shown in the figure below. The operations described in the table below are performed in the sequence of operations 1 through 4. When the operation 4 is completed, which of the following shows the status of the stacked boxes?",
+      "images": "Figure/Table showing stack operations and initial state referenced in source",
+      "type": "Data Structure/Stack",
+      "source": "ITPEC IP Exam, April 2023"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "(Implied stack status A)",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "(Implied stack status B)",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "(Implied stack status C)",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "(Implied stack status D)",
+        "images": ""
+      }
+    ],
+    "answer": "b"
+  },
+  {
+    "id": 7,
+    "question": {
+      "text": "Which of the following is an appropriate description concerning the Java language?",
+      "images": "",
+      "type": "Programming Language",
+      "source": "ITPEC IP Exam, April 2023"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "It is a markup language used for describing Web pages.",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "It is a language developed for scientific and engineering calculations.",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "It is an object-oriented language that provides platform-independent portability.",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "It is a language developed for business-oriented calculations.",
+        "images": ""
+      }
+    ],
+    "answer": "c"
+  },
+  {
+    "id": 8,
+    "question": {
+      "text": "Algorithms are important when a computer is used. Which of the following is an appropriate explanation of an algorithm?",
+      "images": "",
+      "type": "Fundamentals/Algorithm",
+      "source": "ITPEC IP Exam, April 2023"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "It refers to software for converting a program to a machine language that can be directly run by a computer.",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "It refers to a processing procedure for enabling a computer to accomplish a particular purpose.",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "It refers to a collective term for artificial languages used to give instructions for a series of operations to a computer.",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "It refers to the designing of buildings and industrial products by using computers.",
+        "images": ""
+      }
+    ],
+    "answer": "b"
+  },
+  {
+    "id": 9,
+    "question": {
+      "text": "Which of the following is a term for a list of instructions to a computer that are written in a human-readable programming language?",
+      "images": "",
+      "type": "Software/Terminology",
+      "source": "ITPEC IP Exam, April 2023"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "PIN code",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "Source code",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "Binary code",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "Character code",
+        "images": ""
+      }
+    ],
+    "answer": "b"
+  },
+  {
+    "id": 10,
+    "question": {
+      "text": "Which of the following is a standard for wireless communication between a PC and peripheral devices?",
+      "images": "",
+      "type": "Hardware/Interface",
+      "source": "ITPEC IP Exam, April 2023"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Bluetooth",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "IEEE 1394",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "PCI",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "USB 3.2",
+        "images": ""
+      }
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 11,
+    "question": {
+      "text": "Which of the following is an appropriate description concerning a touch panel?",
+      "images": "",
+      "type": "Hardware/Interface",
+      "source": "ITPEC IP Exam, April 2023"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Operations are performed by using a pen-type or mouse-type device for specifying a position on the screen, and a flat-plate input device that detects the position.",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "Movement of a mouse pointer on the screen or other operations are performed by tracing a flat-panel input device with a finger.",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "The movement of a finger is detected by a sensor on the surface, and operations are performed by rotating a component called a wheel that is similar to a disc.",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "There are some types such as resistive or capacitive, and operations are performed on a computer through direct contact with the screen by a finger.",
+        "images": ""
+      }
+    ],
+    "answer": "d"
+  },
+  {
+    "id": 12,
+    "question": {
+      "text": "Which of the following is an appropriate description of a multi-core processor?",
+      "images": "",
+      "type": "Hardware/CPU",
+      "source": "ITPEC IP Exam, April 2023"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "An improvement in the throughput of the entire system is aimed at by simultaneously executing different processing in each core.",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "An improvement in the reliability of the processing result is aimed at by executing the same processing in several cores.",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "Several cores are controlled by hardware alone, and the OS is not required to have a special function.",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "The throughput of the processor depends only on the number of cores, and does not depend on the clock frequency.",
+        "images": ""
+      }
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 13,
+    "question": {
+      "text": "Which of the following is a plug and play function?",
+      "images": "",
+      "type": "Operating System/Function",
+      "source": "ITPEC IP Exam, April 2023"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "The automatic playback that is performed when a DVD is inserted",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "The automatic installation of a device driver that supports a newly connected peripheral device to the PC",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "The automatic fault diagnosis for a connected peripheral device",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "The automatic periodic virus scan of a disk drive",
+        "images": ""
+      }
+    ],
+    "answer": "b"
+  },
+  {
+    "id": 14,
+    "question": {
+      "text": "Which of the following is an explanation of a dual system?",
+      "images": "",
+      "type": "System Architecture/Reliability",
+      "source": "ITPEC IP Exam, April 2023"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "It is a computer system in which exactly the same processing is performed in two computers, and its reliability is assured by cross-checking the results.",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "It is a computer system that is composed of a primary system used usually and a secondary system kept on standby in preparation for a failure.",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "It is a distributed processing system with computers connected via a peer-to-peer network.",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "It is a distributed processing system that has a clear hierarchichy of computers connected via a network.",
+        "images": ""
+      }
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 15,
+    "question": {
+      "text": "When information processing systems are classified by their processing methods as shown in the figure below, which of the following is an explanation of a horizontal load distribution system?",
+      "images": "Implied figure showing classification of systems referenced in source",
+      "type": "System Architecture/Load Balancing",
+      "source": "ITPEC IP Exam, April 2023"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Data is entered and the processing requests and results are displayed at client PCs. The data is processed at the server side and the results are returned as the responses.",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "A dedicated computer such as a print server or a mail server is provided, in addition to a computer that runs applications for processing business data.",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "Sales data of a branch office is processed by a computer in each branch office and the results are collected and processed by a computer at the headquarters.",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "The same application runs on several computers so that processing is not concentrated in one (1) computer.",
+        "images": ""
+      }
+    ],
+    "answer": "d"
+  },
+  {
+    "id": 16,
+    "question": {
+      "text": "Which of the following is an appropriate description of batch processing?",
+      "images": "",
+      "type": "System Processing",
+      "source": "ITPEC IP Exam, April 2023"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "A method of processing data all together by collecting the data of a certain duration or a certain quantity",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "A method of executing a process immediately when a request for processing of data is made, and returning the result of the process within a short time limit such as a few seconds",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "A method of distributing processes to multiple computers or processors, and reducing the time of execution",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "A method of processing where a computer responds to a request for processing from a user, executes processes and proceeds with activities as if it is having a conversation with the user",
+        "images": ""
+      }
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 17,
+    "question": {
+      "text": "Which of the following is the most appropriate purpose of installing a business application software package instead of developing own application software?",
+      "images": "",
+      "type": "Software Procurement",
+      "source": "ITPEC IP Exam, April 2023"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "To enhance the environment of development",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "To reduce the cost of development",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "To acquire the knowledge of software development methods",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "To improve the skills of application developers",
+        "images": ""
+      }
+    ],
+    "answer": "b"
+  },
+  {
+    "id": 18,
+    "question": {
+      "text": "Which of the following is the most appropriate method for limiting the content of database to be displayed in accordance with its confidentiality and each user’s business needs?",
+      "images": "",
+      "type": "Database/Security",
+      "source": "ITPEC IP Exam, April 2023"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Setting up access rights based on the combination of data and user",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "Distributing a copy of the database limited to each user",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "Setting up a set of data items (columns) dedicated to each user",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "Setting up a password for each record in order to protect data",
+        "images": ""
+      }
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 19,
+    "question": {
+      "text": "Which of the following is an appropriate description concerning OSs used for PCs?",
+      "images": "",
+      "type": "Operating System/Role",
+      "source": "ITPEC IP Exam, April 2023"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Since the interface between an OS and application programs is standardized, the application programs can be developed without regard to the type of OS.",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "An OS allocates the computer resources, such as the CPU, memory, and auxiliary storage device, to application programs.",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "Since an OS has the function of automatically converting character set of a text in a file, application programs can display the text properly without regard to the character set.",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "The source code of an OS is required to be disclosed so that application programs can be free to use the various functions of the OS.",
+        "images": ""
+      }
+    ],
+    "answer": "b"
+  },
+  {
+    "id": 20,
+    "question": {
+      "text": "Which of the following is an appropriate combination of the terms and explanations A through D concerning the file system of a hierarchical directory structure?",
+      "images": "Implied mapping table/diagram referenced in source",
+      "type": "File System/Terminology",
+      "source": "ITPEC IP Exam, April 2023"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "A: Current directory, B: Absolute path, C: Root directory",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "A: Current directory, D: Relative path, C: Root directory",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "C: Current directory, B: Absolute path, A: Root directory",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "C: Current directory, D: Relative path, A: Root directory",
+        "images": ""
+      }
+    ],
+    "answer": "c"
+  },
+  {
+    "id": 21,
+    "question": {
+      "text": "Which of the following is an appropriate explanation of a deadlock?",
+      "images": "",
+      "type": "Operating System/Concurrency",
+      "source": "ITPEC IP Exam, April 2023"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "It is a state in which the processes of a computer are prohibited from getting any access including accidental access to information that must not be accessed.",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "It is a state in which, if the login attempt of a user fails more than a predefined number of times, the user is prohibited from logging in to the computer for a predefined time period or until a system administrator resets the user account.",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "It is a state in which, when common resources are exclusively used, two or more processes are endlessly waiting for each other to release a common resource.",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "It is a state in which processes in the ready state under a multi-programming environment have used up the CPU time allocated by the OS.",
+        "images": ""
+      }
+    ],
+    "answer": "c"
+  },
+  {
+    "id": 22,
+    "question": {
+      "text": "Among the descriptions A through C concerning OSS (Open Source Software), which of the following is the list that contains all appropriate descriptions? A: Some software is distributed only in compiled binary format, not in source code format. B: The license can restrict the field of use or users (individuals or groups). C: The Linux OS and the PostgreSQL relational database management system are some examples.",
+      "images": "",
+      "type": "Software Licensing/OSS",
+      "source": "ITPEC IP Exam, April 2023"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "A",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "A, B",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "B, C",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "C",
+        "images": ""
+      }
+    ],
+    "answer": "d"
+  },
+  {
+    "id": 23,
+    "question": {
+      "text": "If data is repeatedly added to and deleted from a hard disk on a PC, data may not be stored in consecutive areas on the hard disk. When no measures are taken, which of the following can most likely occur?",
+      "images": "",
+      "type": "Operating System/File System",
+      "source": "ITPEC IP Exam, April 2023"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Viruses is not detected.",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "Data is not written correctly.",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "Data is not read correctly.",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "Stored data is not read quickly.",
+        "images": ""
+      }
+    ],
+    "answer": "d"
+  },
+  {
+    "id": 24,
+    "question": {
+      "text": "Which of the following is an appropriate explanation of web accessibility?",
+      "images": "",
+      "type": "Web Technology/Accessibility",
+      "source": "ITPEC IP Exam, April 2023"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "It is a marketing technique that utilizes websites.",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "It is a mechanism that aims at unifying the design of web pages.",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "It is the extent to which anyone can receive and transmit information by using the web regardless of age or physical condition.",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "It is a mechanism where a web server starts a program and dynamically generates the web contents based on the information sent by the user to a website.",
+        "images": ""
+      }
+    ],
+    "answer": "c"
+  },
+  {
+    "id": 25,
+    "question": {
+      "text": "Which of the following is the most appropriate explanation of virtual reality?",
+      "images": "",
+      "type": "Multimedia/VR",
+      "source": "ITPEC IP Exam, April 2023"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Improving the GUI not by displaying an image gradually from top to bottom, but by first displaying a coarse mosaic-like image, and then by gradually increasing the sharpness of the image",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "Enabling computer-simulated objects and spaces to be perceived like the real world by using computer graphics or other techniques",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "Conducting computer simulations instead of, among others, the wind-tunnel test used for the design of cars and airplanes",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "Combining images of separately shot scenery and people to create an image that is different from the real world",
+        "images": ""
+      }
+    ],
+    "answer": "b"
+  },
+  {
+    "id": 26,
+    "question": {
+      "text": "Which of the following is a service that provides disk space on a server connected to the Internet for storing files and allows users to read and write data from anywhere inside or outside their homes?",
+      "images": "",
+      "type": "Networking/Cloud Services",
+      "source": "ITPEC IP Exam, April 2023"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Archive",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "Authoring",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "Online storage",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "Flash memory",
+        "images": ""
+      }
+    ],
+    "answer": "c"
+  },
+  {
+    "id": 27,
+    "question": {
+      "text": "Which of the following is an appropriate purpose of normalizing the data of a relational database?",
+      "images": "",
+      "type": "Database/Normalization",
+      "source": "ITPEC IP Exam, April 2023"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "To improve the compression ratio of data",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "To retain the consistency of data",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "To prevent the leakage of data",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "To enable the simultaneous access of data",
+        "images": ""
+      }
+    ],
+    "answer": "b"
+  },
+  {
+    "id": 28,
+    "question": {
+      "text": "Which of the following is a term for an operation that extracts only the rows (records) with a price of 100 yen or more, from the “Product” table of a relational database?",
+      "images": "Implied Product table referenced in source",
+      "type": "Database/Relational Operation",
+      "source": "ITPEC IP Exam, April 2023"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Join",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "Projection",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "Selection",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "Union",
+        "images": ""
+      }
+    ],
+    "answer": "c"
+  },
+  {
+    "id": 29,
+    "question": {
+      "text": "When an activity for building a relational database is divided into steps A through C below, which of the following is an appropriate order of the steps? A Identifying the data items to be used in the business operation B Creating tables C Inserting records",
+      "images": "",
+      "type": "Database/Design",
+      "source": "ITPEC IP Exam, April 2023"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "A → B → C",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "A → C → B",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "B → A → C",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "B → C → A",
+        "images": ""
+      }
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 30,
+    "question": {
+      "text": "Which of the following is an appropriate combination of the protocols that are used for transmitting and receiving e-mail as shown in the diagram below?",
+      "images": "Diagram showing email flow (Send, Receive, Transfer) referenced in source",
+      "type": "Networking/Email Protocols",
+      "source": "ITPEC IP Exam, April 2023"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "(1) POP3 (2) POP3 (3) SMTP",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "(1) POP3 (2) SMTP (3) POP3",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "(1) SMTP (2) POP3 (3) SMTP",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "(1) SMTP (2) SMTP (3) SMTP",
+        "images": ""
+      }
+    ],
+    "answer": "c"
+  },
+  {
+    "id": 31,
+    "question": {
+      "text": "Which of the following is placed between an internal network and an external network in order to prevent unauthorized access from the external network to the internal network?",
+      "images": "",
+      "type": "Security/Network Device",
+      "source": "ITPEC IP Exam, April 2023"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "DHCP server",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "Search engine",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "Switching hub",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "Firewall",
+        "images": ""
+      }
+    ],
+    "answer": "d"
+  },
+  {
+    "id": 32,
+    "question": {
+      "text": "Which of the following is an appropriate effect of replacing IPv4 with IPv6?",
+      "images": "",
+      "type": "Networking/Protocols",
+      "source": "ITPEC IP Exam, April 2023"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Problems no longer occur when two or more devices that can be accessed directly from the Internet have the same IP address.",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "The shortage of IP addresses that can be used on the Internet is resolved.",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "It becomes possible to use optical fibers for connecting to the Internet.",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "The communication speed on the Internet is increased.",
+        "images": ""
+      }
+    ],
+    "answer": "b"
+  },
+  {
+    "id": 33,
+    "question": {
+      "text": "Which of the following is a mechanism by which, if an e-mail is sent to a specific e-mail address, the e-mail with the same content is distributed to multiple e-mail addresses that have been registered to the specific address?",
+      "images": "",
+      "type": "Networking/Email",
+      "source": "ITPEC IP Exam, April 2023"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Web mail",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "Chain mail",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "Mailing list",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "Reply mail",
+        "images": ""
+      }
+    ],
+    "answer": "c"
+  },
+  {
+    "id": 34,
+    "question": {
+      "text": "Among the cases of communication between PCs, servers, communication devices, printers, and other devices, which of the following needs to use a WAN?",
+      "images": "",
+      "type": "Networking/WAN",
+      "source": "ITPEC IP Exam, April 2023"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Multiple PCs and a file server are connected to a LAN in Osaka branch office, and files stored in the file server are made to be accessible from any PC connected to the LAN.",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "Inside a house, a PC and a printer are connected with Bluetooth, and documents created on the PC are printed on the printer.",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "Inside a server room, a PC and a web server are connected to a hub, and the web server is maintained from the PC.",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "A PC connected to the LAN in Kyoto-City sales office accesses the server in Tokyo head office and uploads sales information.",
+        "images": ""
+      }
+    ],
+    "answer": "d"
+  },
+  {
+    "id": 35,
+    "question": {
+      "text": "Which of the following is an appropriate explanation of a keylogger that is a threat to information security?",
+      "images": "",
+      "type": "Security/Malware",
+      "source": "ITPEC IP Exam, April 2023"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Stealing information by watching the keyboard input and the display output from behind a PC user",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "Monitoring and recording the keyboard input on a user’s PC",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "Identifying a password by using a dictionary of the words that are likely to be used as passwords",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "Searching for a access point that allows unauthorized access by moving around a town with a PC that can detect the electromagnetic waves of a wireless LAN",
+        "images": ""
+      }
+    ],
+    "answer": "b"
+  },
+  {
+    "id": 36,
+    "question": {
+      "text": "Which of the following is the most appropriate explanation of phishing?",
+      "images": "",
+      "type": "Security/Attack Type",
+      "source": "ITPEC IP Exam, April 2023"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "A computer infected with a virus is controlled without owner’s consent from an external location via a network such as the Internet by the functions of the virus.",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "A false e-mail is sent, in order to lead the recipient to a fake website or to an imitation of an existing website, and then to illegally obtain personal information.",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "When user’s data sent to a website is displayed as is, its vulnerabilitiy is exploited in order to embed in a page a malicious script that illegally obtains the information about user who displayes the page.",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "A resident program is placed on a PC without the knowledge of the users in order to illegally obtain data in files or information about PC operations.",
+        "images": ""
+      }
+    ],
+    "answer": "b"
+  },
+  {
+    "id": 37,
+    "question": {
+      "text": "Which of the following is a form of direct damage to a server that is caused by a DoS attack?",
+      "images": "",
+      "type": "Security/Attack Type",
+      "source": "ITPEC IP Exam, April 2023"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "The encrypted data on the server is decrypted.",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "The administrator password of the server is changed.",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "The server is infected by a virus.",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "The services of a server are interrupted.",
+        "images": ""
+      }
+    ],
+    "answer": "d"
+  },
+  {
+    "id": 38,
+    "question": {
+      "text": "Among the countermeasures A through D concerning information security, which of the following is the list that contains all and only the appropriate countermeasures for virus infections? A: Installing antivirus software B: Applying a security patch (i.e., update module) C: Setting a password for the hard disk D: Encrypting files",
+      "images": "",
+      "type": "Security/Virus Protection",
+      "source": "ITPEC IP Exam, April 2023"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "A, B",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "A, B, C",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "A, D",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "B, C",
+        "images": ""
+      }
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 39,
+    "question": {
+      "text": "Among the descriptions A through C concerning PKI, which of the following is the list that contains all and only the appropriate descriptions concerning a digital signature in e-mail? A The recipient can check whether the sender is the intended person. B It is possible to prevent e-mail from being read before it reaches the recipient. C The recipient can confirm that the e-mail has not been tampered with.",
+      "images": "",
+      "type": "Security/Digital Signature",
+      "source": "ITPEC IP Exam, April 2023"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "A, B",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "A, C",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "B, C",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "A, B, C",
+        "images": ""
+      }
+    ],
+    "answer": "b"
+  },
+  {
+    "id": 40,
+    "question": {
+      "text": "Which of the following is the general name for evil-minded software such as a key logger or worm?",
+      "images": "",
+      "type": "Security/Malware",
+      "source": "ITPEC IP Exam, April 2023"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Shareware",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "Firmware",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "Malware",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "Middleware",
+        "images": ""
+      }
+    ],
+    "answer": "c"
+  },
+  {
+    "id": 41,
+    "question": {
+      "text": "In the description below concerning risk management in information security, which of the following is an appropriate combination of words or phrases to be inserted into the blanks A through C? In information security, a [A] in an information asset of an organization can be exploited by a [B]. The potential for damage is called a [C].",
+      "images": "",
+      "type": "Security Management/Terminology",
+      "source": "ITPEC IP Exam, April 2023"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "A: Threat, B: Risk, C: Vulnerability",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "A: Vulnerability, B: Threat, C: Risk",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "A: Risk, B: Threat, C: Vulnerability",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "A: Risk, B: Vulnerability, C: Threat",
+        "images": ""
+      }
+    ],
+    "answer": "b"
+  },
+  {
+    "id": 42,
+    "question": {
+      "text": "IDs and passwords are leaked from the first website, and the users of this website suffer from a password list attack on the second website. In this case, which of the following is the problem concerning the IDs and passwords for the second website?",
+      "images": "",
+      "type": "Security/Authentication",
+      "source": "ITPEC IP Exam, April 2023"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "The ID and password are sent via unencrypted communication.",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "The same IDs and passwords as the first website are set.",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "Password are set with a combination of a small variety of characters.",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "Short passwords are set.",
+        "images": ""
+      }
+    ],
+    "answer": "b"
+  },
+  {
+    "id": 43,
+    "question": {
+      "text": "Among the types of authentication I through IV, which of the following is a list that contains all and only biometrics authentication? I PIN (Personal Identification Number) II Iris III Fingerprint IV Vein",
+      "images": "",
+      "type": "Security/Authentication",
+      "source": "ITPEC IP Exam, April 2023"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "I, II, III",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "II, III",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "II, III, IV",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "IV",
+        "images": ""
+      }
+    ],
+    "answer": "c"
+  },
+  {
+    "id": 44,
+    "question": {
+      "text": "When information security management is based on the PDCA cycle, which of the following corresponds to C (Check)?",
+      "images": "",
+      "type": "Security Management/PDCA",
+      "source": "ITPEC IP Exam, April 2023"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "The objectives, processes, and procedures for information security are established.",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "Improvement is made through corrective and preventive actions on the basis of an evaluation.",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "Processes and procedures are introduced and operated.",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "Effectiveness of the processes are measured and evaluated.",
+        "images": ""
+      }
+    ],
+    "answer": "d"
+  },
+  {
+    "id": 45,
+    "question": {
+      "text": "Which of the following is a protocol that is used for encrypted HTTPS communication between a web server and a web browser?",
+      "images": "",
+      "type": "Networking/Security Protocol",
+      "source": "ITPEC IP Exam, April 2023"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "SEO",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "SPEC",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "SQL",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "TLS",
+        "images": ""
+      }
+    ],
+    "answer": "d"
+  },
+  {
+    "id": 46,
+    "question": {
+      "text": "Which of the following is an appropriate explanation of software maintenance?",
+      "images": "",
+      "type": "Software Lifecycle/Maintenance",
+      "source": "ITPEC IP Exam, April 2023"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "During system development, each program that has been created on the basis of the detailed design is verified and corrected as appropriate if any error is detected.",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "Programs are corrected or revised for the purpose of the stable system operations and the catch up with the development of information technology and changes in business strategy.",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "When a question is asked by a system user, the question is recorded and transferred to the appropriate department, and the final response is recorded.",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "From a wide range of perspectives, the system including software is evaluated, and it is determined whether or not the system is contributing to the business operations.",
+        "images": ""
+      }
+    ],
+    "answer": "b"
+  },
+  {
+    "id": 47,
+    "question": {
+      "text": "When system development progresses in the sequence of system requirements definition, external design, internal design, and programming, which of the following is the most appropriate phase for defining the layout of screens and the format of forms?",
+      "images": "",
+      "type": "Software Development/Design",
+      "source": "ITPEC IP Exam, April 2023"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "External design",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "Internal design",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "Programming",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "System requirements definition",
+        "images": ""
+      }
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 48,
+    "question": {
+      "text": "Mr. A, a participant in system testing, has no access to the internal structure of the system or software and prepares input data and output data for common transactions in the department for purpose of verification. Which of the following is the testing technique that Mr. A is going to implement?",
+      "images": "",
+      "type": "Software Testing",
+      "source": "ITPEC IP Exam, April 2023"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Inspection",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "Walk-through",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "Black-box testing",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "White-box testing",
+        "images": ""
+      }
+    ],
+    "answer": "c"
+  },
+  {
+    "id": 49,
+    "question": {
+      "text": "Among a series of tests of software, which of the following is implemented mainly by the user who orders the development of the software?",
+      "images": "",
+      "type": "Software Testing",
+      "source": "ITPEC IP Exam, April 2023"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Acceptance test",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "Integration test",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "System test",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "Unit test",
+        "images": ""
+      }
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 50,
+    "question": {
+      "text": "Software development models include the waterfall model, spiral model, prototyping model, and RAD, etc. Which of the following is the most appropriate explanation of the waterfall model?",
+      "images": "",
+      "type": "Software Development Model",
+      "source": "ITPEC IP Exam, April 2023"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "After all activities in each phase in the development are complete, the project proceeds to the next phase.",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "The functions to be developed are divided, and each function is efficiently and swiftly developed with the use of development tools and parts.",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "At an early phase in software development, working sample software is created that enables users to visually confirm requirements.",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "The functions of software are divided, and the software is gradually completed through repeated design and development for each function so that feedback from users can be incorporated.",
+        "images": ""
+      }
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 51,
+    "question": {
+      "text": "At the beginning phase of a new personnel system development project, in order to clarify the risks, the persons in charge of the planning department, personnel department, and information systems department, who act as the project team members, get together and make a list of the risks that they can think of concerning the project. What is such a method called?",
+      "images": "",
+      "type": "Project Management/Risk",
+      "source": "ITPEC IP Exam, April 2023"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Walk-through",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "Critical path method",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "Simulation",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "Brainstorming",
+        "images": ""
+      }
+    ],
+    "answer": "d"
+  },
+  {
+    "id": 52,
+    "question": {
+      "text": "Among the measures A through C for risk treatment to be considered when a new product is developed, which of the following is the list that contains all and only appropriate measures for reducing quality-related risks? A: Developing the product by using proven technology B: Purchasing insurance against development delays C: Creating a prototype of the product",
+      "images": "",
+      "type": "Project Management/Risk Mitigation",
+      "source": "ITPEC IP Exam, April 2023"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "A, B",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "A, C",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "A, B, C",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "B, C",
+        "images": ""
+      }
+    ],
+    "answer": "b"
+  },
+  {
+    "id": 53,
+    "question": {
+      "text": "Which of the following is an appropriate description concerning decomposition that is performed to create the WBS of a system development project?",
+      "images": "",
+      "type": "Project Management/WBS",
+      "source": "ITPEC IP Exam, April 2023"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "It is desirable that decomposition be performed up to the level that the cost and time required to create development deliverables can be estimated and manageable.",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "When system development is outsourced, the customer should entrust all decomposition of deliverables to the developer that creates the deliverables.",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "Since a project’s progress report meetings are a means of communication, they are not subject to decomposition.",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "If the developer has some experiences in developing similar systems, the developer does not need to perform decomposition again.",
+        "images": ""
+      }
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 54,
+    "question": {
+      "text": "After the start of a project, the scope is defined by collecting the requirements for the project. Which of the following is the most appropriate purpose of defining the scope?",
+      "images": "",
+      "type": "Project Management/Scope",
+      "source": "ITPEC IP Exam, April 2023"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "To clarify the activities to be implemented in the project",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "To create the action plan against the risk that has been realized in the project",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "To create an action plan for the delay of the project",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "To clarify the objectives of the project",
+        "images": ""
+      }
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 55,
+    "question": {
+      "text": "A system development project at a company is starting to become delayed. In order to resolve the delay, the project leader proposes to project members that part of the planned work procedure be omitted. The opinion of the project members is divided into those who think that this cannot be avoided and those who are opposed because the quality will decrease. From the perspective of ensuring quality in a project, which of the following is the most appropriate action for a project leader to take?",
+      "images": "",
+      "type": "Project Management/Quality",
+      "source": "ITPEC IP Exam, April 2023"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Discussing detailed measures against decrease in quality within the project, and building consensus as a project",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "Deciding whether to accept or reject a proposal with a majority decision by highly skilled people from among the project members",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "Adopting the project leader’s proposal because the project leader has the most experience",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "Replacing project members who cannot agree with the project leader’s proposal",
+        "images": ""
+      }
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 56,
+    "question": {
+      "text": "When the management of a project is divided into progress management, quality management, and cost management, which of the following is most appropriate to be checked in progress management?",
+      "images": "",
+      "type": "Project Management/Progress",
+      "source": "ITPEC IP Exam, April 2023"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Whether an integration test is conducted exhaustively from a variety of viewpoints",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "The degree of an increase in cost in the future",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "The degree of the impact on the entire schedule by a delay in an activity",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "Whether a procedure has been established for a design review for finding defects in the design",
+        "images": ""
+      }
+    ],
+    "answer": "c"
+  },
+  {
+    "id": 57,
+    "question": {
+      "text": "There is a project with a development period of 10 months and a labor cost budget for development of 10 million yen. After the elapse of five (5) months, the actual labor cost is recorded as 6 million yen, and 40% of the deliverables is complete. If the development is continued till completion with the same productivity, how much will the excess of the budget for labor cost be?",
+      "images": "",
+      "type": "Project Management/EVM",
+      "source": "ITPEC IP Exam, April 2023"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "1 million yen",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "2 million yen",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "2.5 million yen",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "5 million yen",
+        "images": ""
+      }
+    ],
+    "answer": "d"
+  },
+  {
+    "id": 58,
+    "question": {
+      "text": "Which of the following is the most appropriate activities of a service desk?",
+      "images": "",
+      "type": "ITSM/Service Desk",
+      "source": "ITPEC IP Exam, April 2023"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Eliminating the root cause of an incident and preventing the recurrence of the incident",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "Installing updated software in order to prevent the recurrence of an incident",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "Performing centralized management of changes in a service",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "Receiving and recording inquiries from users",
+        "images": ""
+      }
+    ],
+    "answer": "d"
+  },
+  {
+    "id": 59,
+    "question": {
+      "text": "In a certain IT service, four (4) priority levels are set for system changes: urgent, high, medium, and low. Among the proposed system changes, which of the following is the change that should be classified as “urgent”? Here, regular release is scheduled at the end of each month.",
+      "images": "Priority table referenced in source",
+      "type": "ITSM/Change Management",
+      "source": "ITPEC IP Exam, April 2023"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "System changes related to improving the function of supplementary lookup screens necessary for the launch of new services in two (2) weeks",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "System changes related to countermeasures to address failures in an electronic conference system that has many corporate users",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "System changes related to measures to address faults in a disaster information system that is used for making decisions on issuing local evacuation advisories",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "Fixing of program bugs that can be completed by the processing date in the coming month",
+        "images": ""
+      }
+    ],
+    "answer": "c"
+  },
+  {
+    "id": 60,
+    "question": {
+      "text": "Which of the following is an appropriate explanation of facility management?",
+      "images": "",
+      "type": "ITSM/Facility Management",
+      "source": "ITPEC IP Exam, April 2023"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "It refers to the monitoring of compliance with SLAs and their periodical reviewing, for the purpose of maintaining and managing IT service levels.",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "It refers to a method for optimizing ownership, operation, maintenance, etc. of buildings and physical IT infrastructures from a business standpoint.",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "It refers to the continuous improvement of business processes to increase the quality of products and services.",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "It refers to sharing and managing information across the departments and the companies that participate in the series of processes from component procurement to manufacturing, distribution, and sales.",
+        "images": ""
+      }
+    ],
+    "answer": "b"
+  },
+  {
+    "id": 61,
+    "question": {
+      "text": "In order to automatically respond to queries from users of an IT service, it was decided to install a chatbot. Which of the following is the most appropriate management process where such automation by a chatbot is effective?",
+      "images": "",
+      "type": "ITSM/Automation",
+      "source": "ITPEC IP Exam, April 2023"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Incident management",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "Configuration management",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "Change management",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "Problem management",
+        "images": ""
+      }
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 62,
+    "question": {
+      "text": "Which of the following is the appropriate description concerning SLM in an IT service?",
+      "images": "",
+      "type": "ITSM/SLM",
+      "source": "ITPEC IP Exam, April 2023"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "In SLM, maintaining the service level that is agreed upon in the SLA is the highest-priority issue. Therefore, improving the service quality becomes a secondary activity.",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "In SLM, in order to measure the level of achievement of the quantitative targets agreed upon in the SLA, the service performance is monitored and reviewed.",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "The objective of SLM is to obtain a common understanding of the service, the level of requirements, and other details with customers, and the creation of an SLA is the final objective of the activity.",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "In order to make SLM an effective activity, it is important to set the service level agreed upon in the SLA to an easily-attainable level.",
+        "images": ""
+      }
+    ],
+    "answer": "b"
+  },
+  {
+    "id": 63,
+    "question": {
+      "text": "As a part of internal control, access management conforming to the segregation of duties is implemented for the use and operation of an information system. During the development of the information system, which of the following is an appropriate process to start taking access management into account?",
+      "images": "",
+      "type": "Internal Control/System Development",
+      "source": "ITPEC IP Exam, April 2023"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Requirements definition",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "Programming",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "Test",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "After operation start",
+        "images": ""
+      }
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 64,
+    "question": {
+      "text": "Types of governance within a company include IT governance and corporate governance. Which of the following is an appropriate explanation of the positioning of IT governance?",
+      "images": "",
+      "type": "IT Governance/Corporate Governance",
+      "source": "ITPEC IP Exam, April 2023"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "IT governance and corporate governance are the same concepts.",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "IT governance and corporate governance are opposing concepts.",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "Corporate governance is one (1) component of IT governance.",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "IT governance is an indispensable element of corporate governance.",
+        "images": ""
+      }
+    ],
+    "answer": "d"
+  },
+  {
+    "id": 65,
+    "question": {
+      "text": "When an external systems auditor conducts a systems audit of a company as an outsourcing service, which of the following is an appropriate action by the external systems auditor?",
+      "images": "",
+      "type": "System Audit/Auditor Role",
+      "source": "ITPEC IP Exam, April 2023"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Writing the audit report in such a way that no disadvantage is caused to the managers of the company",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "Disclosing to the public the entire information obtained by the systems audit",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "Concluding a contract that audit fee is paid according to the number of findings, and then conducting an audit",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "Making audit judgements on the basis of sufficient and appropriate audit evidence",
+        "images": ""
+      }
+    ],
+    "answer": "d"
+  },
+  {
+    "id": 66,
+    "question": {
+      "text": "Which of the following has a negative correlation between temperature and total sales?",
+      "images": "Implied figures showing correlations referenced in source",
+      "type": "Statistics/Correlation",
+      "source": "ITPEC IP Exam, April 2023"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Chart A (Implied positive correlation)",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "Chart B (Implied negative correlation)",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "Chart C (Implied no correlation)",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "Chart D (Implied complex correlation)",
+        "images": ""
+      }
+    ],
+    "answer": "b"
+  },
+  {
+    "id": 67,
+    "question": {
+      "text": "Among the parts of a cash flow statement, which of the following is the part where the income from product sales is reported?",
+      "images": "",
+      "type": "Accounting/Cash Flow",
+      "source": "ITPEC IP Exam, April 2023"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Operating activities",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "Financing activities",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "Investing activities",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "Administrating activities",
+        "images": ""
+      }
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 68,
+    "question": {
+      "text": "Among the senior management positions, which of the following is the highest-ranking person who exercises control over the information systems?",
+      "images": "",
+      "type": "Business Management/Role",
+      "source": "ITPEC IP Exam, April 2023"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "CEO",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "CFO",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "CIO",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "COO",
+        "images": ""
+      }
+    ],
+    "answer": "c"
+  },
+  {
+    "id": 69,
+    "question": {
+      "text": "Which of the following is the appropriate combination of words and phrases to be inserted into blanks A and B in the description below, concerning companies of making and receiving investments? “Company C is making an investment in Company D. To increase its [A] Company D, Company C may [B].”",
+      "images": "",
+      "type": "Finance/Investment",
+      "source": "ITPEC IP Exam, April 2023"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "A: control over, B: sell a portion of stocks",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "A: control over, B: acquire additional stocks",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "A: ratio of shareholding in, B: dispatch auditors",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "A: ratio of shareholding in, B: dispatch directors",
+        "images": ""
+      }
+    ],
+    "answer": "b"
+  },
+  {
+    "id": 70,
+    "question": {
+      "text": "Among company rules, which of the following is a rule that implements segregation of duties?",
+      "images": "",
+      "type": "Internal Control/Segregation",
+      "source": "ITPEC IP Exam, April 2023"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Rule that defines the management organization that is the foundation of the company",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "Rule that defines the role, responsibilities, and authority of each department and each employee",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "Rule that defines employees' working conditions and other matters related to employment",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "Rule that defines proper conduct in terms of laws, regulations, and social norms",
+        "images": ""
+      }
+    ],
+    "answer": "b"
+  },
+  {
+    "id": 71,
+    "question": {
+      "text": "Which of the following is the appropriate term that refers to a variety of individuals with different sex, age, nationality, experience, and the like?",
+      "images": "",
+      "type": "Management/HR",
+      "source": "ITPEC IP Exam, April 2023"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Glass ceiling",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "Diversity",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "White collar exemption",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "Work-life balance",
+        "images": ""
+      }
+    ],
+    "answer": "b"
+  },
+  {
+    "id": 72,
+    "question": {
+      "text": "A certain product’s sales plan and sales result are shown in the table below. What is the ratio in percentage of the profit result to the profit plan? Here, the decimal fractions of the ratio are truncated.",
+      "images": "Sales and profit table referenced in source",
+      "type": "Accounting/Calculation",
+      "source": "ITPEC IP Exam, April 2023"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "77",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "99",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "110",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "129",
+        "images": ""
+      }
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 73,
+    "question": {
+      "text": "Which of the following is an appropriate combination of the standards and their applicable fields? IEEE 802.3 ISO 9001 ISO 14001",
+      "images": "",
+      "type": "Standardization/ISO",
+      "source": "ITPEC IP Exam, April 2023"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "LAN, Environmental management, Quality management",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "LAN, Quality management, Environmental management",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "Environmental management, LAN, Quality management",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "Environmental management, Quality management, LAN",
+        "images": ""
+      }
+    ],
+    "answer": "b"
+  },
+  {
+    "id": 74,
+    "question": {
+      "text": "Which of the following is free software that can be copied or modified freely without permission from the author?",
+      "images": "",
+      "type": "Software Licensing",
+      "source": "ITPEC IP Exam, April 2023"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Shareware",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "Package software",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "Public domain software",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "Utility software",
+        "images": ""
+      }
+    ],
+    "answer": "c"
+  },
+  {
+    "id": 75,
+    "question": {
+      "text": "Which of the following is appropriate as a characteristic of the QR code?",
+      "images": "",
+      "type": "Data Coding/QR Code",
+      "source": "ITPEC IP Exam, April 2023"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "The code can contain only single-byte alphanumeric characters and symbols.",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "The amount of information that can be stored is equivalent to that of a barcode.",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "The code can be read from any direction including the top, bottom, left, and right.",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "The code has a two-dimensional structure in which three barcode layers are stacked.",
+        "images": ""
+      }
+    ],
+    "answer": "c"
+  },
+  {
+    "id": 76,
+    "question": {
+      "text": "Among the lists of corporate activities A through D, which of the following is the list that contains all activities concerning the establishment of compliance? A: Supporting fine art and cultural activities B: Training employees in the codes of conduct C: Performing activities for prevention of global desertification D: Creating a mechanism for whistle blowing",
+      "images": "",
+      "type": "Compliance",
+      "source": "ITPEC IP Exam, April 2023"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "A, B",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "A, C",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "B, D",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "C, D",
+        "images": ""
+      }
+    ],
+    "answer": "c"
+  },
+  {
+    "id": 77,
+    "question": {
+      "text": "Which of the following is the most appropriate example of standardization in the manufacturing industry?",
+      "images": "",
+      "type": "Manufacturing/Standardization",
+      "source": "ITPEC IP Exam, April 2023"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Daily workload is balanced, and the types and volume of components taken daily in from the previous process are equalized.",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "In order to streamline the production process, common components and procedures are used for manufacturing.",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "In order to improve the speed of a production management program, the optimum algorithm is selected.",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "Production planning, production processes, and working methods are simplified through a reduction in product types and a review of work details.",
+        "images": ""
+      }
+    ],
+    "answer": "b"
+  },
+  {
+    "id": 78,
+    "question": {
+      "text": "Which of the following is the most appropriate description of NDA?",
+      "images": "",
+      "type": "Legal/Contract",
+      "source": "ITPEC IP Exam, April 2023"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "It is a specialized organization that monitors and analyzes threats to the information systems in a company, etc.",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "It is a contract that makes the contracting parties agree to hold and maintain in confidence the confidential information of the other party.",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "It is an agreement of an objective quality standard that is concluded between a service provider and the user concerning the service provided.",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "It is a hierarchical decomposition of the tasks to be implemented in a project.",
+        "images": ""
+      }
+    ],
+    "answer": "b"
+  },
+  {
+    "id": 79,
+    "question": {
+      "text": "There are two types of performance indexes: one to evaluate the achievement level of a goal and the other to evaluate the method for achieving a goal. When the goal is to “improve the English ability of employees,” which of the following is an appropriate index to represent the achievement level of this goal?",
+      "images": "",
+      "type": "Business Management/KPI",
+      "source": "ITPEC IP Exam, April 2023"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "The ratio of employees’ awareness of a message from the company president concerning the importance of learning English is 80% or more.",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "The ratio of employees who get a mark of 650 or higher in an English test is 60% or more.",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "The ratio of employees who participate in an English test is 90% or more.",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "The ratio at which a company’s monthly English training course is held as planned is 90% or more.",
+        "images": ""
+      }
+    ],
+    "answer": "b"
+  },
+  {
+    "id": 80,
+    "question": {
+      "text": "Which of the following is an appropriate example of alliance in corporate strategy?",
+      "images": "",
+      "type": "Business Strategy/Alliance",
+      "source": "ITPEC IP Exam, April 2023"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "By a merger or acquisition, although confusion and friction arises because of participation of a partner company with a different culture, tangible and intangible resources are acquired.",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "By outsourcing the non-core activities of a company to some specialized vendors or service providers, the company shifts the staff members to its mission-critical activities.",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "By technological tie-ups, outsourcing of production and sales, and establishment of joint ventures, several companies strengthen their cooperation while maintaining their independence.",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "By holding the stocks of group companies, a company is managed and operated in the form of a company that is specialized to function as a headquarters of such companies.",
+        "images": ""
+      }
+    ],
+    "answer": "c"
+  },
+  {
+    "id": 81,
+    "question": {
+      "text": "Which of the following is an appropriate explanation of SWOT analysis?",
+      "images": "",
+      "type": "Business Strategy/SWOT",
+      "source": "ITPEC IP Exam, April 2023"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "It is a technique for deriving the future direction of corporate activities by analyzing opportunities and threats underlying in the external environment surrounding the company, and the strengths and weaknesses of the company.",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "It is a technique of evaluating and analyzing the business performance of a company in a well-balanced manner, from the perspectives of finance, customer, internal business processes, and learning and growth.",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "It is a technique of designing corporate activities from the viewpoint of what kind of value the in-house activities finally generate for customers and whether this satisfies the customers.",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "It is a technique of plotting a business on a matrix created by the two (2) quantitative values of market growth rate and market share, and then optimizing the allocation of resources.",
+        "images": ""
+      }
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 82,
+    "question": {
+      "text": "As segmentation in marketing, consumers are classified on the basis of the attitude toward product purchase. Which of the following is an appropriate attitude toward product purchase of a consumer called an opinion leader?",
+      "images": "",
+      "type": "Marketing/Consumer Behavior",
+      "source": "ITPEC IP Exam, April 2023"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Conveying one’s evaluation of a product to friends and acquaintances after the product becomes popular",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "Taking into consideration their friends’ evaluation and public opinion when deciding whether to purchase a product",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "Waiting for the sales of a new product to start, and being eager to acquire it before friends and acquaintances",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "Purchasing a new product in its initial phase of sale, and conveying information about the product to friends and acquaintances",
+        "images": ""
+      }
+    ],
+    "answer": "d"
+  },
+  {
+    "id": 83,
+    "question": {
+      "text": "Which of the following is a marketing technique that seeks to analyze the needs of each individual person and provide products and services that fulfill those needs?",
+      "images": "",
+      "type": "Marketing/Techniques",
+      "source": "ITPEC IP Exam, April 2023"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Social marketing",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "Telemarketing",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "Mass marketing",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "One-to-one marketing",
+        "images": ""
+      }
+    ],
+    "answer": "d"
+  },
+  {
+    "id": 84,
+    "question": {
+      "text": "Which of the following is the most appropriate as the underlying concept of CRM?",
+      "images": "",
+      "type": "Business System/CRM",
+      "source": "ITPEC IP Exam, April 2023"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "The source of profit is the choice of an area with little competition and the entry into the area before competitors.",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "The source of profit is the construction and maintenance of a good relationship with the customer.",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "The source of profit is the shorter product life cycle.",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "The source of profit is the obtaining of a large share in a specific market.",
+        "images": ""
+      }
+    ],
+    "answer": "b"
+  },
+  {
+    "id": 85,
+    "question": {
+      "text": "In the promotion of technology development, charts such as the one shown below are used for evaluating its progress or for checking its consistency with related technologies. What is the name of this sort of chart that shows on the time axis the route toward progress in required functions, underlying technology, etc. through research and development initiatives?",
+      "images": "Figure showing time-based technology development path referenced in source",
+      "type": "Technology Management/Planning",
+      "source": "ITPEC IP Exam, April 2023"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Control chart",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "Cause and effect diagram",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "Pareto chart",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "Roadmap",
+        "images": ""
+      }
+    ],
+    "answer": "d"
+  },
+  {
+    "id": 86,
+    "question": {
+      "text": "Which of the following shows a method that adheres to compliance, and sends advertisement e-mails and collects personal information only to/from the users who provided an explicit agreement in advance?",
+      "images": "",
+      "type": "Legal/Compliance (Privacy)",
+      "source": "ITPEC IP Exam, April 2023"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Activation",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "Opt-out",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "Opt-in",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "Whitelist",
+        "images": ""
+      }
+    ],
+    "answer": "c"
+  },
+  {
+    "id": 87,
+    "question": {
+      "text": "Which of the following is the system that is housed in home electric appliances, such as rice cookers and air conditioners, and is used to implement the specific functions of such appliances?",
+      "images": "",
+      "type": "Hardware/Embedded System",
+      "source": "ITPEC IP Exam, April 2023"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Expert system",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "Enterprise system",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "Embedded system",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "Simplex system",
+        "images": ""
+      }
+    ],
+    "answer": "c"
+  },
+  {
+    "id": 88,
+    "question": {
+      "text": "Which of the following is a form of e-commerce corresponding to an online bookstore or an online shopping mall that is targeted at individuals?",
+      "images": "",
+      "type": "E-commerce/Classification",
+      "source": "ITPEC IP Exam, April 2023"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "B to B",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "B to C",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "C to B",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "C to C",
+        "images": ""
+      }
+    ],
+    "answer": "b"
+  },
+  {
+    "id": 89,
+    "question": {
+      "text": "Which of the following is an appropriate explanation of an ERP package?",
+      "images": "",
+      "type": "Business System/ERP",
+      "source": "ITPEC IP Exam, April 2023"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "As it is a system that comprehensively supports business unique to an industry, it is used only for certain industry sectors such as the mobile phone business.",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "As it is a system specific to the financial accounting process, the function of passing accounting data to the general accounting process must be developed or purchased separately.",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "It is an integrated business system that processes various business-related applications, and is used in companies of various sizes in various industry sectors.",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "It is a system that integrates sales, purchasing, and financial accounting, and is a system specialized for the use by small company such as individually-owned shops.",
+        "images": ""
+      }
+    ],
+    "answer": "c"
+  },
+  {
+    "id": 90,
+    "question": {
+      "text": "Which of the following is a general term for techniques or methods for trying to make the homepage of one’s own company to be displayed at a higher rank in the search results of a search engine on the Internet?",
+      "images": "",
+      "type": "E-commerce/Marketing",
+      "source": "ITPEC IP Exam, April 2023"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "DNS",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "RSS",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "SEO",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "SNS",
+        "images": ""
+      }
+    ],
+    "answer": "c"
+  },
+  {
+    "id": 91,
+    "question": {
+      "text": "Which of the following is the most appropriate example of the utilizing artificial intelligence?",
+      "images": "",
+      "type": "Technology Trends/AI Application",
+      "source": "ITPEC IP Exam, April 2023"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "A system controls the acceleration, steering, and braking of an automobile without intervention by the driver.",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "A person can check occupancy for a conference room or toilet in real time from his or her desk in an office.",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "Approval for a transaction is granted through distributed consensus building technology without the need for a central administrator, such as a bank.",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "A person enters information in advance from a PC at his or her house in order to perform a money transfer automatically without going to the bank.",
+        "images": ""
+      }
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 92,
+    "question": {
+      "text": "Crowdfunding can be classified into loan-based, donation-based, purchase-based, or investment-based types, depending on the differences in the form of funding and the way the compensation is received. In order to start a new business, Company A has decided to raise funds through crowdfunding and pay a part of the profits to the funders as dividends. Which of the following is the most appropriate type of crowdfunding used by Company A?",
+      "images": "",
+      "type": "Finance/Crowdfunding",
+      "source": "ITPEC IP Exam, April 2023"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Loan-based crowdfunding",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "Donation-based crowdfunding",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "Purchase-based crowdfunding",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "Investment-based crowdfunding",
+        "images": ""
+      }
+    ],
+    "answer": "d"
+  },
+  {
+    "id": 93,
+    "question": {
+      "text": "Which of the following is the most appropriate characteristic of BPM (Business Process Management)?",
+      "images": "",
+      "type": "Business Management/BPM",
+      "source": "ITPEC IP Exam, April 2023"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "In order to resolve a business issue, the introduction of a mechanism of management according to international standards is required.",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "The processes are analyzed, and problems are identified for continuous improvement of the processes.",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "The efficiency of business processes is promoted by outsourcing some of them to external vendors.",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "Business processes are fundamentally reviewed and redesigned.",
+        "images": ""
+      }
+    ],
+    "answer": "b"
+  },
+  {
+    "id": 94,
+    "question": {
+      "text": "Which of the following is the general name of software that has various functions such as e-mail and chat, information sharing, and video conferencing?",
+      "images": "",
+      "type": "Software/Groupware",
+      "source": "ITPEC IP Exam, April 2023"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Groupware",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "Shareware",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "Firmware",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "Freeware",
+        "images": ""
+      }
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 95,
+    "question": {
+      "text": "Which of the following is the most appropriate description concerning DFD?",
+      "images": "",
+      "type": "System Analysis/Modeling (DFD)",
+      "source": "ITPEC IP Exam, April 2023"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "It represents transitions of the state of a system as time passes and the situation changes.",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "It represents the relationship and data structure of the entities handled by a system.",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "It represents the attributes of, operations for and relations between the elements that a system is composed of.",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "It focuses on the flow of data, and represents the relations between the flow and the processing of data.",
+        "images": ""
+      }
+    ],
+    "answer": "d"
+  },
+  {
+    "id": 96,
+    "question": {
+      "text": "Which of the following is a company that provides access to the Internet?",
+      "images": "",
+      "type": "Networking/Provider",
+      "source": "ITPEC IP Exam, April 2023"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "ASP",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "ISP",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "SaaS",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "SNS",
+        "images": ""
+      }
+    ],
+    "answer": "b"
+  },
+  {
+    "id": 97,
+    "question": {
+      "text": "Which of the following is an explanation of “acceptance testing” performed for a new system?",
+      "images": "",
+      "type": "Software Testing/Acceptance",
+      "source": "ITPEC IP Exam, April 2023"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Checking the estimate submitted by the vendor prior to placing an order based on the result of the check",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "Checking whether the deliverables provided by the vendor conform to the requirements specifications",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "Requesting the vendor to study and submit the proposal for a new system",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "Requesting the vendor to provide information for the purpose of collecting information on the technologies that can be applied to a new system",
+        "images": ""
+      }
+    ],
+    "answer": "b"
+  },
+  {
+    "id": 98,
+    "question": {
+      "text": "In the development of a consolidated accounting system, functional requirements and non-functional requirements were classified as shown in the table below. Which of the following is the appropriate requirement to be inserted into blank A? (Blank A is a non-functional requirement)",
+      "images": "Table listing functional/non-functional requirements referenced in source",
+      "type": "Software Development/Requirements",
+      "source": "ITPEC IP Exam, April 2023"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Annual downtime as a result of failure, etc. totals 10 hours or less",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "Slips with entry mistakes are corrected by using a correction slip",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "Apart from legal forms, data for executives meetings can be automatically extracted",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "Companies subject to consolidation can be changed every year",
+        "images": ""
+      }
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 99,
+    "question": {
+      "text": "For the reconstruction of a business system, an RFI is scheduled to request multiple vendors to submit an implementation image of the new system. In that regard, which of the following is appropriate information that the vendors are requested to submit at the same time?",
+      "images": "",
+      "type": "System Procurement/RFI",
+      "source": "ITPEC IP Exam, April 2023"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Overview of the current system",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "Aim for system reconstruction",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "Requirements of the new system",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "Applicable technology and its trend",
+        "images": ""
+      }
+    ],
+    "answer": "d"
+  },
+  {
+    "id": 100,
+    "question": {
+      "text": "In an online service, a website with a newly created design and a website with a conventional design were run in parallel experimentally to compare them and find out the one that makes its users more likely to apply for paid services. Which of the following is the most appropriate technique used at this time?",
+      "images": "",
+      "type": "Marketing/Testing",
+      "source": "ITPEC IP Exam, April 2023"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "A/B test",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "ABC analysis",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "Cluster analysis",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "Regression test",
+        "images": ""
+      }
+    ],
+    "answer": "a"
+  }
+]
