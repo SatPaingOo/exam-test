@@ -1,0 +1,273 @@
+// Home Page Styles
+.home {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+// Hero Section
+.hero {
+  background: linear-gradient(135deg, $bg-primary 0%, lighten($bg-primary, 10%) 100%);
+  color: $color-secondary;
+  padding: $spacing-4xl 0;
+  text-align: center;
+
+  @include respond-to('md') {
+    padding: 6rem 0;
+  }
+
+  .container {
+    @include container;
+  }
+
+  &__content {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+  &__title {
+    @include heading-1;
+    color: $color-secondary;
+    margin-bottom: $spacing-lg;
+    font-size: $font-size-3xl;
+
+    @include respond-to('md') {
+      font-size: $font-size-5xl;
+    }
+
+    &-accent {
+      color: $color-accent;
+    }
+  }
+
+  &__description {
+    font-size: $font-size-lg;
+    line-height: $line-height-relaxed;
+    color: rgba($color-secondary, 0.9);
+    margin-bottom: $spacing-2xl;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  &__actions {
+    @include flex-center;
+    gap: $spacing-md;
+    margin-bottom: $spacing-3xl;
+    flex-wrap: wrap;
+  }
+
+  &__stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: $spacing-xl;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  &__stat {
+    @include flex-column;
+    gap: $spacing-xs;
+
+    &-number {
+      font-size: $font-size-3xl;
+      font-weight: $font-weight-bold;
+      color: $color-accent;
+    }
+
+    &-label {
+      font-size: $font-size-sm;
+      color: rgba($color-secondary, 0.8);
+    }
+  }
+}
+
+// Section Header
+.section-header {
+  text-align: center;
+  margin-bottom: $spacing-2xl;
+
+  @include respond-to('md') {
+    margin-bottom: $spacing-3xl;
+  }
+}
+
+.section-title {
+  @include heading-2;
+  margin-bottom: $spacing-md;
+  font-size: $font-size-3xl;
+
+  @include respond-to('md') {
+    font-size: $font-size-4xl;
+  }
+}
+
+.section-description {
+  font-size: $font-size-lg;
+  color: $text-secondary;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+// Exams Section
+.exams {
+  padding: $spacing-3xl 0;
+  background-color: $bg-gray;
+
+  .container {
+    @include container;
+  }
+
+  &__grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: $spacing-xl;
+
+    @include respond-to('md') {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    @include respond-to('lg') {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+}
+
+.exam-card {
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-md;
+
+  &__title {
+    font-size: $font-size-2xl;
+    font-weight: $font-weight-bold;
+    color: $color-primary;
+  }
+
+  &__subtitle {
+    font-size: $font-size-sm;
+    color: $color-accent;
+    font-weight: $font-weight-medium;
+    margin-top: -$spacing-sm;
+  }
+
+  &__description {
+    font-size: $font-size-base;
+    color: $text-secondary;
+    line-height: $line-height-relaxed;
+    flex: 1;
+  }
+
+  &__meta {
+    display: flex;
+    gap: $spacing-lg;
+    padding: $spacing-md 0;
+    border-top: 1px solid $color-gray-light;
+    border-bottom: 1px solid $color-gray-light;
+
+    &-item {
+      @include flex-column;
+      gap: $spacing-xs;
+    }
+
+    &-label {
+      font-size: $font-size-xs;
+      color: $text-secondary;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    &-value {
+      font-size: $font-size-base;
+      font-weight: $font-weight-semibold;
+      color: $text-primary;
+    }
+  }
+}
+
+// Features Section
+.features {
+  padding: $spacing-3xl 0;
+
+  .container {
+    @include container;
+  }
+
+  &__grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: $spacing-2xl;
+
+    @include respond-to('sm') {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    @include respond-to('lg') {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+}
+
+.feature {
+  text-align: center;
+  padding: $spacing-xl;
+  border-radius: $border-radius-lg;
+  transition: all $transition-base;
+
+  &:hover {
+    background-color: $bg-gray;
+    transform: translateY(-4px);
+  }
+
+  &__icon {
+    font-size: 3rem;
+    margin-bottom: $spacing-md;
+  }
+
+  &__title {
+    font-size: $font-size-xl;
+    font-weight: $font-weight-semibold;
+    color: $text-primary;
+    margin-bottom: $spacing-sm;
+  }
+
+  &__description {
+    font-size: $font-size-sm;
+    color: $text-secondary;
+    line-height: $line-height-relaxed;
+  }
+}
+
+// CTA Section
+.cta {
+  background: linear-gradient(135deg, $color-accent 0%, darken($color-accent, 10%) 100%);
+  color: $color-secondary;
+  padding: $spacing-3xl 0;
+  text-align: center;
+
+  .container {
+    @include container;
+  }
+
+  &__content {
+    max-width: 700px;
+    margin: 0 auto;
+  }
+
+  &__title {
+    @include heading-2;
+    color: $color-secondary;
+    margin-bottom: $spacing-md;
+    font-size: $font-size-3xl;
+
+    @include respond-to('md') {
+      font-size: $font-size-4xl;
+    }
+  }
+
+  &__description {
+    font-size: $font-size-lg;
+    line-height: $line-height-relaxed;
+    color: rgba($color-secondary, 0.95);
+    margin-bottom: $spacing-2xl;
+  }
+}

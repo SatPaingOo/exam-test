@@ -1,0 +1,122 @@
+// Footer Component Styles
+.footer {
+  background-color: $bg-primary;
+  color: $color-secondary;
+  padding: $spacing-3xl 0 $spacing-xl;
+  margin-top: auto;
+  width: 100%;
+
+  .container {
+    @include container;
+  }
+
+  &__content {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: $spacing-2xl;
+    margin-bottom: $spacing-2xl;
+
+    @include respond-to('sm') {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    @include respond-to('lg') {
+      grid-template-columns: 2fr 1fr 1fr 1fr;
+    }
+  }
+
+  &__section {
+    display: flex;
+    flex-direction: column;
+    gap: $spacing-md;
+  }
+
+  &__title {
+    font-size: $font-size-2xl;
+    font-weight: $font-weight-bold;
+    margin-bottom: $spacing-sm;
+  }
+
+  &__logo-text {
+    color: $color-secondary;
+  }
+
+  &__logo-accent {
+    color: $color-accent;
+  }
+
+  &__description {
+    font-size: $font-size-sm;
+    line-height: $line-height-relaxed;
+    color: rgba($color-secondary, 0.8);
+    max-width: 300px;
+  }
+
+  &__heading {
+    font-size: $font-size-lg;
+    font-weight: $font-weight-semibold;
+    color: $color-secondary;
+    margin-bottom: $spacing-sm;
+  }
+
+  &__nav {
+    display: flex;
+    flex-direction: column;
+    gap: $spacing-sm;
+  }
+
+  &__link {
+    color: rgba($color-secondary, 0.8);
+    font-size: $font-size-sm;
+    text-decoration: none;
+    transition: all $transition-fast;
+    width: fit-content;
+
+    &:hover {
+      color: $color-accent;
+      transform: translateX(4px);
+    }
+  }
+
+  &__bottom {
+    display: flex;
+    flex-direction: column;
+    gap: $spacing-md;
+    align-items: center;
+    padding-top: $spacing-xl;
+    border-top: 1px solid rgba($color-secondary, 0.2);
+
+    @include respond-to('md') {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  }
+
+  &__copyright {
+    font-size: $font-size-sm;
+    color: rgba($color-secondary, 0.7);
+  }
+
+  &__social {
+    display: flex;
+    gap: $spacing-md;
+  }
+
+  &__social-link {
+    @include flex-center;
+    width: 40px;
+    height: 40px;
+    border-radius: $border-radius-full;
+    background-color: rgba($color-secondary, 0.1);
+    color: $color-secondary;
+    font-size: $font-size-lg;
+    text-decoration: none;
+    transition: all $transition-base;
+
+    &:hover {
+      background-color: $color-accent;
+      color: $color-secondary;
+      transform: translateY(-2px);
+    }
+  }
+}

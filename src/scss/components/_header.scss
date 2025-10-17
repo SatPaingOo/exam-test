@@ -1,0 +1,208 @@
+// Header Component Styles
+.header {
+  background-color: $bg-primary;
+  color: $color-secondary;
+  padding: $spacing-md 0;
+  position: sticky;
+  top: 0;
+  z-index: $z-index-sticky;
+  box-shadow: $shadow-md;
+  width: 100%;
+
+  .container {
+    @include container;
+  }
+
+  &__content {
+    @include flex-between;
+    gap: $spacing-lg;
+  }
+
+  &__logo {
+    @include flex-center;
+    gap: $spacing-xs;
+    font-size: $font-size-2xl;
+    font-weight: $font-weight-bold;
+    text-decoration: none;
+    color: $color-secondary;
+    transition: opacity $transition-base;
+
+    &:hover {
+      opacity: 0.9;
+    }
+
+    &-text {
+      color: $color-secondary;
+    }
+
+    &-accent {
+      color: $color-accent;
+    }
+  }
+
+  &__nav {
+    display: none;
+    gap: $spacing-xl;
+
+    @include respond-to('md') {
+      display: flex;
+    }
+
+    &-link {
+      color: $color-secondary;
+      font-size: $font-size-base;
+      font-weight: $font-weight-medium;
+      text-decoration: none;
+      padding: $spacing-sm;
+      border-radius: $border-radius-sm;
+      transition: all $transition-fast;
+      position: relative;
+
+      &::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 2px;
+        background-color: $color-accent;
+        transform: scaleX(0);
+        transition: transform $transition-base;
+      }
+
+      &:hover {
+        color: $color-accent;
+
+        &::after {
+          transform: scaleX(1);
+        }
+      }
+    }
+  }
+
+  &__actions {
+    display: none;
+    gap: $spacing-md;
+
+    @include respond-to('md') {
+      display: flex;
+    }
+  }
+
+  &__btn {
+    padding: $spacing-sm $spacing-lg;
+    font-size: $font-size-sm;
+    font-weight: $font-weight-medium;
+    border-radius: $border-radius-md;
+    text-decoration: none;
+    transition: all $transition-base;
+    white-space: nowrap;
+
+    &--primary {
+      background-color: $color-accent;
+      color: $color-secondary;
+
+      &:hover {
+        background-color: darken($color-accent, 10%);
+        transform: translateY(-1px);
+        box-shadow: $shadow-md;
+      }
+    }
+
+    &--secondary {
+      background-color: transparent;
+      color: $color-secondary;
+      border: 2px solid $color-secondary;
+
+      &:hover {
+        background-color: $color-secondary;
+        color: $color-primary;
+      }
+    }
+  }
+
+  &__menu-toggle {
+    display: flex;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: $spacing-sm;
+
+    @include respond-to('md') {
+      display: none;
+    }
+  }
+
+  &__menu-icon {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    width: 24px;
+
+    span {
+      display: block;
+      height: 2px;
+      background-color: $color-secondary;
+      transition: all $transition-base;
+    }
+
+    &.open {
+      span:nth-child(1) {
+        transform: rotate(45deg) translate(5px, 5px);
+      }
+
+      span:nth-child(2) {
+        opacity: 0;
+      }
+
+      span:nth-child(3) {
+        transform: rotate(-45deg) translate(5px, -5px);
+      }
+    }
+  }
+
+  &__mobile-menu {
+    display: flex;
+    flex-direction: column;
+    gap: $spacing-sm;
+    padding: $spacing-lg;
+    margin-top: $spacing-md;
+    border-top: 1px solid rgba($color-secondary, 0.2);
+    max-width: $container-max-width;
+    margin-left: auto;
+    margin-right: auto;
+
+    @include respond-to('md') {
+      display: none;
+    }
+  }
+
+  &__mobile-link {
+    color: $color-secondary;
+    font-size: $font-size-base;
+    font-weight: $font-weight-medium;
+    padding: $spacing-md;
+    text-decoration: none;
+    border-radius: $border-radius-sm;
+    transition: background-color $transition-fast;
+
+    &:hover {
+      background-color: rgba($color-secondary, 0.1);
+    }
+  }
+
+  &__mobile-actions {
+    display: flex;
+    flex-direction: column;
+    gap: $spacing-sm;
+    margin-top: $spacing-md;
+    padding-top: $spacing-md;
+    border-top: 1px solid rgba($color-secondary, 0.2);
+
+    .header__btn {
+      width: 100%;
+      text-align: center;
+      display: block;
+    }
+  }
+}

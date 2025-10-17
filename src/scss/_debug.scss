@@ -1,0 +1,33 @@
+// Layout guardrails and utility helpers.
+// Original file enforced widths with !important during debugging.
+// The updated version keeps the intent—prevent sneaky horizontal scroll—
+// without overriding component styles.
+
+html,
+body {
+  width: 100%;
+  min-height: 100%;
+  overflow-x: hidden;
+}
+
+#root,
+.layout,
+.layout__main {
+  width: 100%;
+  min-height: 100%;
+}
+
+section,
+header,
+footer {
+  position: relative;
+  width: 100%;
+}
+
+.container {
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: border-box;
+}

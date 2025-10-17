@@ -1,0 +1,38 @@
+// Card Component Styles
+.card {
+  @include card;
+
+  &--hover {
+    cursor: pointer;
+
+    &:hover {
+      box-shadow: $shadow-xl;
+      transform: translateY(-4px);
+    }
+  }
+
+  &__header {
+    margin-bottom: $spacing-lg;
+  }
+
+  &__title {
+    @include heading-3;
+    margin-bottom: $spacing-sm;
+  }
+
+  &__subtitle {
+    @include body-text;
+    color: $text-secondary;
+    font-size: $font-size-sm;
+  }
+
+  &__body {
+    @include body-text;
+  }
+
+  &__footer {
+    margin-top: $spacing-lg;
+    padding-top: $spacing-lg;
+    border-top: 1px solid $color-gray-light;
+  }
+}

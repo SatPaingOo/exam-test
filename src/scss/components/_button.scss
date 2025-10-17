@@ -1,0 +1,81 @@
+// Button Component Styles
+.btn {
+  @include button-base;
+
+  // Variants
+  &--primary {
+    background-color: $color-accent;
+    color: $color-secondary;
+
+    &:hover:not(:disabled) {
+      background-color: darken($color-accent, 10%);
+      transform: translateY(-1px);
+      box-shadow: $shadow-md;
+    }
+
+    &:active:not(:disabled) {
+      transform: translateY(0);
+    }
+  }
+
+  &--secondary {
+    background-color: $color-primary;
+    color: $color-secondary;
+
+    &:hover:not(:disabled) {
+      background-color: lighten($color-primary, 10%);
+      transform: translateY(-1px);
+      box-shadow: $shadow-md;
+    }
+  }
+
+  &--success {
+    background-color: $color-success;
+    color: $color-secondary;
+
+    &:hover:not(:disabled) {
+      background-color: darken($color-success, 10%);
+    }
+  }
+
+  &--danger {
+    background-color: $color-error;
+    color: $color-secondary;
+
+    &:hover:not(:disabled) {
+      background-color: darken($color-error, 10%);
+    }
+  }
+
+  &--outline {
+    background-color: transparent;
+    color: $color-primary;
+    border: 2px solid $color-primary;
+
+    &:hover:not(:disabled) {
+      background-color: $color-primary;
+      color: $color-secondary;
+    }
+  }
+
+  // Sizes
+  &--small {
+    padding: $spacing-xs $spacing-md;
+    font-size: $font-size-sm;
+  }
+
+  &--medium {
+    padding: $spacing-sm $spacing-lg;
+    font-size: $font-size-base;
+  }
+
+  &--large {
+    padding: $spacing-md $spacing-xl;
+    font-size: $font-size-lg;
+  }
+
+  // Full Width
+  &--full-width {
+    width: 100%;
+  }
+}

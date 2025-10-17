@@ -1,0 +1,192 @@
+// About and Contact pages styling
+
+.about-page,
+.contact-page {
+  background: $bg-gray;
+
+  .container {
+    @include container;
+  }
+}
+
+.about-page {
+  &__mission,
+  &__pillars,
+  &__timeline {
+    padding: $spacing-3xl 0;
+  }
+
+  &__mission-grid {
+    display: grid;
+    gap: $spacing-xl;
+
+    @include respond-to('lg') {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  &__mission-card {
+    padding: $spacing-2xl;
+
+    ul {
+      margin: 0 0 $spacing-xl;
+      padding-left: $spacing-lg;
+      color: $text-secondary;
+      line-height: $line-height-relaxed;
+    }
+
+    h2 {
+      margin-bottom: $spacing-md;
+      color: $color-primary;
+      font-size: $font-size-xl;
+    }
+
+    p {
+      color: $text-secondary;
+      line-height: $line-height-relaxed;
+    }
+  }
+
+  &__section-title {
+    font-size: $font-size-3xl;
+    font-weight: $font-weight-semibold;
+    color: $color-primary;
+    margin-bottom: $spacing-2xl;
+    text-align: center;
+  }
+
+  &__pillars-grid {
+    display: grid;
+    gap: $spacing-xl;
+
+    @include respond-to('md') {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+  &__pillar {
+    padding: $spacing-xl;
+
+    h3 {
+      font-size: $font-size-lg;
+      color: $color-primary;
+      margin-bottom: $spacing-sm;
+    }
+
+    p {
+      color: $text-secondary;
+      line-height: $line-height-relaxed;
+    }
+  }
+
+  &__timeline-grid {
+    display: grid;
+    gap: $spacing-lg;
+
+    @include respond-to('md') {
+      grid-template-columns: repeat(3, 1fr);
+    }
+
+    .card {
+      padding: $spacing-xl;
+      display: flex;
+      flex-direction: column;
+      gap: $spacing-md;
+    }
+  }
+
+  &__timeline-year {
+    font-size: $font-size-sm;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: $text-secondary;
+  }
+}
+
+.contact-page {
+  &__content {
+    padding: $spacing-3xl 0;
+  }
+
+  &__grid {
+    display: grid;
+    gap: $spacing-xl;
+
+    @include respond-to('lg') {
+      grid-template-columns: repeat(2, 1fr);
+      align-items: start;
+    }
+  }
+
+  &__card {
+    padding: $spacing-2xl;
+
+    h2 {
+      font-size: $font-size-xl;
+      color: $color-primary;
+      margin-bottom: $spacing-md;
+    }
+
+    p {
+      color: $text-secondary;
+      line-height: $line-height-relaxed;
+    }
+
+    a {
+      color: $color-primary;
+      font-weight: $font-weight-medium;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  &__details {
+    display: grid;
+    gap: $spacing-md;
+    margin-top: $spacing-lg;
+
+    .label {
+      display: block;
+      font-size: $font-size-xs;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: $text-secondary;
+      margin-bottom: $spacing-xs;
+    }
+  }
+
+  &__form {
+    display: flex;
+    flex-direction: column;
+    gap: $spacing-lg;
+  }
+
+  &__textarea {
+    display: flex;
+    flex-direction: column;
+    gap: $spacing-xs;
+
+    label {
+      font-size: $font-size-sm;
+      color: $text-secondary;
+    }
+
+    textarea {
+      padding: $spacing-md;
+      border-radius: $border-radius-md;
+      border: 1px solid rgba($color-primary, 0.2);
+      font: inherit;
+      resize: vertical;
+      min-height: 160px;
+
+      &:focus-visible {
+        outline: none;
+        border-color: $color-accent;
+        box-shadow: 0 0 0 3px rgba($color-accent, 0.25);
+      }
+    }
+  }
+}

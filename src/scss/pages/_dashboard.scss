@@ -1,0 +1,332 @@
+// Admin Dashboard Styles
+.admin-dashboard {
+  padding: $spacing-3xl 0;
+  min-height: 100vh;
+  background-color: $bg-gray;
+
+  .container {
+    @include container;
+  }
+
+  &__header {
+    margin-bottom: $spacing-3xl;
+  }
+
+  &__title {
+    @include heading-1;
+    margin-bottom: $spacing-sm;
+  }
+
+  &__subtitle {
+    font-size: $font-size-lg;
+    color: $text-secondary;
+  }
+
+  &__stats {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: $spacing-lg;
+    margin-bottom: $spacing-3xl;
+
+    @include respond-to('sm') {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    @include respond-to('lg') {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+
+  &__section {
+    margin-bottom: $spacing-3xl;
+  }
+
+  &__section-title {
+    @include heading-2;
+    margin-bottom: $spacing-lg;
+  }
+
+  &__actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: $spacing-md;
+  }
+}
+
+// Member Dashboard Styles
+.member-dashboard {
+  padding: $spacing-3xl 0;
+  min-height: 100vh;
+  background-color: $bg-gray;
+
+  .container {
+    @include container;
+  }
+
+  &__header {
+    margin-bottom: $spacing-3xl;
+  }
+
+  &__title {
+    @include heading-1;
+    margin-bottom: $spacing-sm;
+  }
+
+  &__subtitle {
+    font-size: $font-size-lg;
+    color: $text-secondary;
+  }
+
+  &__stats {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: $spacing-lg;
+    margin-bottom: $spacing-3xl;
+
+    @include respond-to('sm') {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    @include respond-to('lg') {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+
+  &__section {
+    margin-bottom: $spacing-3xl;
+  }
+
+  &__section-title {
+    @include heading-2;
+    margin-bottom: $spacing-lg;
+  }
+}
+
+// Stat Card Component
+.stat-card {
+  text-align: center;
+
+  &__icon {
+    font-size: 3rem;
+    margin-bottom: $spacing-md;
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    gap: $spacing-sm;
+  }
+
+  &__title {
+    font-size: $font-size-sm;
+    color: $text-secondary;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+
+  &__value {
+    font-size: $font-size-3xl;
+    font-weight: $font-weight-bold;
+    color: $color-primary;
+  }
+
+  &__change {
+    font-size: $font-size-sm;
+    font-weight: $font-weight-medium;
+
+    &--up {
+      color: $color-success;
+    }
+
+    &--down {
+      color: $color-error;
+    }
+  }
+}
+
+// Activity List
+.activity-list {
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-md;
+}
+
+.activity-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: $spacing-md 0;
+  border-bottom: 1px solid $color-gray-light;
+
+  &:last-child {
+    border-bottom: none;
+  }
+
+  &__content {
+    font-size: $font-size-sm;
+    color: $text-secondary;
+
+    strong {
+      color: $text-primary;
+      font-weight: $font-weight-semibold;
+    }
+  }
+
+  &__time {
+    font-size: $font-size-xs;
+    color: $color-gray;
+  }
+}
+
+// Exam History
+.exam-history {
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-md;
+  margin-bottom: $spacing-lg;
+
+  &__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: $spacing-md;
+    border-radius: $border-radius-md;
+    transition: background-color $transition-fast;
+
+    &:hover {
+      background-color: $bg-gray;
+    }
+  }
+
+  &__info {
+    flex: 1;
+  }
+
+  &__name {
+    font-size: $font-size-lg;
+    font-weight: $font-weight-semibold;
+    color: $text-primary;
+    margin-bottom: $spacing-xs;
+  }
+
+  &__meta {
+    font-size: $font-size-sm;
+    color: $text-secondary;
+  }
+
+  &__result {
+    display: flex;
+    align-items: center;
+    gap: $spacing-md;
+  }
+
+  &__score {
+    font-size: $font-size-xl;
+    font-weight: $font-weight-bold;
+    color: $color-primary;
+  }
+
+  &__status {
+    padding: $spacing-xs $spacing-md;
+    border-radius: $border-radius-full;
+    font-size: $font-size-xs;
+    font-weight: $font-weight-medium;
+    text-transform: uppercase;
+
+    &--passed {
+      background-color: rgba($color-success, 0.1);
+      color: $color-success;
+    }
+
+    &--failed {
+      background-color: rgba($color-error, 0.1);
+      color: $color-error;
+    }
+  }
+
+  &__footer {
+    padding-top: $spacing-lg;
+    border-top: 1px solid $color-gray-light;
+  }
+}
+
+// Recommended Exams
+.recommended-exams {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: $spacing-lg;
+
+  @include respond-to('md') {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.recommended-exam {
+  &__name {
+    font-size: $font-size-xl;
+    font-weight: $font-weight-bold;
+    color: $color-primary;
+    margin-bottom: $spacing-md;
+  }
+
+  &__meta {
+    display: flex;
+    gap: $spacing-md;
+    margin-bottom: $spacing-lg;
+  }
+
+  &__level,
+  &__duration {
+    font-size: $font-size-sm;
+    color: $text-secondary;
+  }
+}
+
+// Error Page Styles
+.error-page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: $spacing-3xl 0;
+
+  .container {
+    @include container;
+  }
+
+  &__content {
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  &__code {
+    font-size: 8rem;
+    font-weight: $font-weight-bold;
+    color: $color-accent;
+    line-height: 1;
+    margin-bottom: $spacing-lg;
+
+    @include respond-to('md') {
+      font-size: 12rem;
+    }
+  }
+
+  &__title {
+    @include heading-2;
+    margin-bottom: $spacing-md;
+  }
+
+  &__description {
+    font-size: $font-size-lg;
+    color: $text-secondary;
+    margin-bottom: $spacing-2xl;
+  }
+
+  &__actions {
+    display: flex;
+    gap: $spacing-md;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
