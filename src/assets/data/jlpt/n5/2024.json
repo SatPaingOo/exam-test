@@ -1,0 +1,1602 @@
+[
+  {
+    "id": 1,
+    "question": {
+      "text": "この ほん は だれ の ですか。",
+      "images": "",
+      "type": "reading",
+      "source": ""
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "わたし の です",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "ともだち の です",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "せんせい の です",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "がくせい の です",
+        "images": ""
+      }
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 2,
+    "question": {
+      "text": "きょう は なんようび ですか。",
+      "images": "",
+      "type": "reading",
+      "source": ""
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "げつようび",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "すいようび",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "きんようび",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "にちようび",
+        "images": ""
+      }
+    ],
+    "answer": "b"
+  },
+  {
+    "id": 3,
+    "question": {
+      "text": "いぬ は どこ に いますか。",
+      "images": "",
+      "type": "reading",
+      "source": ""
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "へや に います",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "そと に います",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "いえ に います",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "がっこう に います",
+        "images": ""
+      }
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 4,
+    "question": {
+      "text": "わたし は まいにち ぎゅうにゅう を のみます。",
+      "images": "",
+      "type": "reading",
+      "source": ""
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "ぎゅうにゅう",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "みず",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "おちゃ",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "ジュース",
+        "images": ""
+      }
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 5,
+    "question": {
+      "text": "きのう は あめ が ふりました。",
+      "images": "",
+      "type": "reading",
+      "source": ""
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "ゆき",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "あめ",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "かぜ",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "たいよう",
+        "images": ""
+      }
+    ],
+    "answer": "b"
+  },
+  {
+    "id": 6,
+    "question": {
+      "text": "でんしゃ は なんじ に きますか。",
+      "images": "",
+      "type": "reading",
+      "source": ""
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "ごぜん しちじ",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "ごご さんじ",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "ごぜん くじ",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "ごご ろくじ",
+        "images": ""
+      }
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 7,
+    "question": {
+      "text": "たなかさん は せんせい です。",
+      "images": "",
+      "type": "reading",
+      "source": ""
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "がくせい",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "せんせい",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "かいしゃいん",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "いしゃ",
+        "images": ""
+      }
+    ],
+    "answer": "b"
+  },
+  {
+    "id": 8,
+    "question": {
+      "text": "わたし は きょうと へ いきます。",
+      "images": "",
+      "type": "reading",
+      "source": ""
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "きょうと",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "とうきょう",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "おおさか",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "なら",
+        "images": ""
+      }
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 9,
+    "question": {
+      "text": "いま なんじ ですか。",
+      "images": "",
+      "type": "reading",
+      "source": ""
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "いちじ",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "さんじ",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "ごじ",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "はちじ",
+        "images": ""
+      }
+    ],
+    "answer": "b"
+  },
+  {
+    "id": 10,
+    "question": {
+      "text": "あそこ に ねこ が います。",
+      "images": "",
+      "type": "reading",
+      "source": ""
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "いぬ",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "ねこ",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "とり",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "さる",
+        "images": ""
+      }
+    ],
+    "answer": "b"
+  },
+  {
+    "id": 11,
+    "question": {
+      "text": "りんご を ひとつ ください。",
+      "images": "",
+      "type": "vocabulary",
+      "source": ""
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "りんご",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "ばなな",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "みかん",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "ぶどう",
+        "images": ""
+      }
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 12,
+    "question": {
+      "text": "わたし は がくせい です。",
+      "images": "",
+      "type": "vocabulary",
+      "source": ""
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "せんせい",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "がくせい",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "かいしゃいん",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "いしゃ",
+        "images": ""
+      }
+    ],
+    "answer": "b"
+  },
+  {
+    "id": 13,
+    "question": {
+      "text": "あかい ペン を かいます。",
+      "images": "",
+      "type": "vocabulary",
+      "source": ""
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "あかい",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "あおい",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "きいろい",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "くろい",
+        "images": ""
+      }
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 14,
+    "question": {
+      "text": "ごはん を たべます。",
+      "images": "",
+      "type": "vocabulary",
+      "source": ""
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "たべます",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "のみます",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "みます",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "ききます",
+        "images": ""
+      }
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 15,
+    "question": {
+      "text": "みず を のみます。",
+      "images": "",
+      "type": "vocabulary",
+      "source": ""
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "たべます",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "のみます",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "みます",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "ききます",
+        "images": ""
+      }
+    ],
+    "answer": "b"
+  },
+  {
+    "id": 16,
+    "question": {
+      "text": "テレビ を みます。",
+      "images": "",
+      "type": "vocabulary",
+      "source": ""
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "たべます",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "のみます",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "みます",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "ききます",
+        "images": ""
+      }
+    ],
+    "answer": "c"
+  },
+  {
+    "id": 17,
+    "question": {
+      "text": "おんがく を ききます。",
+      "images": "",
+      "type": "vocabulary",
+      "source": ""
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "たべます",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "のみます",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "みます",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "ききます",
+        "images": ""
+      }
+    ],
+    "answer": "d"
+  },
+  {
+    "id": 18,
+    "question": {
+      "text": "わたし は にほんご を べんきょう します。",
+      "images": "",
+      "type": "grammar",
+      "source": ""
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "べんきょう します",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "しごと します",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "あそびます",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "ねます",
+        "images": ""
+      }
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 19,
+    "question": {
+      "text": "たなかさん は かいしゃ で はたらきます。",
+      "images": "",
+      "type": "grammar",
+      "source": ""
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "べんきょう します",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "しごと します",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "あそびます",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "ねます",
+        "images": ""
+      }
+    ],
+    "answer": "b"
+  },
+  {
+    "id": 20,
+    "question": {
+      "text": "こどもたち は こうえん で あそびます。",
+      "images": "",
+      "type": "grammar",
+      "source": ""
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "べんきょう します",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "しごと します",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "あそびます",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "ねます",
+        "images": ""
+      }
+    ],
+    "answer": "c"
+  },
+  {
+    "id": 21,
+    "question": {
+      "text": "よる は はやく ねます。",
+      "images": "",
+      "type": "grammar",
+      "source": ""
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "べんきょう します",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "しごと します",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "あそびます",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "ねます",
+        "images": ""
+      }
+    ],
+    "answer": "d"
+  },
+  {
+    "id": 22,
+    "question": {
+      "text": "わたし は まいあさ しちじ に おきます。",
+      "images": "",
+      "type": "grammar",
+      "source": ""
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "おきます",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "ねます",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "たべます",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "のみます",
+        "images": ""
+      }
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 23,
+    "question": {
+      "text": "たなかさん は いま かいぎちゅう です。",
+      "images": "",
+      "type": "grammar",
+      "source": ""
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "かいぎちゅう",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "べんきょうちゅう",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "しごとちゅう",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "あそびちゅう",
+        "images": ""
+      }
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 24,
+    "question": {
+      "text": "わたし は あした とうきょう へ いきます。",
+      "images": "",
+      "type": "grammar",
+      "source": ""
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "きょう",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "あした",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "きのう",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "らいしゅう",
+        "images": ""
+      }
+    ],
+    "answer": "b"
+  },
+  {
+    "id": 25,
+    "question": {
+      "text": "この えいが は おもしろいです。",
+      "images": "",
+      "type": "grammar",
+      "source": ""
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "おもしろいです",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "つまらないです",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "むずかしいです",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "かんたんです",
+        "images": ""
+      }
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 26,
+    "question": {
+      "text": "にほんご は むずかしいです。",
+      "images": "",
+      "type": "grammar",
+      "source": ""
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "おもしろいです",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "つまらないです",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "むずかしいです",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "かんたんです",
+        "images": ""
+      }
+    ],
+    "answer": "c"
+  },
+  {
+    "id": 27,
+    "question": {
+      "text": "この しごと は かんたんです。",
+      "images": "",
+      "type": "grammar",
+      "source": ""
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "おもしろいです",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "つまらないです",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "むずかしいです",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "かんたんです",
+        "images": ""
+      }
+    ],
+    "answer": "d"
+  },
+  {
+    "id": 28,
+    "question": {
+      "text": "わたし は りんご が すきです。",
+      "images": "",
+      "type": "grammar",
+      "source": ""
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "りんご",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "ばなな",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "みかん",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "ぶどう",
+        "images": ""
+      }
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 29,
+    "question": {
+      "text": "たなかさん は さけ が きらいです。",
+      "images": "",
+      "type": "grammar",
+      "source": ""
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "すきです",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "きらいです",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "じょうずです",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "へたです",
+        "images": ""
+      }
+    ],
+    "answer": "b"
+  },
+  {
+    "id": 30,
+    "question": {
+      "text": "わたし は えいご が じょうずです。",
+      "images": "",
+      "type": "grammar",
+      "source": ""
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "すきです",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "きらいです",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "じょうずです",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "へたです",
+        "images": ""
+      }
+    ],
+    "answer": "c"
+  },
+  {
+    "id": 31,
+    "question": {
+      "text": "わたし は すいえい が へたです。",
+      "images": "",
+      "type": "grammar",
+      "source": ""
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "すきです",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "きらいです",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "じょうずです",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "へたです",
+        "images": ""
+      }
+    ],
+    "answer": "d"
+  },
+  {
+    "id": 32,
+    "question": {
+      "text": "わたし は まいばん テレビ を みます。",
+      "images": "",
+      "type": "grammar",
+      "source": ""
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "まいあさ",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "まいばん",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "まいしゅう",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "まいとし",
+        "images": ""
+      }
+    ],
+    "answer": "b"
+  },
+  {
+    "id": 33,
+    "question": {
+      "text": "たなかさん は まいしゅう テニス を します。",
+      "images": "",
+      "type": "grammar",
+      "source": ""
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "まいあさ",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "まいばん",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "まいしゅう",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "まいとし",
+        "images": ""
+      }
+    ],
+    "answer": "c"
+  },
+  {
+    "id": 34,
+    "question": {
+      "text": "わたし は まいとし おたんじょうび を いわいます。",
+      "images": "",
+      "type": "grammar",
+      "source": ""
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "まいあさ",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "まいばん",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "まいしゅう",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "まいとし",
+        "images": ""
+      }
+    ],
+    "answer": "d"
+  },
+  {
+    "id": 35,
+    "question": {
+      "text": "この レストラン は とても ゆうめいです。",
+      "images": "",
+      "type": "vocabulary",
+      "source": ""
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "ゆうめい",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "しずか",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "きれい",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "ひろい",
+        "images": ""
+      }
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 36,
+    "question": {
+      "text": "この まちは とても しずかです。",
+      "images": "",
+      "type": "vocabulary",
+      "source": ""
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "ゆうめい",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "しずか",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "きれい",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "ひろい",
+        "images": ""
+      }
+    ],
+    "answer": "b"
+  },
+  {
+    "id": 37,
+    "question": {
+      "text": "この おんせん は とても きれいです。",
+      "images": "",
+      "type": "vocabulary",
+      "source": ""
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "ゆうめい",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "しずか",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "きれい",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "ひろい",
+        "images": ""
+      }
+    ],
+    "answer": "c"
+  },
+  {
+    "id": 38,
+    "question": {
+      "text": "この へや は とても ひろいです。",
+      "images": "",
+      "type": "vocabulary",
+      "source": ""
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "ゆうめい",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "しずか",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "きれい",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "ひろい",
+        "images": ""
+      }
+    ],
+    "answer": "d"
+  },
+  {
+    "id": 39,
+    "question": {
+      "text": "わたし は まいあさ しちじ に おきます。",
+      "images": "",
+      "type": "vocabulary",
+      "source": ""
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "まいあさ",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "まいばん",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "まいしゅう",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "まいとし",
+        "images": ""
+      }
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 40,
+    "question": {
+      "text": "わたし は まいばん くじ に ねます。",
+      "images": "",
+      "type": "vocabulary",
+      "source": ""
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "まいあさ",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "まいばん",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "まいしゅう",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "まいとし",
+        "images": ""
+      }
+    ],
+    "answer": "b"
+  },
+  {
+    "id": 41,
+    "question": {
+      "text": "たなかさん は まいしゅう テニス を します。",
+      "images": "",
+      "type": "vocabulary",
+      "source": ""
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "まいあさ",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "まいばん",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "まいしゅう",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "まいとし",
+        "images": ""
+      }
+    ],
+    "answer": "c"
+  },
+  {
+    "id": 42,
+    "question": {
+      "text": "わたし は まいとし おたんじょうび を いわいます。",
+      "images": "",
+      "type": "vocabulary",
+      "source": ""
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "まいあさ",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "まいばん",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "まいしゅう",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "まいとし",
+        "images": ""
+      }
+    ],
+    "answer": "d"
+  },
+  {
+    "id": 43,
+    "question": {
+      "text": "わたし は あした えいが を みに いきます。",
+      "images": "",
+      "type": "grammar",
+      "source": ""
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "みに いきます",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "たべに いきます",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "のみに いきます",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "ききに いきます",
+        "images": ""
+      }
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 44,
+    "question": {
+      "text": "たなかさん は レストラン で ごはん を たべに いきました。",
+      "images": "",
+      "type": "grammar",
+      "source": ""
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "みに いきます",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "たべに いきます",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "のみに いきます",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "ききに いきます",
+        "images": ""
+      }
+    ],
+    "answer": "b"
+  },
+  {
+    "id": 45,
+    "question": {
+      "text": "わたし は きっさてん で コーヒー を のみに いきました。",
+      "images": "",
+      "type": "grammar",
+      "source": ""
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "みに いきます",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "たべに いきます",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "のみに いきます",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "ききに いきます",
+        "images": ""
+      }
+    ],
+    "answer": "c"
+  },
+  {
+    "id": 46,
+    "question": {
+      "text": "わたし は コンサート で おんがく を ききに いきました。",
+      "images": "",
+      "type": "grammar",
+      "source": ""
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "みに いきます",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "たべに いきます",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "のみに いきます",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "ききに いきます",
+        "images": ""
+      }
+    ],
+    "answer": "d"
+  },
+  {
+    "id": 47,
+    "question": {
+      "text": "わたし は まいあさ あさごはん を たべます。",
+      "images": "",
+      "type": "vocabulary",
+      "source": ""
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "あさごはん",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "ひるごはん",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "ばんごはん",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "おかし",
+        "images": ""
+      }
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 48,
+    "question": {
+      "text": "わたし は まいひる ひるごはん を たべます。",
+      "images": "",
+      "type": "vocabulary",
+      "source": ""
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "あさごはん",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "ひるごはん",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "ばんごはん",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "おかし",
+        "images": ""
+      }
+    ],
+    "answer": "b"
+  },
+  {
+    "id": 49,
+    "question": {
+      "text": "わたし は まいばん ばんごはん を たべます。",
+      "images": "",
+      "type": "vocabulary",
+      "source": ""
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "あさごはん",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "ひるごはん",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "ばんごはん",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "おかし",
+        "images": ""
+      }
+    ],
+    "answer": "c"
+  },
+  {
+    "id": 50,
+    "question": {
+      "text": "わたし は ひまな とき おかし を たべます。",
+      "images": "",
+      "type": "vocabulary",
+      "source": ""
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "あさごはん",
+        "images": ""
+      },
+      {
+        "id": "b",
+        "text": "ひるごはん",
+        "images": ""
+      },
+      {
+        "id": "c",
+        "text": "ばんごはん",
+        "images": ""
+      },
+      {
+        "id": "d",
+        "text": "おかし",
+        "images": ""
+      }
+    ],
+    "answer": "d"
+  }
+]

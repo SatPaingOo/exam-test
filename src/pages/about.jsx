@@ -31,7 +31,7 @@ const pillars = [
   {
     title: "Trusted Content",
     description:
-      "We collaborate with certified professionals to keep question banks aligned with the latest ITPEC objectives.",
+      "We collaborate with certified professionals to keep question banks aligned with the latest certification objectives.",
   },
   {
     title: "Inclusive Design",
@@ -48,7 +48,7 @@ const About = () => {
           <p className="page-hero__eyebrow">Our Story</p>
           <h1 className="page-hero__title">Built for Lifelong Learners</h1>
           <p className="page-hero__subtitle">
-            Exam Test empowers professionals preparing for ITPEC certifications
+            Exam Test empowers professionals preparing for certification exams
             with curated content, actionable analytics, and an empathetic
             learning experience.
           </p>

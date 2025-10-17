@@ -1,35 +1,27 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Button, Card } from "src/components/common";
+import { listTracks } from "src/services/examData";
 
 const Home = () => {
-  const examCategories = [
-    {
-      id: "ip",
-      title: "ITPEC IP",
-      subtitle: "Information Technology Passport",
-      description:
-        "Entry-level certification covering fundamental IT knowledge and skills.",
-      questions: 100,
-      duration: "120 minutes",
-    },
-    {
-      id: "fe",
-      title: "ITPEC FE",
-      subtitle: "Fundamental Information Technology Engineer",
-      description: "Intermediate-level certification for IT professionals.",
-      questions: 80,
-      duration: "150 minutes",
-    },
-    {
-      id: "ap",
-      title: "ITPEC AP",
-      subtitle: "Applied Information Technology Engineer",
-      description: "Advanced certification for experienced IT engineers.",
-      questions: 60,
-      duration: "180 minutes",
-    },
-  ];
+  // Get dynamic exam categories from the data service
+  const allExamCategories = listTracks().map((track) => ({
+    id: track.id,
+    title: track.name,
+    subtitle: track.description,
+    description: track.summary,
+    questions: track.years.length > 0 ? 50 : 0, // Estimate based on available papers
+    duration:
+      track.level === "Beginner"
+        ? "120 minutes"
+        : track.level === "Intermediate"
+        ? "150 minutes"
+        : "180 minutes",
+  }));
+
+  // Show only first 6 exams on home page
+  const examCategories = allExamCategories.slice(0, 3);
+  const hasMoreExams = allExamCategories.length > 3;
 
   const features = [
     {
@@ -64,11 +56,11 @@ const Home = () => {
           <div className="hero__content">
             <h1 className="hero__title">
               Master Your{" "}
-              <span className="hero__title-accent">IT Certification</span> Exams
+              <span className="hero__title-accent">Certification</span> Exams
             </h1>
             <p className="hero__description">
               Professional eLearning platform designed for adults preparing for
-              ITPEC certification exams. Practice, learn, and succeed with our
+              certification exams. Practice, learn, and succeed with our
               comprehensive exam simulations.
             </p>
             <div className="hero__actions">
@@ -78,7 +70,11 @@ const Home = () => {
                 </Button>
               </Link>
               <Link to="/exams">
-                <Button variant="outline" size="large">
+                <Button
+                  variant="outline"
+                  size="large"
+                  style={{ color: "white" }}
+                >
                   Browse Exams
                 </Button>
               </Link>
@@ -107,8 +103,8 @@ const Home = () => {
           <div className="section-header">
             <h2 className="section-title">Choose Your Exam</h2>
             <p className="section-description">
-              Select from our range of ITPEC certification exams and start
-              practicing today.
+              Select from our range of certification exams and start practicing
+              today.
             </p>
           </div>
           <div className="exams__grid">
@@ -139,6 +135,31 @@ const Home = () => {
               </Card>
             ))}
           </div>
+          {hasMoreExams && (
+            <div
+              className="exams__view-all"
+              style={{
+                textAlign: "center",
+                marginTop: "3rem",
+                padding: "2rem 0",
+              }}
+            >
+              <p
+                style={{
+                  marginBottom: "1rem",
+                  color: "#666",
+                  fontSize: "1.1rem",
+                }}
+              >
+                Looking for more certification exams?
+              </p>
+              <Link to="/exams">
+                <Button variant="primary" size="large">
+                  View All Exams
+                </Button>
+              </Link>
+            </div>
+          )}
         </div>
       </section>
 
@@ -148,7 +169,7 @@ const Home = () => {
           <div className="section-header">
             <h2 className="section-title">Why Choose Our Platform?</h2>
             <p className="section-description">
-              Everything you need to ace your IT certification exams.
+              Everything you need to ace your certification exams.
             </p>
           </div>
           <div className="features__grid">

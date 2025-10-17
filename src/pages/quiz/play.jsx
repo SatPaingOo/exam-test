@@ -198,6 +198,11 @@ const QuizPlay = () => {
     <div className="quiz-play">
       <section className="page-hero page-hero--subtle">
         <div className="container">
+          <div className="page-hero__category">
+            <span className={`category-badge category-badge--${track}`}>
+              {trackConfig?.level || track?.toUpperCase()}
+            </span>
+          </div>
           <p className="page-hero__eyebrow">Practice Mode</p>
           <h1 className="page-hero__title">{trackLabel}</h1>
           {paperLabel ? (
@@ -279,7 +284,31 @@ function computeResult(questions, answers) {
     const picked = answers[q.id];
     const isCorrect = picked === q.answer;
     if (isCorrect) correct += 1;
-    return { id: q.id, picked, correctAnswer: q.answer, isCorrect };
+
+    // Extract question text properly
+    let questionText = "";
+    if (typeof q.question === "string") {
+      questionText = q.question;
+    } else if (typeof q.question === "object" && q.question !== null) {
+      if (typeof q.question.text === "string") {
+        questionText = q.question.text;
+      } else if (Array.isArray(q.question.text)) {
+        questionText = q.question.text
+          .filter((t) => typeof t === "string")
+          .join(" ");
+      } else {
+        questionText = "[Question with images or special content]";
+      }
+    }
+
+    return {
+      id: q.id,
+      question: questionText,
+      answers: q.options || [],
+      picked,
+      correctAnswer: q.answer,
+      isCorrect,
+    };
   });
   const total = questions.length;
   const score = total ? Math.round((correct / total) * 100) : 0;

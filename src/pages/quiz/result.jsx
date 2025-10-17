@@ -65,6 +65,11 @@ const QuizResult = () => {
     <div className="quiz-result">
       <section className="page-hero">
         <div className="container">
+          <div className="page-hero__category">
+            <span className={`category-badge category-badge--${track}`}>
+              {track?.toUpperCase()}
+            </span>
+          </div>
           <p className="page-hero__eyebrow">Attempt Summary</p>
           <h1 className="page-hero__title">{displayTrack}</h1>
           <p className="page-hero__subtitle">{displayPaper}</p>
@@ -127,13 +132,98 @@ const QuizResult = () => {
                   }`}
                 >
                   <div className="question-id">Q{detail.id}</div>
-                  <div className="answer">
-                    <span className="label">Your answer</span>
-                    <span className="value">{detail.picked || "—"}</span>
+                  <div className="question-text">
+                    <span className="label">Question</span>
+                    <span className="value">
+                      {detail.question || "(Question text unavailable)"}
+                    </span>
                   </div>
-                  <div className="answer">
-                    <span className="label">Correct</span>
-                    <span className="value">{detail.correctAnswer}</span>
+
+                  <div className="answer-summary">
+                    <div className="answer-summary__item answer-summary__item--user">
+                      <span className="answer-summary__label">
+                        Your Answer:
+                      </span>
+                      <span className="answer-summary__value">
+                        {detail.picked || "Not answered"}
+                      </span>
+                    </div>
+                    <div className="answer-summary__item answer-summary__item--correct">
+                      <span className="answer-summary__label">
+                        Correct Answer:
+                      </span>
+                      <span className="answer-summary__value">
+                        {detail.correctAnswer}
+                      </span>
+                    </div>
+                  </div>
+
+                  <div className="answers-list">
+                    <span className="label">Answers</span>
+                    <ul>
+                      {(detail.answers || []).map((ans, idx) => {
+                        // Use a unique key based on value and index
+                        let key =
+                          typeof ans === "object"
+                            ? JSON.stringify(ans) + idx
+                            : String(ans) + idx;
+                        // Support both string and object answers
+                        let display = "";
+                        if (typeof ans === "object" && ans !== null) {
+                          if (
+                            typeof ans.text === "string" &&
+                            ans.text.length > 0
+                          ) {
+                            display = ans.text;
+                          } else if (Array.isArray(ans.text)) {
+                            display = ans.text
+                              .filter((t) => typeof t === "string")
+                              .join(" ");
+                          } else if (ans.images && Array.isArray(ans.images)) {
+                            display = "[Image Option]";
+                          } else if (ans.type === "image" && ans.source) {
+                            display = "[Image Option]";
+                          } else {
+                            display = "[Unsupported Option]";
+                          }
+                        } else if (
+                          typeof ans === "string" ||
+                          typeof ans === "number"
+                        ) {
+                          display = ans;
+                        } else {
+                          display = "[Unsupported Option]";
+                        }
+                        const isPicked =
+                          ans === detail.picked ||
+                          (typeof ans === "object" &&
+                            ans.text === detail.picked);
+                        const isCorrect =
+                          ans === detail.correctAnswer ||
+                          (typeof ans === "object" &&
+                            ans.text === detail.correctAnswer);
+                        return (
+                          <li
+                            key={key}
+                            className={`answer-option${
+                              isPicked ? " answer-option--picked" : ""
+                            }${isCorrect ? " answer-option--correct" : ""}`}
+                          >
+                            <span>{display}</span>
+                            {isPicked && (
+                              <span className="badge badge--picked">
+                                Your choice
+                              </span>
+                            )}
+                            {isCorrect && (
+                              <span className="badge badge--correct">
+                                Correct
+                              </span>
+                            )}
+                          </li>
+                        );
+                      })}
+                    </ul>
                   </div>
                 </div>
               ))}

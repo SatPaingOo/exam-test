@@ -51,24 +51,34 @@ const ExamSetup = () => {
   }
 
   const startQuiz = () => {
-    if (!hasPapers) return;
+    if (!hasPapers || count === "" || !Number.isFinite(Number(count))) return;
     const selected = paper || "random";
     navigate(`/quiz/${track}/${selected}?count=${count}`);
   };
 
   const handleCountChange = (value) => {
+    // Accept empty string for controlled input
+    if (value === "") {
+      setCount("");
+      return;
+    }
     const numeric = Number(value);
-    if (Number.isNaN(numeric)) {
+    if (!Number.isFinite(numeric) || numeric < 1) {
       setCount(1);
       return;
     }
-    setCount(Math.min(100, Math.max(1, numeric)));
+    setCount(Math.min(100, Math.floor(numeric)));
   };
 
   return (
     <div className="exam-setup">
       <section className="page-hero page-hero--subtle">
         <div className="container">
+          <div className="page-hero__category">
+            <span className="category-badge category-badge--{track}">
+              {trackConfig?.level || "EXAM"}
+            </span>
+          </div>
           <p className="page-hero__eyebrow">Practice Settings</p>
           <h1 className="page-hero__title">
             {trackConfig?.name || track?.toUpperCase()} Session

@@ -1,11 +1,27 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import { Card, Button } from "@/components/common";
 import { listTracks } from "@/services/examData";
+import dummyData from "@/assets/data/dummy.json";
 
-const tracks = listTracks();
+function useQuery() {
+  const { search } = useLocation();
+  return React.useMemo(() => {
+    const params = new URLSearchParams(search);
+    return Object.fromEntries(params.entries());
+  }, [search]);
+}
 
 const ExamsList = () => {
+  const query = useQuery();
+  const tracks = listTracks();
+  let filteredTracks = tracks;
+  if (query.category) {
+    filteredTracks = tracks.filter((track) => {
+      const exam = dummyData.exams.find((e) => e.id === track.examId);
+      return exam && exam.categoryId === query.category;
+    });
+  }
   return (
     <div className="exams-page">
       <section className="page-hero">
@@ -22,7 +38,7 @@ const ExamsList = () => {
       <section className="exam-list">
         <div className="container">
           <div className="exam-list__grid">
-            {tracks.map((track) => (
+            {filteredTracks.map((track) => (
               <Card key={track.id} className="exam-card" hover>
                 <div className="exam-card__header">
                   <span className="exam-card__badge">{track.level}</span>

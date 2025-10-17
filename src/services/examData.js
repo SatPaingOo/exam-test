@@ -1,27 +1,5 @@
 import catalog from "@/assets/data/dummy.json";
 
-// Friendly metadata for each track that is not present in the JSON catalog
-const TRACK_META = {
-  ip: {
-    displayName: "IT Passport (IP)",
-    level: "Beginner",
-    summary:
-      "Perfect starting point covering the core fundamentals of information technology.",
-  },
-  fe: {
-    displayName: "Fundamental Engineer (FE)",
-    level: "Intermediate",
-    summary:
-      "Build on your foundation with algorithm, database, and network deep dives.",
-  },
-  ap: {
-    displayName: "Applied Engineer (AP)",
-    level: "Advanced",
-    summary:
-      "Challenge yourself with applied scenarios that mirror the actual exam.",
-  },
-};
-
 const DEFAULT_LEVEL = "Practice";
 const DEFAULT_SUMMARY = "Additional papers are in development.";
 
@@ -29,22 +7,19 @@ const exams = Array.isArray(catalog?.exams) ? catalog.exams : [];
 
 const trackIndex = exams.flatMap((exam) => {
   const types = Array.isArray(exam.types) ? exam.types : [];
-  return types.map((type) => {
-    const meta = TRACK_META[type.id] || {};
-    return {
-      examId: exam.id,
-      examTitle: exam.title,
-      id: type.id,
-      name: meta.displayName || type.name || type.id,
-      description: type.description,
-      summary: meta.summary || type.description || DEFAULT_SUMMARY,
-      level: meta.level || DEFAULT_LEVEL,
-      years: Array.isArray(type.years) ? type.years : [],
-    };
-  });
+  return types.map((type) => ({
+    examId: exam.id,
+    examTitle: exam.title,
+    id: type.id,
+    name: type.displayName || type.name || type.id,
+    description: type.description,
+    summary: type.summary || type.description || DEFAULT_SUMMARY,
+    level: type.level || DEFAULT_LEVEL,
+    years: Array.isArray(type.years) ? type.years : [],
+  }));
 });
 
-const paperFiles = import.meta.glob("/src/assets/data/itpec/*/*.json");
+const paperFiles = import.meta.glob("/src/assets/data/*/*/*.json");
 
 export function listTracks() {
   return trackIndex;
@@ -77,8 +52,14 @@ export function getPaperLabel(trackId, paperId, allPapers = []) {
 }
 
 async function loadPaperQuestions(trackId, paperId) {
-  const key = `/src/assets/data/itpec/${trackId}/${paperId}.json`;
+  // Get the exam type from track configuration
+  const track = getTrack(trackId);
+  if (!track) return [];
+
+  // Construct dynamic path: /src/assets/data/{examId}/{trackId}/{paperId}.json
+  const key = `/src/assets/data/${track.examId}/${trackId}/${paperId}.json`;
   const loader = paperFiles[key];
+
   if (!loader) return [];
   try {
     const module = await loader();

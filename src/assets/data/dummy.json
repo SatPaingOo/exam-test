@@ -14,24 +14,28 @@
     {
       "id": "technology",
       "name": "Technology",
+      "icon": "💻",
       "image": "technology.jpg",
       "description": "Examines knowledge of classic and modern technological advancements."
     },
     {
       "id": "languages",
       "name": "Languages",
+      "icon": "🌐",
       "image": "languages.jpg",
       "description": "Tests on various languages including grammar, vocabulary, and comprehension."
     },
     {
       "id": "mathematics",
       "name": "Mathematics",
+      "icon": "📐",
       "image": "mathematics.jpg",
       "description": "Tests on algebra, geometry, calculus, and more."
     },
     {
       "id": "science",
       "name": "Science",
+      "icon": "🔬",
       "image": "science.jpg",
       "description": "Covers physics, chemistry, biology, and general science."
     }
@@ -47,7 +51,10 @@
         {
           "id": "ip",
           "name": "IP",
+          "displayName": "IT Passport (IP)",
+          "level": "Beginner",
           "description": "Information Technology Passport Examination",
+          "summary": "Perfect starting point covering the core fundamentals of information technology.",
           "years": [
             {
               "id": "2024S",
@@ -62,14 +69,43 @@
         {
           "id": "fe",
           "name": "FE",
+          "displayName": "Fundamental Engineer (FE)",
+          "level": "Intermediate",
           "description": "Fundamentals of Engineering Examination",
+          "summary": "Build on your foundation with algorithm, database, and network deep dives.",
           "years": []
         },
         {
           "id": "ap",
           "name": "AP",
+          "displayName": "Applied Engineer (AP)",
+          "level": "Advanced",
           "description": "Applied Information Technology Examination",
+          "summary": "Challenge yourself with applied scenarios that mirror the actual exam.",
           "years": []
+        }
+      ]
+    },
+    {
+      "id": "jlpt",
+      "title": "JLPT",
+      "image": "jlpt.jpg",
+      "categoryId": "languages",
+      "description": "Japanese Language Proficiency Test",
+      "types": [
+        {
+          "id": "n5",
+          "name": "N5",
+          "displayName": "JLPT N5",
+          "level": "Beginner",
+          "description": "Japanese-Language Proficiency Test N5",
+          "summary": "Foundation level Japanese proficiency test covering basic vocabulary, grammar, and reading comprehension.",
+          "years": [
+            {
+              "id": "2024",
+              "name": "2024"
+            }
+          ]
         }
       ]
     }

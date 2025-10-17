@@ -22,6 +22,9 @@ const Header = () => {
           <Link to="/" className="header__nav-link">
             Home
           </Link>
+          <Link to="/categories" className="header__nav-link">
+            Categories
+          </Link>
           <Link to="/exams" className="header__nav-link">
             Exams
           </Link>
@@ -64,32 +67,18 @@ const Header = () => {
             Home
           </Link>
           <Link
+            to="/categories"
+            className="header__mobile-link"
+            onClick={toggleMenu}
+          >
+            Categories
+          </Link>
+          <Link
             to="/exams"
             className="header__mobile-link"
             onClick={toggleMenu}
           >
             Exams
-          </Link>
-          <Link
-            to="/admin/dashboard"
-            className="header__mobile-link"
-            onClick={toggleMenu}
-          >
-            Admin
-          </Link>
-          <Link
-            to="/member/dashboard"
-            className="header__mobile-link"
-            onClick={toggleMenu}
-          >
-            Member
-          </Link>
-          <Link
-            to="/about"
-            className="header__mobile-link"
-            onClick={toggleMenu}
-          >
-            About
           </Link>
           <Link
             to="/contact"
