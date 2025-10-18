@@ -42,9 +42,36 @@ jobs:
       - name: Build
         run: npm run build
 
+      - name: Log build success
+        if: success()
+        run: |
+          mkdir -p assets/log
+          echo "Build successful on $(date)" >> assets/log/ci.log
+
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
           publish_branch: gh-pages
+
+      - name: Log deploy success
+        if: success()
+        run: |
+          mkdir -p assets/log
+          echo "Deploy successful on $(date)" >> assets/log/ci.log
+
+      - name: Commit logs
+        # Commit CI logs back to repository unless the triggering commit already requested to skip CI
+        if: ${{ !contains(github.event.head_commit && github.event.head_commit.message || '', '[skip ci]') }}
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add assets/log/ci.log || true
+          # If there are staged changes commit and push, otherwise no-op
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Update CI log [skip ci]"
+            git push
+          fi
