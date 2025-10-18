@@ -37,6 +37,17 @@
     margin-top: $spacing-md;
   }
 
+  &__warning {
+    background-color: #fff3cd; // light yellow
+    color: #856404; // dark yellow/brown for contrast
+    border: 1px solid #ffeeba;
+    padding: $spacing-sm;
+    border-radius: $border-radius-sm;
+    margin-bottom: $spacing-md;
+    font-weight: $font-weight-medium;
+    text-align: center;
+  }
+
   &__button {
     margin-top: $spacing-lg;
   }

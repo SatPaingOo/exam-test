@@ -85,11 +85,15 @@ async function loadPaperQuestions(trackId, paperId) {
 
     return questions;
   } catch (error) {
-    logError(`Failed to load questions for ${key}`, {
-      error: error.message,
-      trackId,
-      paperId,
-    });
+    logError(
+      `Failed to load questions for ${key}`,
+      {
+        error: error.message,
+        trackId,
+        paperId,
+      },
+      { action: "load_paper_questions_failed" }
+    );
     return [];
   }
 }

@@ -20,10 +20,14 @@ const QuizResult = () => {
           .eq("id", attemptId)
           .single();
         if (error) {
-          logError("Error loading quiz session from DB", {
-            error: error.message,
-            attemptId,
-          });
+          logError(
+            "Error loading quiz session from DB",
+            {
+              error: error.message,
+              attemptId,
+            },
+            { action: "load_quiz_session_failed" }
+          );
           setAttempt(null);
         } else {
           // Transform to match expected format
@@ -47,10 +51,14 @@ const QuizResult = () => {
           .eq("code", attemptId)
           .single();
         if (error) {
-          logError("Error loading quiz session from DB by code", {
-            error: error.message,
-            attemptId,
-          });
+          logError(
+            "Error loading quiz session from DB by code",
+            {
+              error: error.message,
+              attemptId,
+            },
+            { action: "load_quiz_session_failed" }
+          );
           setAttempt(null);
         } else {
           // Transform to match expected format

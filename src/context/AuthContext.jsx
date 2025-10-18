@@ -12,6 +12,8 @@ export const useAuth = () => {
 };
 
 export const AuthProvider = ({ children }) => {
+  const isAuthEnabled = import.meta.env.VITE_ALLOW_AUTH === "true";
+
   const [user, setUser] = useState(null);
   const [loading, setLoading] = useState(true);
 
@@ -96,6 +98,7 @@ export const AuthProvider = ({ children }) => {
     logout,
     isAuthenticated,
     isAdmin,
+    isAuthEnabled,
   };
 
   return <AuthContext.Provider value={value}>{children}</AuthContext.Provider>;

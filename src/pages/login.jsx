@@ -11,11 +11,19 @@ const Login = () => {
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
   const navigate = useNavigate();
-  const { login } = useAuth();
+  const { login, isAuthEnabled } = useAuth();
 
   const handleSubmit = async (e) => {
     e.preventDefault();
     setError("");
+
+    // If authentication is disabled via feature flag, block login
+    if (!isAuthEnabled) {
+      setError(
+        "Authentication is currently disabled. Please contact the administrator."
+      );
+      return;
+    }
 
     try {
       // Query user from Supabase
@@ -92,16 +100,18 @@ const Login = () => {
       // Log login success
       try {
         const { logSuccess } = await import("src/utils/logger");
-        logSuccess(
-          "User logged in",
-          {},
-          {
-            action: "login",
-            actor_type: "user",
-            actor_id: user.id,
-            user_id: user.id,
-          }
-        );
+        if (typeof logSuccess === "function") {
+          logSuccess(
+            "User logged in",
+            {},
+            {
+              action: "login",
+              actor_type: "user",
+              actor_id: user.id,
+              user_id: user.id,
+            }
+          );
+        }
       } catch (e) {
         console.error("Failed to log login action:", e);
       }
@@ -123,6 +133,12 @@ const Login = () => {
       <div className="container">
         <Card className="login__card">
           <h1 className="login__title">Login</h1>
+          {!isAuthEnabled && (
+            <div className="login__warning" role="alert">
+              Authentication is currently disabled. Please contact the
+              administrator.
+            </div>
+          )}
           <form onSubmit={handleSubmit} className="login__form">
             <Input
               label="Username"
@@ -149,6 +165,7 @@ const Login = () => {
               size="large"
               fullWidth
               className="login__button"
+              disabled={!isAuthEnabled}
             >
               Login
             </Button>

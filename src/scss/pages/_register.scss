@@ -13,16 +13,27 @@
   &__title {
     font-size: $font-size-3xl;
     font-weight: $font-weight-bold;
-    color: $color-secondary;
+    color: $text-primary;
     text-align: center;
     margin-bottom: $spacing-xs;
   }
 
   &__subtitle {
     text-align: center;
-    color: rgba($color-secondary, 0.7);
+    color: rgba($text-primary, 0.7);
     margin-bottom: $spacing-xl;
     font-size: $font-size-base;
+  }
+
+  &__warning {
+    background-color: #fff3cd; // light yellow
+    color: #856404; // dark yellow/brown for contrast
+    border: 1px solid #ffeeba;
+    padding: $spacing-sm;
+    border-radius: $border-radius-sm;
+    margin-bottom: $spacing-md;
+    font-weight: $font-weight-medium;
+    text-align: center;
   }
 
   &__form {
@@ -54,10 +65,10 @@
     text-align: center;
     margin-top: $spacing-xl;
     padding-top: $spacing-lg;
-    border-top: 1px solid rgba($color-secondary, 0.1);
+    border-top: 1px solid rgba($text-primary, 0.06);
 
     p {
-      color: rgba($color-secondary, 0.7);
+      color: rgba($text-primary, 0.7);
       font-size: $font-size-sm;
       margin: 0 0 $spacing-sm 0;
     }

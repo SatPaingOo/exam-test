@@ -71,14 +71,26 @@ const QuizStart = () => {
           .select("id")
           .single();
         if (error) {
-          logError("Error creating quiz session", { error: error.message });
+          logError(
+            "Error creating quiz session",
+            { error: error.message },
+            { action: "create_quiz_session" }
+          );
           navigate("/exams");
         } else {
-          logSuccess("Quiz session created", { sessionId: inserted.id });
+          logSuccess(
+            "Quiz session created",
+            { sessionId: inserted.id },
+            { action: "create_quiz_session" }
+          );
           navigate(`/quiz/session/${code}`);
         }
       } catch (error) {
-        logError("Error starting quiz", { error: error.message });
+        logError(
+          "Error starting quiz",
+          { error: error.message },
+          { action: "start_quiz_failed" }
+        );
         navigate("/exams");
       }
     };

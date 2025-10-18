@@ -3,6 +3,7 @@ import { useNavigate, Link } from "react-router-dom";
 import bcrypt from "bcryptjs";
 import { supabase } from "src/services/supabase";
 import { Card, Input, Button } from "src/components/common";
+import { useAuth } from "src/context/AuthContext";
 
 const Register = () => {
   const [formData, setFormData] = useState({
@@ -15,6 +16,7 @@ const Register = () => {
   const [errors, setErrors] = useState({});
   const [loading, setLoading] = useState(false);
   const navigate = useNavigate();
+  const { isAuthEnabled } = useAuth();
 
   const validateForm = () => {
     const newErrors = {};
@@ -47,6 +49,13 @@ const Register = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+
+    if (!isAuthEnabled) {
+      alert(
+        "Registration is currently disabled. Please contact the administrator."
+      );
+      return;
+    }
 
     if (!validateForm()) {
       return;
@@ -146,6 +155,12 @@ const Register = () => {
           <p className="register__subtitle">
             Join us to start your exam preparation journey
           </p>
+          {!isAuthEnabled && (
+            <div className="register__warning" role="alert">
+              Authentication is currently disabled. Please contact the
+              administrator.
+            </div>
+          )}
 
           <form onSubmit={handleSubmit} className="register__form">
             <Input
@@ -213,7 +228,7 @@ const Register = () => {
               size="large"
               fullWidth
               className="register__button"
-              disabled={loading}
+              disabled={loading || !isAuthEnabled}
             >
               {loading ? "Creating Account..." : "Create Account"}
             </Button>

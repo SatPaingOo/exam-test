@@ -133,13 +133,21 @@ const QuizPlay = () => {
       .update(sessionData)
       .eq("code", sessionCode);
     if (error) {
-      logError("Error updating quiz session", {
-        error: error.message,
-        sessionCode,
-      });
+      logError(
+        "Error updating quiz session",
+        {
+          error: error.message,
+          sessionCode,
+        },
+        { action: "update_quiz_session" }
+      );
       navigate(`/result/${sessionCode}`);
     } else {
-      logSuccess("Quiz session updated", { sessionCode });
+      logSuccess(
+        "Quiz session updated",
+        { sessionCode },
+        { action: "update_quiz_session" }
+      );
       navigate(`/result/${sessionCode}`);
     }
   };
