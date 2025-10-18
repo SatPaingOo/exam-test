@@ -160,10 +160,7 @@ const MemberHistory = () => {
               <p>
                 You haven't taken any exams yet. Start your first practice exam!
               </p>
-              <Button
-                variant="primary"
-                onClick={() => navigate("/exams")}
-              >
+              <Button variant="primary" onClick={() => navigate("/exams")}>
                 Browse Exams
               </Button>
             </div>
