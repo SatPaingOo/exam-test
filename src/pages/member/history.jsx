@@ -120,7 +120,7 @@ const MemberHistory = () => {
           <div className="member-history__actions">
             <Button
               variant="primary"
-              onClick={() => (window.location.href = "/member/dashboard")}
+              onClick={() => navigate("/member/dashboard")}
               size="small"
             >
               Go to Dashboard
@@ -162,7 +162,7 @@ const MemberHistory = () => {
               </p>
               <Button
                 variant="primary"
-                onClick={() => (window.location.href = "/exams")}
+                onClick={() => navigate("/exams")}
               >
                 Browse Exams
               </Button>
@@ -230,7 +230,7 @@ const MemberHistory = () => {
                             variant="secondary"
                             size="small"
                             onClick={() =>
-                              (window.location.href = `/quiz/session/${session.code}`)
+                              navigate(`/quiz/session/${session.code}`)
                             }
                           >
                             Continue Exam
