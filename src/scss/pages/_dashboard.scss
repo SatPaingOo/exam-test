@@ -330,3 +330,403 @@
     flex-wrap: wrap;
   }
 }
+
+// Admin Members Page
+.admin-members {
+  padding: $spacing-3xl 0;
+  min-height: 100vh;
+  background-color: $bg-gray;
+
+  .container {
+    @include container;
+  }
+
+  &__header {
+    margin-bottom: $spacing-3xl;
+  }
+
+  &__title {
+    @include heading-1;
+    margin-bottom: $spacing-sm;
+  }
+
+  &__subtitle {
+    font-size: $font-size-lg;
+    color: $text-secondary;
+  }
+
+  &__search {
+    margin-bottom: $spacing-lg;
+  }
+
+  &__card {
+    padding: $spacing-2xl;
+  }
+
+  &__stats {
+    display: flex;
+    gap: $spacing-2xl;
+    margin-bottom: $spacing-2xl;
+    flex-wrap: wrap;
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: $spacing-md;
+  }
+
+  &__empty {
+    text-align: center;
+    color: $text-secondary;
+    padding: $spacing-2xl;
+  }
+}
+
+// Admin Logs Page
+.admin-logs {
+  padding: $spacing-3xl 0;
+  min-height: 100vh;
+  background-color: $bg-gray;
+
+  .container {
+    @include container;
+  }
+
+  &__header {
+    margin-bottom: $spacing-3xl;
+  }
+
+  &__title {
+    @include heading-1;
+    margin-bottom: $spacing-sm;
+  }
+
+  &__subtitle {
+    font-size: $font-size-lg;
+    color: $text-secondary;
+  }
+
+  &__filters {
+    display: flex;
+    gap: $spacing-md;
+    margin-bottom: $spacing-lg;
+    align-items: flex-end;
+    flex-wrap: wrap;
+  }
+
+  &__filter-group {
+    display: flex;
+    gap: $spacing-md;
+    flex: 1;
+    min-width: 300px;
+  }
+
+  &__card {
+    padding: $spacing-2xl;
+  }
+
+  &__stats {
+    display: flex;
+    gap: $spacing-2xl;
+    margin-bottom: $spacing-2xl;
+    flex-wrap: wrap;
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: $spacing-md;
+  }
+
+  &__empty {
+    text-align: center;
+    color: $text-secondary;
+    padding: $spacing-2xl;
+  }
+}
+
+// Admin Sessions Page
+.admin-sessions {
+  padding: $spacing-3xl 0;
+  min-height: 100vh;
+  background-color: $bg-gray;
+
+  .container {
+    @include container;
+  }
+
+  &__header {
+    margin-bottom: $spacing-3xl;
+  }
+
+  &__title {
+    @include heading-1;
+    margin-bottom: $spacing-sm;
+  }
+
+  &__subtitle {
+    font-size: $font-size-lg;
+    color: $text-secondary;
+  }
+
+  &__search {
+    margin-bottom: $spacing-lg;
+  }
+
+  &__card {
+    padding: $spacing-2xl;
+  }
+
+  &__stats {
+    display: flex;
+    gap: $spacing-2xl;
+    margin-bottom: $spacing-2xl;
+    flex-wrap: wrap;
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: $spacing-md;
+  }
+
+  &__empty {
+    text-align: center;
+    color: $text-secondary;
+    padding: $spacing-2xl;
+  }
+}
+
+// Admin Settings Page
+.admin-settings {
+  padding: $spacing-3xl 0;
+  min-height: 100vh;
+  background-color: $bg-gray;
+
+  .container {
+    @include container;
+  }
+
+  &__header {
+    margin-bottom: $spacing-3xl;
+  }
+
+  &__title {
+    @include heading-1;
+    margin-bottom: $spacing-sm;
+  }
+
+  &__subtitle {
+    font-size: $font-size-lg;
+    color: $text-secondary;
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    gap: $spacing-lg;
+  }
+
+  &__card {
+    padding: $spacing-2xl;
+  }
+
+  &__section-title {
+    @include heading-3;
+    margin-bottom: $spacing-lg;
+    color: $text-primary;
+  }
+
+  &__form {
+    display: flex;
+    flex-direction: column;
+    gap: $spacing-lg;
+  }
+
+  &__checkbox-group {
+    display: flex;
+    align-items: center;
+    gap: $spacing-md;
+  }
+
+  &__actions {
+    display: flex;
+    gap: $spacing-md;
+    justify-content: flex-end;
+    padding-top: $spacing-lg;
+  }
+}
+
+// Shared Components
+.stat-item {
+  text-align: center;
+
+  .stat-value {
+    display: block;
+    font-size: $font-size-3xl;
+    font-weight: $font-weight-bold;
+    color: $color-primary;
+    margin-bottom: $spacing-xs;
+  }
+
+  .stat-label {
+    font-size: $font-size-sm;
+    color: $text-secondary;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+}
+
+.member-item,
+.log-item,
+.session-item {
+  padding: $spacing-lg;
+  border: 1px solid $color-gray-light;
+  border-radius: $border-radius-md;
+  background-color: $bg-light;
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: $spacing-md;
+  }
+
+  &__info {
+    flex: 1;
+  }
+
+  &__primary {
+    display: flex;
+    align-items: center;
+    gap: $spacing-md;
+    margin-bottom: $spacing-sm;
+  }
+
+  &__secondary {
+    display: flex;
+    gap: $spacing-md;
+    font-size: $font-size-sm;
+    color: $text-secondary;
+  }
+
+  &__meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: $spacing-md;
+  }
+
+  &__details {
+    font-size: $font-size-sm;
+    color: $text-secondary;
+  }
+
+  &__actions {
+    display: flex;
+    align-items: center;
+    gap: $spacing-md;
+  }
+
+  &__date {
+    font-size: $font-size-xs;
+    color: $color-gray;
+  }
+
+  &__content {
+    margin-bottom: $spacing-md;
+  }
+
+  &__message {
+    margin-bottom: $spacing-sm;
+    color: $text-primary;
+  }
+
+  &__timestamp {
+    font-size: $font-size-sm;
+    color: $color-gray;
+  }
+}
+
+.role-badge,
+.status-badge,
+.log-type {
+  padding: $spacing-xs $spacing-sm;
+  border-radius: $border-radius-full;
+  font-size: $font-size-xs;
+  font-weight: $font-weight-medium;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.role-badge {
+  &--admin {
+    background-color: rgba($color-accent, 0.1);
+    color: $color-accent;
+  }
+
+  &--member {
+    background-color: rgba($color-primary, 0.1);
+    color: $color-primary;
+  }
+
+  &--default {
+    background-color: rgba($color-gray, 0.1);
+    color: $color-gray;
+  }
+}
+
+.status-badge {
+  &--active {
+    background-color: rgba($color-success, 0.1);
+    color: $color-success;
+  }
+
+  &--completed {
+    background-color: rgba($color-gray, 0.1);
+    color: $color-gray;
+  }
+}
+
+.log-type {
+  &--error {
+    background-color: rgba($color-error, 0.1);
+    color: $color-error;
+  }
+
+  &--success {
+    background-color: rgba($color-success, 0.1);
+    color: $color-success;
+  }
+
+  &--info {
+    background-color: rgba($color-info, 0.1);
+    color: $color-info;
+  }
+
+  &--warning {
+    background-color: rgba($color-warning, 0.1);
+    color: $color-warning;
+  }
+
+  &--default {
+    background-color: rgba($color-gray, 0.1);
+    color: $color-gray;
+  }
+}
+
+.checkbox-label {
+  display: flex;
+  align-items: center;
+  gap: $spacing-sm;
+  cursor: pointer;
+  font-size: $font-size-base;
+  color: $text-primary;
+
+  input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,333 @@
+[
+  {
+    "id": "morning",
+    "name": "Morning Session",
+    "questions": [
+      {
+        "id": 1,
+        "question": {
+          "text": "As shown in Figure 1, there is a box that generates a single output for two (2) inputs. The input in this box is either “Agree” or “Disagree,” and the output of “Agree” is generated only when both inputs are “Agree,” while in other cases the output of “Disagree” is generated. When three (3) inputs are entered into two (2) boxes as shown in Figure 2, which of the following is the correct description concerning the output?",
+          "images": "Figure 1 and Figure 2 are referenced but not provided in sources.",
+          "type": "Logic/Boolean",
+          "source": "ITPEC IP Exam, April 2025"
+        },
+        "options": [
+          {
+            "id": "a",
+            "text": "The output of “Agree” is generated at all times when one (1) or more inputs are “Agree.”",
+            "images": ""
+          },
+          {
+            "id": "b",
+            "text": "The output of “Agree” is generated at all times when two (2) or more inputs are “Agree.”",
+            "images": ""
+          },
+          {
+            "id": "c",
+            "text": "The output of “Disagree” is generated only when two (2) or more inputs are “Disagree.”",
+            "images": ""
+          },
+          {
+            "id": "d",
+            "text": "The output of “Agree” is generated only when all three (3) inputs are “Agree.”",
+            "images": ""
+          }
+        ],
+        "answer": "d"
+      },
+      {
+        "id": 2,
+        "question": {
+          "text": "Which of the following is the most appropriate explanation of the purpose of normalization in database design?",
+          "images": "",
+          "type": "Database",
+          "source": "ITPEC IP Exam, April 2025"
+        },
+        "options": [
+          {
+            "id": "a",
+            "text": "To increase the redundancy of data for faster access.",
+            "images": ""
+          },
+          {
+            "id": "b",
+            "text": "To eliminate data redundancy and improve data integrity.",
+            "images": ""
+          },
+          {
+            "id": "c",
+            "text": "To decrease the number of tables in the database.",
+            "images": ""
+          },
+          {
+            "id": "d",
+            "text": "To ensure that all data is stored in a single table.",
+            "images": ""
+          }
+        ],
+        "answer": "b"
+      },
+      {
+        "id": 3,
+        "question": {
+          "text": "Which of the following best describes the function of a router in a computer network?",
+          "images": "",
+          "type": "Networking",
+          "source": "ITPEC IP Exam, April 2025"
+        },
+        "options": [
+          {
+            "id": "a",
+            "text": "It connects different networks and forwards data packets between them.",
+            "images": ""
+          },
+          {
+            "id": "b",
+            "text": "It encrypts data for secure transmission.",
+            "images": ""
+          },
+          {
+            "id": "c",
+            "text": "It stores web pages for faster access.",
+            "images": ""
+          },
+          {
+            "id": "d",
+            "text": "It manages user authentication.",
+            "images": ""
+          }
+        ],
+        "answer": "a"
+      },
+      {
+        "id": 4,
+        "question": {
+          "text": "What is the hexadecimal representation of the binary number 11010110?",
+          "images": "",
+          "type": "Digital Logic",
+          "source": "ITPEC IP Exam, April 2025"
+        },
+        "options": [
+          {
+            "id": "a",
+            "text": "D6",
+            "images": ""
+          },
+          {
+            "id": "b",
+            "text": "B6",
+            "images": ""
+          },
+          {
+            "id": "c",
+            "text": "A6",
+            "images": ""
+          },
+          {
+            "id": "d",
+            "text": "C6",
+            "images": ""
+          }
+        ],
+        "answer": "a"
+      },
+      {
+        "id": 5,
+        "question": {
+          "text": "Which of the following is NOT a characteristic of object-oriented programming?",
+          "images": "",
+          "type": "Programming",
+          "source": "ITPEC IP Exam, April 2025"
+        },
+        "options": [
+          {
+            "id": "a",
+            "text": "Encapsulation",
+            "images": ""
+          },
+          {
+            "id": "b",
+            "text": "Inheritance",
+            "images": ""
+          },
+          {
+            "id": "c",
+            "text": "Polymorphism",
+            "images": ""
+          },
+          {
+            "id": "d",
+            "text": "Normalization",
+            "images": ""
+          }
+        ],
+        "answer": "d"
+      },
+      {
+        "id": 6,
+        "question": {
+          "text": "Which of the following is the correct order of the software development life cycle (SDLC)?",
+          "images": "",
+          "type": "Software Engineering",
+          "source": "ITPEC IP Exam, April 2025"
+        },
+        "options": [
+          {
+            "id": "a",
+            "text": "Design, Implementation, Testing, Requirements Analysis, Maintenance",
+            "images": ""
+          },
+          {
+            "id": "b",
+            "text": "Requirements Analysis, Design, Implementation, Testing, Maintenance",
+            "images": ""
+          },
+          {
+            "id": "c",
+            "text": "Implementation, Design, Testing, Requirements Analysis, Maintenance",
+            "images": ""
+          },
+          {
+            "id": "d",
+            "text": "Testing, Implementation, Design, Requirements Analysis, Maintenance",
+            "images": ""
+          }
+        ],
+        "answer": "b"
+      },
+      {
+        "id": 7,
+        "question": {
+          "text": "Which of the following is the most suitable backup method for minimizing data loss in a system that is updated frequently?",
+          "images": "",
+          "type": "IT Management",
+          "source": "ITPEC IP Exam, April 2025"
+        },
+        "options": [
+          {
+            "id": "a",
+            "text": "Full backup performed weekly",
+            "images": ""
+          },
+          {
+            "id": "b",
+            "text": "Incremental backup performed daily",
+            "images": ""
+          },
+          {
+            "id": "c",
+            "text": "Differential backup performed monthly",
+            "images": ""
+          },
+          {
+            "id": "d",
+            "text": "No backup is necessary",
+            "images": ""
+          }
+        ],
+        "answer": "b"
+      },
+      {
+        "id": 8,
+        "question": {
+          "text": "Which of the following is the most appropriate description of phishing?",
+          "images": "",
+          "type": "Security",
+          "source": "ITPEC IP Exam, April 2025"
+        },
+        "options": [
+          {
+            "id": "a",
+            "text": "A method of stealing personal information by pretending to be a trustworthy entity.",
+            "images": ""
+          },
+          {
+            "id": "b",
+            "text": "A type of malware that replicates itself.",
+            "images": ""
+          },
+          {
+            "id": "c",
+            "text": "A process of encrypting data for secure transmission.",
+            "images": ""
+          },
+          {
+            "id": "d",
+            "text": "A technique for optimizing database queries.",
+            "images": ""
+          }
+        ],
+        "answer": "a"
+      },
+      {
+        "id": 9,
+        "question": {
+          "text": "Which of the following is the most appropriate use of a hash function?",
+          "images": "",
+          "type": "Security",
+          "source": "ITPEC IP Exam, April 2025"
+        },
+        "options": [
+          {
+            "id": "a",
+            "text": "Encrypting data for secure transmission.",
+            "images": ""
+          },
+          {
+            "id": "b",
+            "text": "Generating a fixed-size value from variable-length input data.",
+            "images": ""
+          },
+          {
+            "id": "c",
+            "text": "Compressing files to save storage space.",
+            "images": ""
+          },
+          {
+            "id": "d",
+            "text": "Managing user access rights.",
+            "images": ""
+          }
+        ],
+        "answer": "b"
+      },
+      {
+        "id": 10,
+        "question": {
+          "text": "Which of the following is the most appropriate explanation of the function of an operating system?",
+          "images": "",
+          "type": "Operating System",
+          "source": "ITPEC IP Exam, April 2025"
+        },
+        "options": [
+          {
+            "id": "a",
+            "text": "It manages hardware resources and provides services for application software.",
+            "images": ""
+          },
+          {
+            "id": "b",
+            "text": "It designs and develops application programs.",
+            "images": ""
+          },
+          {
+            "id": "c",
+            "text": "It provides network connectivity between computers.",
+            "images": ""
+          },
+          {
+            "id": "d",
+            "text": "It stores and retrieves data from databases.",
+            "images": ""
+          }
+        ],
+        "answer": "a"
+      }
+    ]
+  },
+  {
+    "id": "afternoon",
+    "name": "Afternoon Session",
+    "questions": []
+  }
+]

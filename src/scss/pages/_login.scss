@@ -1,0 +1,43 @@
+// Login Page Styles
+.login {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, $color-primary 0%, $color-secondary 100%);
+  padding: $spacing-lg;
+
+  .container {
+    width: 100%;
+    max-width: 400px;
+  }
+
+  &__card {
+    padding: $spacing-2xl;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  }
+
+  &__title {
+    @include heading-2;
+    margin-bottom: $spacing-lg;
+    color: $text-primary;
+  }
+
+  &__form {
+    display: flex;
+    flex-direction: column;
+    gap: $spacing-lg;
+  }
+
+  &__error {
+    color: $color-error;
+    font-size: $font-size-sm;
+    text-align: center;
+    margin-top: $spacing-md;
+  }
+
+  &__button {
+    margin-top: $spacing-lg;
+  }
+}

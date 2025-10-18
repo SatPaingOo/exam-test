@@ -9,6 +9,37 @@
 
 ---
 
+## DATABASE SCHEMA (Supabase)
+
+### Current Tables
+
+#### visitors
+
+- `id` (BIGSERIAL PRIMARY KEY)
+- `uuid` (TEXT UNIQUE NOT NULL) - Unique visitor identifier
+- `role` (TEXT) - 'admin', 'member', or NULL for anonymous visitors
+- `username` (TEXT) - Username if logged in
+- `created_at` (TIMESTAMPTZ DEFAULT NOW())
+
+#### users
+
+- `id` (BIGSERIAL PRIMARY KEY)
+- `uuid` (TEXT UNIQUE NOT NULL) - Links to visitors.uuid
+- `username` (TEXT UNIQUE NOT NULL)
+- `password_hash` (TEXT NOT NULL) - Bcrypt hashed password
+- `email` (TEXT UNIQUE)
+- `full_name` (TEXT)
+- `role` (TEXT NOT NULL) - 'admin' or 'member'
+- `created_at` (TIMESTAMPTZ DEFAULT NOW())
+- `updated_at` (TIMESTAMPTZ DEFAULT NOW())
+
+### Authentication Utilities
+
+- `src/utils/auth.js` - Password hashing and comparison functions using bcrypt
+- Default admin user: username `admin`, password `admin123` (properly hashed)
+
+---
+
 ## PROJECT STRUCTURE
 
 - member can exam test

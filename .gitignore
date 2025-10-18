@@ -12,6 +12,7 @@ pnpm-lock.yaml
 
 node_modules
 markdown
+migrations
 dist
 dist-ssr
 src/assets/files/itpec/*
@@ -27,3 +28,7 @@ src/assets/files/itpec/*
 *.njsproj
 *.sln
 *.sw?
+verify-database.sql
+migration-user-id.sql
+drop-tables.sql
+.env

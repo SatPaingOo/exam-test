@@ -1,13 +1,37 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Card, Button } from "../../components/common";
+import { Card, Button, StatCard, ActivityItem } from "src/components/common";
 
 const AdminDashboard = () => {
   const stats = [
-    { title: "Total Users", value: "1,234", change: "+12%", trend: "up" },
-    { title: "Total Exams", value: "15", change: "+3", trend: "up" },
-    { title: "Total Questions", value: "10,000+", change: "+250", trend: "up" },
-    { title: "Active Today", value: "456", change: "+8%", trend: "up" },
+    {
+      title: "Total Users",
+      value: "1,234",
+      change: "+12%",
+      trend: "up",
+      icon: "👥",
+    },
+    {
+      title: "Total Exams",
+      value: "15",
+      change: "+3",
+      trend: "up",
+      icon: "📝",
+    },
+    {
+      title: "Total Questions",
+      value: "10,000+",
+      change: "+250",
+      trend: "up",
+      icon: "❓",
+    },
+    {
+      title: "Active Today",
+      value: "456",
+      change: "+8%",
+      trend: "up",
+      icon: "🔥",
+    },
   ];
 
   const recentActivities = [
@@ -46,17 +70,14 @@ const AdminDashboard = () => {
         {/* Stats Grid */}
         <div className="admin-dashboard__stats">
           {stats.map((stat, index) => (
-            <Card key={index} className="stat-card">
-              <div className="stat-card__content">
-                <h3 className="stat-card__title">{stat.title}</h3>
-                <div className="stat-card__value">{stat.value}</div>
-                <div
-                  className={`stat-card__change stat-card__change--${stat.trend}`}
-                >
-                  {stat.change}
-                </div>
-              </div>
-            </Card>
+            <StatCard
+              key={index}
+              title={stat.title}
+              value={stat.value}
+              change={stat.change}
+              trend={stat.trend}
+              icon={stat.icon}
+            />
           ))}
         </div>
 
@@ -64,19 +85,19 @@ const AdminDashboard = () => {
         <div className="admin-dashboard__section">
           <h2 className="admin-dashboard__section-title">Quick Actions</h2>
           <div className="admin-dashboard__actions">
-            <Link to="/admin/users">
+            <Link to="/admin/members">
               <Button variant="primary" size="medium">
-                Manage Users
+                Manage Members
               </Button>
             </Link>
-            <Link to="/admin/questions">
+            <Link to="/admin/sessions">
               <Button variant="primary" size="medium">
-                Manage Questions
+                Manage Sessions
               </Button>
             </Link>
-            <Link to="/admin/exams">
+            <Link to="/admin/logs">
               <Button variant="primary" size="medium">
-                Manage Exams
+                View Logs
               </Button>
             </Link>
             <Link to="/admin/settings">
@@ -93,12 +114,12 @@ const AdminDashboard = () => {
           <Card>
             <div className="activity-list">
               {recentActivities.map((activity, index) => (
-                <div key={index} className="activity-item">
-                  <div className="activity-item__content">
-                    <strong>{activity.user}</strong> {activity.action}
-                  </div>
-                  <div className="activity-item__time">{activity.time}</div>
-                </div>
+                <ActivityItem
+                  key={index}
+                  user={activity.user}
+                  action={activity.action}
+                  time={activity.time}
+                />
               ))}
             </div>
           </Card>

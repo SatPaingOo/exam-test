@@ -8,6 +8,8 @@ const ExamSetup = () => {
   const navigate = useNavigate();
   const [count, setCount] = useState(20);
   const [paper, setPaper] = useState("random");
+  const [session, setSession] = useState("both");
+  const [starting, setStarting] = useState(false);
 
   const trackConfig = useMemo(() => getTrack(track), [track]);
   const paperOptions = useMemo(() => listPaperOptions(track), [track]);
@@ -51,9 +53,20 @@ const ExamSetup = () => {
   }
 
   const startQuiz = () => {
-    if (!hasPapers || count === "" || !Number.isFinite(Number(count))) return;
+    if (
+      starting ||
+      !hasPapers ||
+      count === "" ||
+      !Number.isFinite(Number(count))
+    )
+      return;
+    setStarting(true);
     const selected = paper || "random";
-    navigate(`/quiz/${track}/${selected}?count=${count}`);
+    const params = new URLSearchParams({ count: count.toString() });
+    if (session !== "both") {
+      params.set("session", session);
+    }
+    navigate(`/quiz/start/${track}/${selected}?${params.toString()}`);
   };
 
   const handleCountChange = (value) => {
@@ -109,6 +122,20 @@ const ExamSetup = () => {
                   disabled={!hasPapers}
                 />
 
+                {(track === "fe" || track === "ap") && (
+                  <Select
+                    label="Session"
+                    name="session"
+                    value={session}
+                    onChange={(e) => setSession(e.target.value)}
+                    options={[
+                      { value: "both", label: "Both Sessions" },
+                      { value: "morning", label: "Morning Only" },
+                      { value: "afternoon", label: "Afternoon Only" },
+                    ]}
+                  />
+                )}
+
                 <Input
                   label="Question Count"
                   type="number"
@@ -127,9 +154,9 @@ const ExamSetup = () => {
                   <Button
                     variant="primary"
                     onClick={startQuiz}
-                    disabled={!hasPapers}
+                    disabled={!hasPapers || starting}
                   >
-                    Start Practice
+                    {starting ? "Starting..." : "Start Practice"}
                   </Button>
                   <Link to="/exams" className="form-actions__link">
                     <Button variant="outline">Back to Exams</Button>

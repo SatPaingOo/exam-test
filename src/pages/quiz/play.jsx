@@ -7,6 +7,9 @@ import {
 } from "react-router-dom";
 import { Button, Card } from "@/components/common";
 import { getTrack, resolveQuestions, getPaperLabel } from "@/services/examData";
+import { supabase } from "@/services/supabase";
+import { getUuid } from "@/services/localStorage";
+import { logError, logSuccess } from "@/utils/logger";
 
 function sample(array, n) {
   const copy = array.slice();
@@ -18,14 +21,8 @@ function sample(array, n) {
 }
 
 const QuizPlay = () => {
-  const { track, paper } = useParams();
-  const [params] = useSearchParams();
+  const { sessionId: sessionCode } = useParams();
   const navigate = useNavigate();
-
-  const count = Math.max(
-    1,
-    Math.min(100, parseInt(params.get("count") || "20", 10))
-  );
 
   const [questions, setQuestions] = useState([]);
   const [idx, setIdx] = useState(0);
@@ -34,38 +31,44 @@ const QuizPlay = () => {
   const [paperOptions, setPaperOptions] = useState([]);
   const [paperSources, setPaperSources] = useState([]);
   const [resolvedPaper, setResolvedPaper] = useState(null);
-
+  const [track, setTrack] = useState("");
+  const [paper, setPaper] = useState("");
+  const [startedAt, setStartedAt] = useState(null);
   const trackConfig = useMemo(() => getTrack(track), [track]);
   const trackLabel = trackConfig?.name || track?.toUpperCase();
 
   useEffect(() => {
-    if (!trackConfig) return;
-    let mounted = true;
-    setLoading(true);
-    resolveQuestions(track, paper).then(
-      ({
-        questions: data,
-        paperIds,
-        paperOptions: options,
-        resolvedPaperId,
-      }) => {
-        if (!mounted) return;
-        const items = Array.isArray(data) ? data : [];
-        const limit = Math.min(count, items.length || count);
-        const subset = sample(items, limit);
-        setQuestions(subset);
-        setIdx(0);
-        setAnswers({});
-        setPaperOptions(options || []);
-        setPaperSources(paperIds || []);
-        setResolvedPaper(resolvedPaperId || null);
-        setLoading(false);
+    const loadSession = async () => {
+      setLoading(true);
+      const { data, error } = await supabase
+        .from("quiz_sessions")
+        .select("*")
+        .eq("code", sessionCode)
+        .single();
+      if (error || !data) {
+        logError("Error loading quiz session", {
+          error: error?.message,
+          sessionCode,
+        });
+        navigate("/exams");
+        return;
       }
-    );
-    return () => {
-      mounted = false;
+      setQuestions(data.questions || []);
+      setAnswers(data.answers || {});
+      setPaperOptions([]); // TODO: if needed
+      setPaperSources([]);
+      setResolvedPaper(data.paper);
+      setTrack(data.track);
+      setPaper(data.paper);
+      setLoading(false);
+      setStartedAt(new Date());
     };
-  }, [track, paper, count, trackConfig]);
+    if (sessionCode) {
+      loadSession();
+    } else {
+      navigate("/exams");
+    }
+  }, [sessionCode, navigate]);
 
   useEffect(() => {
     if (trackConfig) return;
@@ -110,32 +113,35 @@ const QuizPlay = () => {
     if (idx > 0) setIdx(idx - 1);
   };
 
-  const quit = () => {
+  const quit = async () => {
     if (!questions.length) return;
-    // minimal attempt id using timestamp
-    const attemptId = `${track}-${paper}-${Date.now()}`;
-    // compute summary
     const summary = computeResult(questions, answers);
-    // store in sessionStorage
-    sessionStorage.setItem(
-      attemptId,
-      JSON.stringify({
-        track,
-        paper,
-        trackLabel,
-        paperLabel,
-        papersUsed: paperSources,
-        resolvedPaper,
-        countRequested: count,
-        questionsServed: questions.length,
-        completedAt: new Date().toISOString(),
-        paperOptions,
-        questions,
-        answers,
-        summary,
-      })
-    );
-    navigate(`/result/${attemptId}`);
+    const finished = Object.keys(answers).length === questions.length; // finished if all answered
+    const timeSpent = startedAt
+      ? Math.floor((new Date() - startedAt) / 1000)
+      : 0;
+    const sessionData = {
+      answers,
+      summary,
+      finished,
+      time_spent: timeSpent,
+      updated_at: new Date().toISOString(),
+    };
+
+    const { error } = await supabase
+      .from("quiz_sessions")
+      .update(sessionData)
+      .eq("code", sessionCode);
+    if (error) {
+      logError("Error updating quiz session", {
+        error: error.message,
+        sessionCode,
+      });
+      navigate(`/result/${sessionCode}`);
+    } else {
+      logSuccess("Quiz session updated", { sessionCode });
+      navigate(`/result/${sessionCode}`);
+    }
   };
 
   if (!trackConfig) {
@@ -226,6 +232,11 @@ const QuizPlay = () => {
           <Card hover={false} className="quiz-play__card">
             <div className="quiz-question">
               <h2 className="quiz-question__title">{current.question?.text}</h2>
+              {current.session && (
+                <p className="quiz-question__session">
+                  Session: {current.session}
+                </p>
+              )}
               <div
                 className="quiz-question__options"
                 role="radiogroup"

@@ -1,0 +1,248 @@
+// Admin Members Page Styles
+.admin-members {
+  padding: $spacing-xl 0;
+
+  &__header {
+    @include flex-between;
+    align-items: flex-start;
+    gap: $spacing-lg;
+    margin-bottom: $spacing-xl;
+
+    @include respond-to('md') {
+      align-items: center;
+    }
+  }
+
+  &__title-section {
+    flex: 1;
+  }
+
+  &__title {
+    font-size: $font-size-3xl;
+    font-weight: $font-weight-bold;
+    color: $color-secondary;
+    margin-bottom: $spacing-xs;
+  }
+
+  &__subtitle {
+    color: rgba($color-secondary, 0.7);
+    font-size: $font-size-base;
+  }
+
+  &__create-btn {
+    @include respond-to('md') {
+      min-width: 140px;
+    }
+  }
+
+  &__search {
+    margin-bottom: $spacing-lg;
+  }
+
+  &__search-input {
+    max-width: 400px;
+  }
+
+  &__card {
+    margin-bottom: $spacing-xl;
+  }
+
+  &__stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: $spacing-md;
+    margin-bottom: $spacing-xl;
+    padding-bottom: $spacing-lg;
+    border-bottom: 1px solid rgba($color-secondary, 0.1);
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: $spacing-md;
+  }
+
+  &__empty {
+    text-align: center;
+    color: rgba($color-secondary, 0.6);
+    font-style: italic;
+    padding: $spacing-xl;
+  }
+}
+
+// Member Item Styles
+.member-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: $spacing-lg;
+  border: 1px solid rgba($color-secondary, 0.1);
+  border-radius: $border-radius-md;
+  background-color: $bg-primary;
+  transition: all $transition-fast;
+
+  &:hover {
+    border-color: rgba($color-accent, 0.3);
+    box-shadow: $shadow-sm;
+  }
+
+  &__info {
+    flex: 1;
+  }
+
+  &__primary {
+    display: flex;
+    align-items: center;
+    gap: $spacing-md;
+    margin-bottom: $spacing-xs;
+
+    strong {
+      font-size: $font-size-lg;
+      font-weight: $font-weight-semibold;
+      color: $color-secondary;
+    }
+  }
+
+  &__secondary {
+    display: flex;
+    flex-direction: column;
+    gap: $spacing-xs;
+    font-size: $font-size-sm;
+    color: rgba($color-secondary, 0.7);
+
+    span {
+      display: block;
+    }
+  }
+
+  &__meta {
+    text-align: right;
+    font-size: $font-size-sm;
+    color: rgba($color-secondary, 0.6);
+  }
+
+  &__date {
+    display: block;
+    margin-bottom: $spacing-xs;
+  }
+}
+
+// Role Badge Styles
+.role-badge {
+  padding: $spacing-xs $spacing-sm;
+  border-radius: $border-radius-sm;
+  font-size: $font-size-xs;
+  font-weight: $font-weight-medium;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+
+  &--admin {
+    background-color: rgba($color-error, 0.1);
+    color: $color-error;
+  }
+
+  &--member {
+    background-color: rgba($color-accent, 0.1);
+    color: $color-accent;
+  }
+
+  &--default {
+    background-color: rgba($color-secondary, 0.1);
+    color: $color-secondary;
+  }
+}
+
+// Modal Styles
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: $z-index-modal;
+  padding: $spacing-lg;
+}
+
+.modal-content {
+  background-color: $bg-primary;
+  border-radius: $border-radius-lg;
+  box-shadow: $shadow-xl;
+  max-width: 500px;
+  width: 100%;
+  max-height: 90vh;
+  overflow-y: auto;
+}
+
+.modal-header {
+  @include flex-between;
+  padding: $spacing-xl;
+  border-bottom: 1px solid rgba($color-secondary, 0.1);
+
+  .modal-title {
+    font-size: $font-size-xl;
+    font-weight: $font-weight-bold;
+    color: $color-secondary;
+    margin: 0;
+  }
+
+  .modal-close {
+    background: none;
+    border: none;
+    font-size: $font-size-2xl;
+    color: rgba($color-secondary, 0.6);
+    cursor: pointer;
+    padding: $spacing-xs;
+    border-radius: $border-radius-sm;
+    transition: all $transition-fast;
+
+    &:hover {
+      background-color: rgba($color-secondary, 0.1);
+      color: $color-secondary;
+    }
+  }
+}
+
+.modal-body {
+  padding: $spacing-xl;
+
+  .form-row {
+    margin-bottom: $spacing-lg;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.modal-footer {
+  @include flex-end;
+  gap: $spacing-md;
+  padding: $spacing-xl;
+  border-top: 1px solid rgba($color-secondary, 0.1);
+  background-color: rgba($color-secondary, 0.02);
+}
+
+// Stat Item Styles
+.stat-item {
+  text-align: center;
+  padding: $spacing-md;
+
+  .stat-value {
+    display: block;
+    font-size: $font-size-3xl;
+    font-weight: $font-weight-bold;
+    color: $color-accent;
+    margin-bottom: $spacing-xs;
+  }
+
+  .stat-label {
+    font-size: $font-size-sm;
+    color: rgba($color-secondary, 0.7);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+}

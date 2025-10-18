@@ -1,9 +1,35 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React, { useEffect } from "react";
+import { Link, useNavigate } from "react-router-dom";
 import { Button, Card } from "src/components/common";
 import { listTracks } from "src/services/examData";
+import { useAuth } from "src/context/AuthContext";
 
 const Home = () => {
+  const { isAuthenticated, isAdmin, loading } = useAuth();
+  const navigate = useNavigate();
+
+  // Redirect authenticated users to their dashboard
+  useEffect(() => {
+    if (!loading && isAuthenticated) {
+      if (isAdmin) {
+        navigate("/admin/dashboard");
+      } else {
+        navigate("/member/dashboard");
+      }
+    }
+  }, [isAuthenticated, isAdmin, loading, navigate]);
+
+  // Show loading while checking authentication
+  if (loading) {
+    return (
+      <div className="loading-screen">
+        <div className="container">
+          <div className="loading-spinner"></div>
+          <p>Loading...</p>
+        </div>
+      </div>
+    );
+  }
   // Get dynamic exam categories from the data service
   const allExamCategories = listTracks().map((track) => ({
     id: track.id,

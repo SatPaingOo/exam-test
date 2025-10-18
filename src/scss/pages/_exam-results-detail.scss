@@ -1,0 +1,467 @@
+// Exam Results Detail Page Styles
+.exam-results-detail {
+  padding: $spacing-xl 0;
+  min-height: 100vh;
+  background-color: $bg-gray;
+
+  .container {
+    @include container;
+    max-width: 1000px;
+  }
+
+  &__header {
+    display: flex;
+    align-items: center;
+    gap: $spacing-lg;
+    margin-bottom: $spacing-2xl;
+    padding-bottom: $spacing-lg;
+    border-bottom: 1px solid rgba($text-secondary, 0.1);
+  }
+
+  &__title {
+    flex: 1;
+
+    h1 {
+      @include heading-1;
+      margin-bottom: $spacing-xs;
+      color: $text-primary;
+    }
+
+    p {
+      color: rgba($text-secondary, 0.7);
+      font-size: $font-size-lg;
+      margin: 0;
+    }
+  }
+
+  &__actions {
+    display: flex;
+    align-items: center;
+    gap: $spacing-md;
+
+    .status-badge {
+      padding: $spacing-xs $spacing-sm;
+      border-radius: $border-radius-sm;
+      font-size: $font-size-xs;
+      font-weight: $font-weight-bold;
+      text-transform: uppercase;
+    }
+  }
+}
+
+.back-button {
+  display: flex;
+  align-items: center;
+  gap: $spacing-sm;
+  padding: $spacing-sm $spacing-lg;
+  background-color: $bg-primary;
+  border: 1px solid rgba($color-secondary, 0.2);
+  border-radius: $border-radius-md;
+  color: $color-secondary;
+  text-decoration: none;
+  font-weight: $font-weight-medium;
+  transition: all $transition-fast;
+
+  &:hover {
+    background-color: rgba($color-secondary, 0.05);
+    border-color: rgba($color-secondary, 0.4);
+    color: $color-secondary;
+  }
+}
+
+.exam-results-detail__summary {
+  margin-bottom: $spacing-2xl;
+}
+
+.exam-results-detail__questions {
+  h2 {
+    @include heading-2;
+    margin-bottom: $spacing-xl;
+    color: $text-primary;
+  }
+}
+
+.error-card {
+  text-align: center;
+  padding: $spacing-3xl;
+
+  h2 {
+    @include heading-2;
+    color: $color-error;
+    margin-bottom: $spacing-lg;
+  }
+
+  p {
+    color: rgba($text-secondary, 0.7);
+    margin-bottom: $spacing-xl;
+    font-size: $font-size-lg;
+  }
+}
+
+// Exam Summary (reused from member-history)
+.exam-summary {
+  &__stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: $spacing-lg;
+  }
+}
+
+.summary-stat {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: $spacing-lg;
+  min-height: 110px;
+  background-color: $bg-primary;
+  border-radius: $border-radius-lg;
+  border: 1px solid rgba($text-light, 0.06);
+  box-shadow: $shadow-sm;
+
+  &__label {
+    font-weight: $font-weight-medium;
+  color: rgba($text-light, 0.9);
+    font-size: $font-size-sm;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+
+  &__value {
+    font-weight: $font-weight-bold;
+  color: $text-light;
+    font-size: $font-size-lg;
+
+    &.score--excellent {
+      color: $color-success;
+    }
+
+    &.score--good {
+      color: #28a745;
+    }
+
+    &.score--average {
+      color: $color-warning;
+    }
+
+    &.score--poor {
+      color: $color-error;
+    }
+  }
+
+  &__value--multiline {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: $spacing-xs;
+
+    .completed-date {
+      font-size: $font-size-sm;
+      color: rgba($text-light, 0.9);
+      font-weight: $font-weight-medium;
+    }
+
+    .completed-time {
+      font-size: $font-size-lg;
+      color: $text-light;
+      font-weight: $font-weight-bold;
+    }
+  }
+}
+
+// Question Results (reused and extended from member-history)
+.question-results {
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-xl;
+}
+
+.question-result {
+  border: 1px solid rgba($text-secondary, 0.1);
+  border-radius: $border-radius-lg;
+  padding: $spacing-xl;
+  background-color: $bg-primary;
+  box-shadow: $shadow-sm;
+  transition: all $transition-fast;
+
+  &:hover {
+    border-color: rgba($color-accent, 0.2);
+    box-shadow: $shadow-md;
+  }
+
+  &--correct {
+    border-left: 4px solid $color-success;
+    background-color: rgba($color-success, 0.02);
+  }
+
+  &--incorrect {
+    border-left: 4px solid $color-error;
+    background-color: rgba($color-error, 0.02);
+  }
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: $spacing-lg;
+    padding-bottom: $spacing-md;
+    border-bottom: 1px solid rgba($text-secondary, 0.1);
+  }
+
+  &__number {
+    font-weight: $font-weight-bold;
+    font-size: $font-size-lg;
+    color: $text-primary;
+  }
+
+  &__status {
+    font-size: $font-size-sm;
+    font-weight: $font-weight-bold;
+    padding: $spacing-xs $spacing-sm;
+    border-radius: $border-radius-sm;
+
+    &.status--correct {
+      background-color: rgba($color-success, 0.1);
+      color: $color-success;
+    }
+
+    &.status--incorrect {
+      background-color: rgba($color-error, 0.1);
+      color: $color-error;
+    }
+  }
+
+  &__content {
+    .question-result__question {
+      font-weight: $font-weight-medium;
+      color: $text-primary;
+      margin-bottom: $spacing-lg;
+      line-height: 1.6;
+      font-size: $font-size-base;
+    }
+  }
+
+  &__options {
+    margin-bottom: $spacing-lg;
+
+    h4 {
+      font-size: $font-size-sm;
+      font-weight: $font-weight-semibold;
+      color: rgba($text-secondary, 0.8);
+      margin-bottom: $spacing-md;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+  }
+}
+
+.options-list {
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-md;
+}
+
+.option {
+  display: flex;
+  align-items: flex-start;
+  gap: $spacing-md;
+  padding: $spacing-md $spacing-lg;
+  border-radius: $border-radius-md;
+  background-color: rgba($text-secondary, 0.02);
+  border: 1px solid rgba($text-secondary, 0.1);
+  transition: all $transition-fast;
+
+  &-label {
+    font-weight: $font-weight-bold;
+    color: $text-secondary;
+    min-width: 28px;
+    flex-shrink: 0;
+    font-size: $font-size-base;
+  }
+
+  &-text {
+    flex: 1;
+    color: $text-primary;
+    line-height: 1.5;
+    font-size: $font-size-base;
+  }
+
+  &-indicator {
+    font-size: $font-size-xs;
+    font-weight: $font-weight-bold;
+    padding: $spacing-xs $spacing-sm;
+    border-radius: $border-radius-sm;
+    margin-left: $spacing-md;
+    flex-shrink: 0;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+
+  &--correct {
+    background-color: rgba($color-success, 0.08);
+    border-color: rgba($color-success, 0.2);
+
+    .option-indicator {
+      background-color: $color-success;
+      color: $color-primary;
+    }
+  }
+
+  &--incorrect {
+    background-color: rgba($color-error, 0.08);
+    border-color: rgba($color-error, 0.2);
+
+    .option-indicator {
+      background-color: $color-error;
+      color: $color-primary;
+    }
+  }
+
+  &:hover {
+    transform: translateX(2px);
+  }
+}
+
+.answer-summary {
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-md;
+
+  .answer {
+    padding: $spacing-md $spacing-lg;
+    border-radius: $border-radius-md;
+    font-weight: $font-weight-medium;
+    font-size: $font-size-base;
+
+    &--correct {
+      background-color: rgba($color-success, 0.1);
+      color: $color-success;
+      border: 1px solid rgba($color-success, 0.2);
+    }
+
+    &--incorrect {
+      background-color: rgba($color-error, 0.1);
+      color: $color-error;
+      border: 1px solid rgba($color-error, 0.2);
+    }
+
+    &--not-answered {
+      background-color: rgba($text-secondary, 0.06);
+      color: rgba($text-secondary, 0.7);
+      border: 1px solid rgba($text-secondary, 0.12);
+    }
+  }
+}
+
+.question-result__explanation {
+  margin-top: $spacing-lg;
+  padding-top: $spacing-lg;
+  border-top: 1px solid rgba($text-secondary, 0.08);
+  background-color: rgba($text-secondary, 0.02);
+  padding: $spacing-lg;
+  border-radius: $border-radius-md;
+
+  h4 {
+    font-size: $font-size-sm;
+    font-weight: $font-weight-semibold;
+    color: rgba($text-secondary, 0.8);
+    margin-bottom: $spacing-md;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+
+  p {
+    color: $text-primary;
+    line-height: 1.6;
+    margin: 0;
+    font-size: $font-size-base;
+  }
+}
+
+// No Questions Message
+.no-questions {
+  text-align: center;
+  padding: $spacing-3xl;
+  color: rgba($text-secondary, 0.6);
+  font-style: italic;
+  font-size: $font-size-lg;
+}
+
+// Loading and Error States
+.loading-screen {
+  min-height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: $spacing-3xl 0;
+
+  .container {
+    text-align: center;
+  }
+
+  p {
+    margin-top: $spacing-lg;
+    color: rgba($text-secondary, 0.7);
+    font-size: $font-size-lg;
+  }
+}
+
+.loading-spinner {
+  margin: 0 auto;
+  width: 56px;
+  height: 56px;
+  border: 4px solid rgba($color-primary, 0.1);
+  border-top-color: $color-primary;
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+// Responsive Design
+@include respond-to('md') {
+  .exam-results-detail {
+    &__header {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: $spacing-md;
+    }
+  }
+
+  .summary-stat {
+    &__label {
+      font-size: $font-size-xs;
+    }
+
+    &__value {
+      font-size: $font-size-base;
+    }
+  }
+}
+
+@include respond-to('sm') {
+  .exam-results-detail {
+    padding: $spacing-lg 0;
+
+    .container {
+      padding: 0 $spacing-md;
+    }
+  }
+
+  .question-result {
+    padding: $spacing-lg;
+  }
+
+  .option {
+    padding: $spacing-sm $spacing-md;
+
+    &-text {
+      font-size: $font-size-sm;
+    }
+  }
+}

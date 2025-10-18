@@ -343,6 +343,13 @@
     line-height: $line-height-relaxed;
   }
 
+  &__session {
+    font-size: $font-size-sm;
+    color: $text-secondary;
+    font-weight: $font-weight-medium;
+    text-transform: capitalize;
+  }
+
   &__options {
     display: grid;
     gap: $spacing-md;

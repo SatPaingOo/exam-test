@@ -1,15 +1,5 @@
 {
   "info": "Dummy data for exam questions. Replace with real data as needed.",
-  "admin": {
-    "username": "admin",
-    "password": "password123"
-  },
-  "member": {
-    "username": "member",
-    "password": "member123",
-    "fullName": "John Doe",
-    "email": "john.doe@example.com"
-  },
   "categories": [
     {
       "id": "technology",
@@ -55,6 +45,25 @@
           "level": "Beginner",
           "description": "Information Technology Passport Examination",
           "summary": "Perfect starting point covering the core fundamentals of information technology.",
+          "jsonFormat": [
+            {
+              "id": "number",
+              "question": {
+                "text": "string",
+                "images": "string (optional)",
+                "type": "string",
+                "source": "string (optional)"
+              },
+              "options": [
+                {
+                  "id": "string",
+                  "text": "string",
+                  "images": "string (optional)"
+                }
+              ],
+              "answer": "string"
+            }
+          ],
           "years": [
             {
               "id": "2020S",
@@ -101,7 +110,37 @@
           "level": "Intermediate",
           "description": "Fundamentals of Engineering Examination",
           "summary": "Build on your foundation with algorithm, database, and network deep dives.",
-          "years": []
+          "jsonFormat": [
+            {
+              "id": "string",
+              "name": "string",
+              "questions": [
+                {
+                  "id": "number",
+                  "question": {
+                    "text": "string",
+                    "images": "string (optional)",
+                    "type": "string",
+                    "source": "string (optional)"
+                  },
+                  "options": [
+                    {
+                      "id": "string",
+                      "text": "string",
+                      "images": "string (optional)"
+                    }
+                  ],
+                  "answer": "string"
+                }
+              ]
+            }
+          ],
+          "years": [
+            {
+              "id": "2025S",
+              "name": "2025 Spring"
+            }
+          ]
         },
         {
           "id": "ap",
@@ -110,6 +149,31 @@
           "level": "Advanced",
           "description": "Applied Information Technology Examination",
           "summary": "Challenge yourself with applied scenarios that mirror the actual exam.",
+          "jsonFormat": [
+            {
+              "id": "string",
+              "name": "string",
+              "questions": [
+                {
+                  "id": "number",
+                  "question": {
+                    "text": "string",
+                    "images": "string (optional)",
+                    "type": "string",
+                    "source": "string (optional)"
+                  },
+                  "options": [
+                    {
+                      "id": "string",
+                      "text": "string",
+                      "images": "string (optional)"
+                    }
+                  ],
+                  "answer": "string"
+                }
+              ]
+            }
+          ],
           "years": []
         }
       ]
@@ -128,6 +192,25 @@
           "level": "Beginner",
           "description": "Japanese-Language Proficiency Test N5",
           "summary": "Foundation level Japanese proficiency test covering basic vocabulary, grammar, and reading comprehension.",
+          "jsonFormat": [
+            {
+              "id": "number",
+              "question": {
+                "text": "string",
+                "images": "string (optional)",
+                "type": "string",
+                "source": "string (optional)"
+              },
+              "options": [
+                {
+                  "id": "string",
+                  "text": "string",
+                  "images": "string (optional)"
+                }
+              ],
+              "answer": "string"
+            }
+          ],
           "years": [
             {
               "id": "2024",

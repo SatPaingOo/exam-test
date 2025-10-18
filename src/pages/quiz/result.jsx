@@ -1,17 +1,101 @@
-import React, { useMemo } from "react";
+import React, { useMemo, useState, useEffect } from "react";
 import { useParams, Link } from "react-router-dom";
 import { Card, Button } from "@/components/common";
+import { supabase } from "@/services/supabase";
+import { logError } from "@/utils/logger";
 
 const QuizResult = () => {
   const { attemptId } = useParams();
-  const attempt = useMemo(() => {
-    try {
-      const raw = sessionStorage.getItem(attemptId);
-      return raw ? JSON.parse(raw) : null;
-    } catch (e) {
-      return null;
-    }
+  const [attempt, setAttempt] = useState(null);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const loadAttempt = async () => {
+      setLoading(true);
+      // Check if attemptId is numeric (DB id) or code
+      if (/^\d+$/.test(attemptId)) {
+        const { data, error } = await supabase
+          .from("quiz_sessions")
+          .select("*")
+          .eq("id", attemptId)
+          .single();
+        if (error) {
+          logError("Error loading quiz session from DB", {
+            error: error.message,
+            attemptId,
+          });
+          setAttempt(null);
+        } else {
+          // Transform to match expected format
+          setAttempt({
+            ...data,
+            trackLabel: data.track?.toUpperCase() || "Practice",
+            paperLabel: data.paper || "Session",
+            papersUsed: [], // TODO: if needed
+            resolvedPaper: null,
+            countRequested: data.questions?.length || 0,
+            questionsServed: data.questions?.length || 0,
+            completedAt: data.updated_at,
+            paperOptions: [],
+          });
+        }
+      } else {
+        // Load by code
+        const { data, error } = await supabase
+          .from("quiz_sessions")
+          .select("*")
+          .eq("code", attemptId)
+          .single();
+        if (error) {
+          logError("Error loading quiz session from DB by code", {
+            error: error.message,
+            attemptId,
+          });
+          setAttempt(null);
+        } else {
+          // Transform to match expected format
+          setAttempt({
+            ...data,
+            trackLabel: data.track?.toUpperCase() || "Practice",
+            paperLabel: data.paper || "Session",
+            papersUsed: [], // TODO: if needed
+            resolvedPaper: null,
+            countRequested: data.questions?.length || 0,
+            questionsServed: data.questions?.length || 0,
+            completedAt: data.updated_at,
+            paperOptions: [],
+          });
+        }
+      }
+      setLoading(false);
+    };
+    loadAttempt();
   }, [attemptId]);
+
+  const paperLookup = useMemo(
+    () =>
+      attempt
+        ? new Map(
+            (attempt.paperOptions || []).map((option) => [
+              option.id,
+              option.label,
+            ])
+          )
+        : new Map(),
+    [attempt]
+  );
+
+  if (loading) {
+    return (
+      <div className="quiz-result">
+        <div className="container">
+          <Card hover={false}>
+            <p>Loading result...</p>
+          </Card>
+        </div>
+      </div>
+    );
+  }
 
   if (!attempt) {
     return (
@@ -55,10 +139,6 @@ const QuizResult = () => {
   const uniquePapers = Array.isArray(papersUsed)
     ? [...new Set(papersUsed)]
     : [];
-  const paperLookup = useMemo(
-    () => new Map(paperOptions.map((option) => [option.id, option.label])),
-    [paperOptions]
-  );
   const paperBadges = uniquePapers.map((id) => paperLookup.get(id) || id);
 
   return (

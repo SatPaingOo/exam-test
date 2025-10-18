@@ -1,4 +1,5 @@
 import catalog from "@/assets/data/dummy.json";
+import { logError } from "@/utils/logger";
 
 const DEFAULT_LEVEL = "Practice";
 const DEFAULT_SUMMARY = "Additional papers are in development.";
@@ -16,6 +17,7 @@ const trackIndex = exams.flatMap((exam) => {
     summary: type.summary || type.description || DEFAULT_SUMMARY,
     level: type.level || DEFAULT_LEVEL,
     years: Array.isArray(type.years) ? type.years : [],
+    jsonFormat: type.jsonFormat || [],
   }));
 });
 
@@ -63,10 +65,31 @@ async function loadPaperQuestions(trackId, paperId) {
   if (!loader) return [];
   try {
     const module = await loader();
-    const questions = module?.default;
-    return Array.isArray(questions) ? questions : [];
+    let questions = module?.default;
+    if (!Array.isArray(questions)) return [];
+
+    // Check if data is in session format (FE/AP style)
+    const hasSessions =
+      questions.length > 0 &&
+      questions[0].questions &&
+      Array.isArray(questions[0].questions);
+    if (hasSessions) {
+      // Flatten sessions into a single array of questions, adding session info
+      questions = questions.flatMap((session) =>
+        (session.questions || []).map((question) => ({
+          ...question,
+          session: session.id || session.name || "unknown",
+        }))
+      );
+    }
+
+    return questions;
   } catch (error) {
-    console.warn(`Failed to load questions for ${key}`, error);
+    logError(`Failed to load questions for ${key}`, {
+      error: error.message,
+      trackId,
+      paperId,
+    });
     return [];
   }
 }

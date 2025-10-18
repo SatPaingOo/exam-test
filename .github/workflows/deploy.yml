@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
 
   # schedule:
-  #   - cron: "0 4 * * *"
+  #     - cron: "0 4 * * *"
 
 permissions:
   contents: write
@@ -26,10 +26,24 @@ jobs:
           node-version: "18"
 
       - name: Install dependencies
-        run: npm install
+        run: npm ci
+
+      - name: Create production env
+        env:
+          VITE_SUPABASE_URL: ${{ secrets.VITE_SUPABASE_URL }}
+          VITE_SUPABASE_ANON_KEY: ${{ secrets.VITE_SUPABASE_ANON_KEY }}
+        run: |
+          echo "VITE_SUPABASE_URL=${VITE_SUPABASE_URL}" > .env.production
+          echo "VITE_SUPABASE_ANON_KEY=${VITE_SUPABASE_ANON_KEY}" >> .env.production
 
       - name: Build
         run: npm run build
+
+      - name: Log build failure
+        if: failure()
+        run: |
+          mkdir -p assets/data/log
+          echo "Build failed on $(date)" >> assets/data/log/ci.log
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
@@ -37,3 +51,18 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
           publish_branch: gh-pages
+
+      - name: Log deploy success
+        if: success()
+        run: |
+          mkdir -p assets/data/log
+          echo "Deploy successful on $(date)" >> assets/data/log/ci.log
+
+      - name: Commit logs
+        if: github.event_name == 'schedule'
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add assets/data/log/ci.log
+          git commit -m "Update CI log [skip ci]" || echo "No changes to commit"
+          git push

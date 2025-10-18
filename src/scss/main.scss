@@ -81,6 +81,7 @@ body {
 @import './components/card';
 @import './components/input';
 @import './components/select';
+@import './components/pagination';
 
 // Page Imports
 @import './pages/home';
@@ -90,6 +91,11 @@ body {
 @import './pages/errors';
 @import './pages/faq';
 @import './pages/categories';
+@import './pages/login';
+@import './pages/admin-members';
+@import './pages/register';
+@import './pages/member-history';
+@import './pages/exam-results-detail';
 
 // Loading Screen
 .loading-screen {
