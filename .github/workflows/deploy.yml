@@ -19,6 +19,9 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: true
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -59,10 +62,16 @@ jobs:
           echo "Deploy successful on $(date)" >> assets/data/log/ci.log
 
       - name: Commit logs
-        if: github.event_name == 'schedule'
+        # Commit CI logs back to repository unless the triggering commit already requested to skip CI
+        if: ${{ !contains(github.event.head_commit && github.event.head_commit.message || '', '[skip ci]') }}
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add assets/data/log/ci.log
-          git commit -m "Update CI log [skip ci]" || echo "No changes to commit"
-          git push
+          git add assets/data/log/ci.log || true
+          # If there are staged changes commit and push, otherwise no-op
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Update CI log [skip ci]"
+            git push
+          fi

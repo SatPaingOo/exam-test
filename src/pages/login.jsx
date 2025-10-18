@@ -25,23 +25,40 @@ const Login = () => {
         .eq("username", username)
         .single();
 
-      if (queryError || !user) {
+      if (queryError) {
+        console.error("Supabase query error while fetching user:", queryError);
+        setError("Invalid username or password");
+        return;
+      }
+
+      if (!user) {
         setError("Invalid username or password");
         return;
       }
 
       // Verify password
-      const isValidPassword = await bcrypt.compare(
-        password,
-        user.password_hash
-      );
+      let isValidPassword = false;
+      try {
+        isValidPassword = await bcrypt.compare(password, user.password_hash);
+      } catch (pwErr) {
+        console.error("Error while comparing password:", pwErr);
+        setError("Invalid username or password");
+        return;
+      }
+
       if (!isValidPassword) {
         setError("Invalid username or password");
         return;
       }
 
       // Login user and update visitor role
-      login(user);
+      // defensive: login may be sync or async in future
+      try {
+        await Promise.resolve(login(user));
+      } catch (loginErr) {
+        console.error("Error during local login():", loginErr);
+        // proceed — user state may still be set, but surface an error
+      }
       const visitorUuid = getUuid();
       if (visitorUuid) {
         const deviceType = (() => {
@@ -55,7 +72,7 @@ const Login = () => {
           }
         })();
 
-        await supabase
+        const { error: updateVisitorError } = await supabase
           .from("visitors")
           .update({
             role: user.role,
@@ -63,6 +80,13 @@ const Login = () => {
             device_type: deviceType,
           })
           .eq("uuid", visitorUuid);
+
+        if (updateVisitorError) {
+          console.error(
+            "Failed to update visitor after login:",
+            updateVisitorError
+          );
+        }
       }
 
       // Log login success
