@@ -17,6 +17,13 @@ dist-ssr
 src/assets/files/itpec/*
 *.local
 
+# Allow CI logs under assets/log
+!assets/
+assets/*
+!assets/log/
+assets/log/*
+!assets/log/ci.log
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
